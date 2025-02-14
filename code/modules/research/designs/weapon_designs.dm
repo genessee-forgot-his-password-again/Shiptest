@@ -1273,3 +1273,13 @@
 	build_path = /obj/item/gun/energy/e_gun/hades
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/gun_cell_mini
+	name = "Miniature Weapon Power Cell"
+	id = "gun_cell_mini"
+	build_type = PROTOLATHE | AUTOLATHE
+	materials = list(/datum/material/iron = 100, /datum/material/sulfur = 200, /datum/material/glass = 50)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/gun/mini/empty
+	category = list("Misc","Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
