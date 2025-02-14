@@ -622,3 +622,32 @@
 	materials = list(/datum/material/uranium = 1000, /datum/material/plastic = 2000)
 	build_path = /obj/item/fishing_rod/tech
 	category = list("Equipment")
+
+// custom stuff
+
+/datum/design/sechudhl
+	name = "Hardliners Security HUD"
+	id = "sechudhl"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 2000, /datum/material/carbon = 250, /datum/material/silicon = 200, /datum/material/copper = 100, /datum/material/plasma = 500)
+	build_path = /obj/item/clothing/glasses/hud/security/sunglasses/hardliners
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/sechudinteq
+	name = "Inteq Security HUD"
+	id = "sechudinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 2000, /datum/material/carbon = 250, /datum/material/silicon = 200, /datum/material/copper = 100, /datum/material/plasma = 500)
+	build_path = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/sechudngr
+	name = "New Gorlex Republic Security HUD"
+	id = "sechudngr"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 2000, /datum/material/carbon = 250, /datum/material/silicon = 200, /datum/material/copper = 100, /datum/material/plasma = 500)
+	build_path = /obj/item/clothing/glasses/hud/security/sunglasses/ngr
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
