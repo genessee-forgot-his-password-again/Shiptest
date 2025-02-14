@@ -1517,3 +1517,39 @@
 	build_path = /obj/item/clothing/suit/space/fragile
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinearmorlight
+	name = "MK2-L Armor Vest"
+	id = "marinearmorlight"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 8000, /datum/material/titanium = 4000)
+	build_path = /obj/item/clothing/suit/armor/vest/marine
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinearmormedium
+	name = "MK2-M Armor Set"
+	id = "marinearmormedium"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 16000, /datum/material/titanium = 8000)
+	build_path = /obj/item/clothing/suit/armor/vest/marine/medium
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinearmorheavy
+	name = "MK2-H Armor Set"
+	id = "marinearmorheavy"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 32000, /datum/material/titanium = 16000, /datum/material/silver = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/marine/heavy
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinehelmet
+	name = "MK2 Helmet"
+	id = "marinehelmet"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 2000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/bulletproof/x11
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
