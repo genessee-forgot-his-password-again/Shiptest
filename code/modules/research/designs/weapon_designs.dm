@@ -1009,7 +1009,7 @@
 	id = "brimstone"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 3000, /datum/material/silver = 10000)
-	build_path = /obj/item/gun/ballistic/shotgun/automatic/brimstone
+	build_path = /obj/item/gun/ballistic/shotgun/brimstone
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -1018,7 +1018,7 @@
 	id = "hellfire"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 4000, /datum/material/silver = 15000, /datum/material/titanium = 6000)
-	build_path = /obj/item/gun/ballistic/shotgun/automatic/hellfire
+	build_path = /obj/item/gun/ballistic/shotgun/hellfire
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -1068,20 +1068,20 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/firestormmag
-	name = "Firestorm .44 Roumain Rifle Magazine"
+	name = "Firestorm .45 Roumain Rifle Magazine"
 	id = "firestormmag"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000)
-	build_path = /obj/item/ammo_box/magazine/c44_firestorm_mag
+	build_path = /obj/item/ammo_box/magazine/c45_firestorm_mag
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/firestormmagextended
-	name = "Firestorm .44 Roumain Rifle Drum"
+	name = "Firestorm .45 Roumain Rifle Drum"
 	id = "firestormmagextended"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000)
-	build_path = /obj/item/ammo_box/magazine/c44_firestorm_mag/pan
+	build_path = /obj/item/ammo_box/magazine/c45_firestorm_mag/pan
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
