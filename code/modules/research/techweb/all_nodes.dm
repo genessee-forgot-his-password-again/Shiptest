@@ -772,7 +772,7 @@
 	id = "so_advanced"
 	display_name = "Serene Outdoors Advanced Ballistics"
 	description = "More complicated ballistics normally manufactured by the Serene Outdoors company."
-	prereq_ids = list("adv_ballistics")
+	prereq_ids = list("so_ballistics")
 	design_ids = list("m11", "m15", "m15mag", "m13")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
