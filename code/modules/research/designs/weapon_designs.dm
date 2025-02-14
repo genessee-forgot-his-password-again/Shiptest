@@ -729,7 +729,7 @@
 	name = "Ammo Box (12g Beanbag)"
 	id = "a12gbeanbag"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/plastic = 16000, /datum/material/sulfur = 6000)
+	materials = list(/datum/material/iron = 16000, /datum/material/sulfur = 6000)
 	build_path = /obj/item/storage/box/ammo/a12g_beanbag
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
@@ -1805,3 +1805,93 @@
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/hl
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/commissioner
+	name = "PS-03 'Commissioner' Pistol"
+	id = "commissioner"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000, /datum/material/silver = 2000, /datum/material/titanium = 1000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/commander/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/kingsnake
+	name = "MP-84m 'Kingsnake' Pistol"
+	id = "kingsnake"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/silver = 6000, /datum/material/titanium = 4000, /datum/material/gold = 500)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/rattlesnake/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/rattlesnakemag
+	name = "9mm Rattlesnake Magazine"
+	id = "rattlesnakemag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m9mm_rattlesnake
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/mongrel
+	name = "SKM-44v 'Mongrel' SMG"
+	id = "mongrel"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 70000, /datum/material/glass = 25000, /datum/material/silver = 20000, /datum/material/titanium = 20000, /datum/material/gold = 1000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/skm_carbine/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/skm44
+	name = "SKM-44 Assault Rifle"
+	id = "skm44"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 30000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/skm/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/ssg04
+	name = "SsG-04 Marksman Rifle"
+	id = "ssg04"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 75000, /datum/material/glass = 20000, /datum/material/silver = 10000, /datum/material/titanium = 15000, /datum/material/gold = 2000, /datum/material/uranium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/f4/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/mastiff
+	name = "Mastiff Shotgun"
+	id = "hellfire"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 10000, /datum/material/silver = 20000, /datum/material/titanium = 10000, /datum/material/plasma = 20000)
+	build_path = /obj/item/gun/ballistic/shotgun/automatic/bulldog/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a12gmag
+	name = "12g Shotgun Magazine"
+	id = "a12gmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/m12g_bulldog
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a12gmagextended
+	name = "12g Shotgun Drum"
+	id = "a12gmagextended"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/titanium = 2000)
+	build_path = /obj/item/ammo_box/magazine/m12g_bulldog/drum
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a308mag
+	name = ".308 Rifle Magazine"
+	id = "a308mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/f4_308
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
