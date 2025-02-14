@@ -675,7 +675,7 @@
 	display_name = "Beam Weaponry"
 	description = "Various basic beam weapons"
 	prereq_ids = list("adv_weaponry")
-	design_ids = list("temp_gun", "xray_laser")
+	design_ids = list("temp_gun", "xray_laser", "disabler")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -702,7 +702,7 @@
 	display_name = "Ballistic Weaponry"
 	description = "This isn't research.. This is reverse-engineering!"
 	prereq_ids = list("weaponry")
-	design_ids = list("mag_oldsmg", "mag_oldsmg_ap", "a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp")
+	design_ids = list("a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -711,7 +711,7 @@
 	display_name = "Advanced Ballistics"
 	description = "Refined ballistic ammunition for extra combat trauma."
 	prereq_ids = list("ballistic_weapons", "adv_engi")
-	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp")
+	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
 /datum/techweb_node/exotic_ammo
@@ -730,6 +730,42 @@
 	prereq_ids = list("adv_weaponry", "bluespace_travel")
 	design_ids = list("gravitygun", "mech_gravcatapult")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
+	export_price = 5000
+
+/datum/techweb_node/nt_ballistics
+	id = "nt_ballistics"
+	display_name = "NanoTrasen Ballistics"
+	description = "Ballistics normally manufactured by NanoTrasen or their subsidiaries."
+	prereq_ids = list("adv_ballistics")
+	design_ids = list("commander")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
+	export_price = 5000
+
+/datum/techweb_node/nt_ballistics_advanced
+	id = "nt_ballistics_advanced"
+	display_name = "NanoTrasen Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by NanoTrasen or their subsidiaries."
+	prereq_ids = list("nt_ballistics")
+	design_ids = list("wt550", "mag_oldsmg", "mag_oldsmg_ap", "vector", "saber")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/nt_lasers
+	id = "nt_lasers"
+	display_name = "NanoTrasen Optics"
+	description = "Energy and laser weapons primarily manufactured by NanoTrasen or their subsidiaries."
+	prereq_ids = list("adv_beam_weapons")
+	design_ids = list("laserrifle", "energypistol", "energyrifle")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/nt_lasers_advanced
+	id = "nt_lasers_advanced"
+	display_name = "NanoTrasen Advanced Optics"
+	description = "Complicated or prototype energy and laser weapons primarily manufactured by NanoTrasen or their subsidiaries."
+	prereq_ids = list("adv_beam_weapons")
+	design_ids = list("energysmg", "energyshotgun", "lasershotgun", "hades")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/srm_ballistics
