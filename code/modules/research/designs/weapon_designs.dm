@@ -1147,3 +1147,102 @@
 	build_path = /obj/item/storage/box/ammo/a4570_explosive
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/commander
+	name = "Commander Pistol"
+	id = "commander"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000, /datum/material/silver = 2000, /datum/material/titanium = 1000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/commander
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/wt550
+	name = "WT-550 SMG"
+	id = "wt550"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 10000, /datum/material/silver = 10000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/wt550
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/vector
+	name = "Vector SMG"
+	id = "vector"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 20000, /datum/material/silver = 14000, /datum/material/titanium = 4000, /datum/material/gold = 500)
+	build_path = /obj/item/gun/ballistic/automatic/smg/vector
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/saber
+	name = "Saber SMG"
+	id = "saber"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 20000, /datum/material/titanium = 4000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/vector
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/smgm9mm
+	name = "9mm SMG Magazine"
+	id = "smgm9mm"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/smgm9mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/smgm10mm
+	name = "10mm SMG Magazine"
+	id = "smgm10mm"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/smgm10mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/laserrifle
+	name = "L-204 Laser Rifle"
+	id = "laserrifle"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 20000, /datum/material/silver = 2000)
+	build_path = /obj/item/gun/energy/laser
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energyrifle
+	name = "Energy Rifle"
+	id = "energyrifle"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 40000, /datum/material/silver = 3000, /datum/material/plasma = 2000)
+	build_path = /obj/item/gun/energy/e_gun
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energypistol
+	name = "Energy Pistol"
+	id = "energypistol"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 15000, /datum/material/silver = 1500, /datum/material/plasma = 1000)
+	build_path = /obj/item/gun/energy/e_gun/mini
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energypistol
+	name = "Energy Pistol"
+	id = "energypistol"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 15000, /datum/material/silver = 1500, /datum/material/plasma = 1000)
+	build_path = /obj/item/gun/energy/e_gun/mini
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/disabler
+	name = "Disabler Pistol"
+	id = "disabler"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000, /datum/material/glass = 10000)
+	build_path = /obj/item/gun/energy/disabler
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
