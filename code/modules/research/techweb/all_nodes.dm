@@ -764,7 +764,7 @@
 	display_name = "Unlicensed Advanced Ballistics"
 	description = "Complex ballistics normally manufactured by pirates or desperate colonists."
 	prereq_ids = list("pirate_ballistics")
-	design_ids = list("pounder", "poundermag", "skm-24v", "chopper", "shredder", "shreddermagbuckshot", "shreddermagslugs")
+	design_ids = list("pounder", "poundermag", "skm24v", "chopper", "shredder", "shreddermagbuckshot", "shreddermagslugs")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
 	export_price = 5000
 
