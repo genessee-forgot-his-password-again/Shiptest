@@ -702,7 +702,7 @@
 	display_name = "Ballistic Weaponry"
 	description = "This isn't research.. This is reverse-engineering!"
 	prereq_ids = list("weaponry")
-	design_ids = list("a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp")
+	design_ids = list("a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp", "carbinemag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -711,7 +711,7 @@
 	display_name = "Advanced Ballistics"
 	description = "Refined ballistic ammunition for extra combat trauma."
 	prereq_ids = list("ballistic_weapons", "adv_engi")
-	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm")
+	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm", "a8_50r", "a8_50rhp", "skmmag", "skmmagextended")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
 /datum/techweb_node/exotic_ammo
@@ -719,7 +719,7 @@
 	display_name = "Exotic Ammunition"
 	description = "They won't know what hit em."
 	prereq_ids = list("adv_weaponry", "medical_weapons")
-	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive")
+	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -730,6 +730,42 @@
 	prereq_ids = list("adv_weaponry", "bluespace_travel")
 	design_ids = list("gravitygun", "mech_gravcatapult")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
+	export_price = 5000
+
+/datum/techweb_node/armor
+	id = "armor"
+	display_name = "Armor Development Technology"
+	description = "The basics on protecting yourself from all sorts of danger."
+	prereq_ids = list("engineering")
+	design_ids = list("armorvest", "helmet", "armorvestalt", "armorduster")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 5000
+
+/datum/techweb_node/eva
+	id = "eva"
+	display_name = "EVA Development Technology"
+	description = "How to journey into the unknown without dying in the process."
+	prereq_ids = list("engineering")
+	design_ids = list("spacehelmet", "spacesuit", "spacehelmetemergency", "spacesuitemergency")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 5000
+
+/datum/techweb_node/pirate_ballistics
+	id = "pirate_ballistics"
+	display_name = "Unlicensed Ballistics"
+	description = "Ballistics normally manufactured by pirates or desperate colonists."
+	prereq_ids = list("adv_ballistics")
+	design_ids = list("spitter", "spittermag", "mauler", "maulermag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
+	export_price = 5000
+
+/datum/techweb_node/pirate_ballistics_advanced
+	id = "pirate_ballistics_advanced"
+	display_name = "Unlicensed Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by pirates or desperate colonists."
+	prereq_ids = list("pirate_ballistics")
+	design_ids = list("pounder", "poundermag", "skm-24v", "chopper", "shredder", "shreddermagbuckshot", "shreddermagslugs")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
 	export_price = 5000
 
 /datum/techweb_node/nt_ballistics
@@ -763,7 +799,7 @@
 	id = "nt_lasers_advanced"
 	display_name = "NanoTrasen Advanced Optics"
 	description = "Complicated or prototype energy and laser weapons primarily manufactured by NanoTrasen or their subsidiaries."
-	prereq_ids = list("adv_beam_weapons")
+	prereq_ids = list("nt_lasers")
 	design_ids = list("energysmg", "energyshotgun", "lasershotgun", "hades")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
