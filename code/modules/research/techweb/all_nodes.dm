@@ -741,6 +741,15 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
+/datum/techweb_node/adv_armor
+	id = "adv_armor"
+	display_name = "Complex Armor Layering"
+	description = "The idea that you can have multiple layers of protection in a single package is revolutionary."
+	prereq_ids = list("armor")
+	design_ids = list("marinearmorlight", "marinearmormedium", "marinearmorheavy", "marinehelmet")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
 /datum/techweb_node/eva
 	id = "eva"
 	display_name = "EVA Development Technology"
