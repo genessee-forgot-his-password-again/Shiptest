@@ -759,6 +759,51 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
+/datum/techweb_node/adv_eva
+	id = "adv_eva"
+	display_name = "Armored EVA Theory"
+	description = "Pressure-sealed armor for vaccuum-based combat."
+	prereq_ids = list("eva", "adv_armor")
+	design_ids = list("spacehelmetsyndi", "spacesuitsyndi", "hardsuitmining", "hardsuitsecurity")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 5000
+
+/datum/techweb_node/nt_armor
+	id = "nt_armor"
+	display_name = "NanoTrasen Protective Equipment"
+	description = "Combat armor produced by NanoTrasen and their subsidiaries."
+	prereq_ids = list("adv_armor")
+	design_ids = list("armorvestnt", "armorvestntalt", "armordusternt")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/nt_armor_advanced
+	id = "nt_armor_advanced"
+	display_name = "NanoTrasen Advanced Protective Equipment"
+	description = "Complex and pressure-proof combat armor produced by NanoTrasen and their subsidiaries."
+	prereq_ids = list("adv_eva", "nt_armor")
+	design_ids = list("hardsuitntengi", "hardsuitntmining", "hardsuitntatmos", "hardsuitntsecurity", "hardsuitntscience", "hardsuitntmedical")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/nt_armor_lp
+	id = "nt_armor_lp"
+	display_name = "NanoTrasen Loss Prevention Equipment"
+	description = "Combat-grade armor used primarily by NanoTrasen Loss Prevention squads."
+	prereq_ids = list("nt_armor_advanced")
+	design_ids = list("hardsuitntlpengineering", "hardsuitntlpmedical", "hardsuitntlpcommand", "hardsuitntlpsecurity")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
+/datum/techweb_node/nt_armor_experimental
+	id = "nt_armor_experimental"
+	display_name = "NanoTrasen Experimental Protective Equipment"
+	description = "Armor which was only produced by NanoTrasen and their subsidiaries either in limited quantities or in a purely prototypical setting."
+	prereq_ids = list("nt_armor_advanced")
+	design_ids = list("hardsuitntengiadv", "hardsuitntsecurityadv", "hardsuitntmedicaladv", "hardsuitntminingadv")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
 /datum/techweb_node/pirate_ballistics
 	id = "pirate_ballistics"
 	display_name = "Unlicensed Ballistics"
