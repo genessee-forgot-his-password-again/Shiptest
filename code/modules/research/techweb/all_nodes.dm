@@ -804,6 +804,33 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 
+/datum/techweb_node/hl_armor
+	id = "hl_armor"
+	display_name = "Gorlex Hardliners Protective Equipment"
+	description = "Combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("adv_armor")
+	design_ids = list("armorvesthl", "armorvesthlalt", "armorcoathl", "marinehelmethl", "marinehelmethlvisor")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/hl_armor_advanced
+	id = "hl_armor"
+	display_name = "Gorlex Hardliners Advanced Protective Equipment"
+	description = "Complicated combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("hl_armor")
+	design_ids = list("hardsuithl")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/hl_armor_experimental
+	id = "hl_armor_experimental"
+	display_name = "Gorlex Hardliners Experimental Protective Equipment"
+	description = "Profoundly complicated and expensive combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("hl_armor_advanced")
+	design_ids = list("hardsuithladv")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
 /datum/techweb_node/pirate_ballistics
 	id = "pirate_ballistics"
 	display_name = "Unlicensed Ballistics"
