@@ -1365,9 +1365,9 @@
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
-/datum/design/skm-24v
+/datum/design/skm24v
 	name = "SKM-24v SMG"
-	id = "skm-24v"
+	id = "skm24v"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 60000, /datum/material/glass = 20000, /datum/material/silver = 20000, /datum/material/titanium = 16000, /datum/material/gold = 1000)
 	build_path = /obj/item/gun/ballistic/automatic/smg/skm_carbine
