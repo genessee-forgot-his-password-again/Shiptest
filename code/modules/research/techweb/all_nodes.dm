@@ -702,7 +702,7 @@
 	display_name = "Ballistic Weaponry"
 	description = "This isn't research.. This is reverse-engineering!"
 	prereq_ids = list("weaponry")
-	design_ids = list("a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp", "carbinemag")
+	design_ids = list("a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp", "carbinemag", "a12gmag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -711,7 +711,7 @@
 	display_name = "Advanced Ballistics"
 	description = "Refined ballistic ammunition for extra combat trauma."
 	prereq_ids = list("ballistic_weapons", "adv_engi")
-	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm", "a8_50r", "a8_50rhp", "skmmag", "skmmagextended")
+	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm", "a8_50r", "a8_50rhp", "skmmag", "skmmagextended", "rattlesnakemag", "a308mag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
 /datum/techweb_node/exotic_ammo
@@ -719,7 +719,7 @@
 	display_name = "Exotic Ammunition"
 	description = "They won't know what hit em."
 	prereq_ids = list("adv_weaponry", "medical_weapons")
-	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum")
+	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum", "a12gmagextended")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -849,13 +849,31 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
 	export_price = 5000
 
+/datum/techweb_node/inteq_ballistics
+	id = "inteq_ballistics"
+	display_name = "Inteq Ballistics"
+	description = "Ballistics normally manufactured by Inteq Risk Management."
+	prereq_ids = list("adv_ballistics")
+	design_ids = list("commissioner", "kingsnake")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/inteq_ballistics_advanced
+	id = "inteq_ballistics_advanced"
+	display_name = "Inteq Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by Inteq Risk Management."
+	prereq_ids = list("nt_ballistics")
+	design_ids = list("mongrel", "skm44", "mastiff", "ssg04")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
 /datum/techweb_node/nt_ballistics
 	id = "nt_ballistics"
 	display_name = "NanoTrasen Ballistics"
 	description = "Ballistics normally manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("adv_ballistics")
 	design_ids = list("commander")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/nt_ballistics_advanced
