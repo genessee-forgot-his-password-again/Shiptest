@@ -1445,3 +1445,12 @@
 	build_path = /obj/item/ammo_box/magazine/m12_shredder/slug
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/armorvest
+	name = "Armor Vest"
+	id = "armorvest"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest
+	category = list("Misc")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
