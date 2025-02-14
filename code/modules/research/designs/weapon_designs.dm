@@ -1283,3 +1283,165 @@
 	build_path = /obj/item/stock_parts/cell/gun/mini/empty
 	category = list("Misc","Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a8_50r
+	name = "Ammo Box (8x50mm)"
+	id = "a8_50r"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 8000, /datum/material/lead = 2000)
+	build_path = /obj/item/storage/box/ammo/a8_50r
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a8_50rhp
+	name = "Ammo Box (8x50mm HP)"
+	id = "a8_50rhp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 8000, /datum/material/lead = 2000, /datum/material/silver = 2000)
+	build_path = /obj/item/storage/box/ammo/a8_50r/hp
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a8_50rmatch
+	name = "Ammo Box (8x50mm Match)"
+	id = "a8_50rmatch"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 8000, /datum/material/lead = 2000, /datum/material/plasma = 2000)
+	build_path = /obj/item/storage/box/ammo/a8_50r/match
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/mauler
+	name = "Mauler Pistol"
+	id = "mauler"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/glass = 6000, /datum/material/silver = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/mauler
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/maulermag
+	name = "9mm Mauler Magazine"
+	id = "maulermag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m9mm_mauler
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/spitter
+	name = "Spitter SMG"
+	id = "spitter"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 10000, /datum/material/silver = 6000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/spitter
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/spittermag
+	name = "9mm Spitter Magazine"
+	id = "spittermag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/spitter_9mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pounder
+	name = "Pounder SMG"
+	id = "pounder"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 15000, /datum/material/silver = 10000, /datum/material/titanium = 8000, /datum/material/gold = 500)
+	build_path = /obj/item/gun/ballistic/automatic/smg/pounder
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/poundermag
+	name = ".22LR Pounder Magazine"
+	id = "poundermag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/c22lr_pounder_pan
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/skm-24v
+	name = "SKM-24v SMG"
+	id = "skm-24v"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 20000, /datum/material/silver = 20000, /datum/material/titanium = 16000, /datum/material/gold = 1000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/skm_carbine
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/carbinemag
+	name = "4.6x30mm Subcaliber Magazine"
+	id = "carbinemag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/skm_46_30
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/chopper
+	name = "Chopper Assault Rifle"
+	id = "chopper"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 30000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/skm/pirate
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/skmmag
+	name = "7.62x40mm Rifle Magazine"
+	id = "skmmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/skm_762_40
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/skmmagextended
+	name = "7.62x40mm Rifle Extended Magazine"
+	id = "skmmagextended"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/ammo_box/magazine/skm_762_40/extended
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/skmmagdrum
+	name = "7.62x40mm Rifle Drum"
+	id = "skmmagdrum"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/titanium = 4000)
+	build_path = /obj/item/ammo_box/magazine/skm_762_40/drum
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/shredder
+	name = "Shredder Shotgun"
+	id = "shredder"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 40000, /datum/material/silver = 60000, /datum/material/titanium = 40000, /datum/material/gold = 10000, /datum/material/uranium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/hmg/shredder
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/shreddermagbuckshot
+	name = "12g Shredder Magazine (Buckshot)"
+	id = "shreddermagbuckshot"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/ammo_box/magazine/m12_shredder
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/shreddermagslugs
+	name = "12g Shredder Magazine (Slugs)"
+	id = "shreddermagslugs"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/ammo_box/magazine/m12_shredder/slug
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
