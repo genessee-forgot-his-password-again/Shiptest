@@ -711,7 +711,7 @@
 	display_name = "Advanced Ballistics"
 	description = "Refined ballistic ammunition for extra combat trauma."
 	prereq_ids = list("ballistic_weapons", "adv_engi")
-	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp")
+	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
 /datum/techweb_node/exotic_ammo
@@ -719,7 +719,7 @@
 	display_name = "Exotic Ammunition"
 	description = "They won't know what hit em."
 	prereq_ids = list("adv_weaponry", "medical_weapons")
-	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match")
+	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -737,25 +737,34 @@
 	display_name = "Saint-Roumain Ballistics"
 	description = "Ballistics normally manufactured by the Saint-Roumain Militia."
 	prereq_ids = list("adv_ballistics")
-	design_ids = list("doublebarrel", "winchmk2")
+	design_ids = list("pepperbox", "doublebarrel", "winchmk2", "detectivespecial", "derringer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/srm_pistols
 	id = "srm_pistols"
-	display_name = "Saint-Roumain Pistols"
-	description = "Pistols normally manufactured by the Saint-Roumain Militia."
-	prereq_ids = list("adv_ballistics")
-	design_ids = list("pepperbox", "montagne", "derringer", "speedload357")
+	display_name = "Saint-Roumain Specialty Pistols"
+	description = "Advanced pistols normally manufactured by the Saint-Roumain Militia."
+	prereq_ids = list("srm_ballistics")
+	design_ids = list("montagne", "shadow", "ashhand")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/srm_special
 	id = "srm_special"
-	display_name = "Saint-Roumain Specialty Ballistics"
+	display_name = "Saint-Roumain Advanced Ballistics"
 	description = "Specialty ballistics normally manufactured by the Saint-Roumain Militia."
-	prereq_ids = list("srm_ballistics", "srm_pistols")
-	design_ids = list("candor", "stripper762", "illestren")
+	prereq_ids = list("srm_ballistics")
+	design_ids = list("absolution", "candor", "illestren", "brimstone", "firestorm", "firestormmag", "firestormmagextended")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
+	export_price = 5000
+
+/datum/techweb_node/srm_shotguns
+	id = "srm_shotguns"
+	display_name = "Saint-Roumain Specialty Shotguns"
+	description = "Advanced shotguns normally manufactured by the Saint-Roumain Militia."
+	prereq_ids = list("srm_special")
+	design_ids = list("conflagration", "hellfire")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
 	export_price = 5000
 
