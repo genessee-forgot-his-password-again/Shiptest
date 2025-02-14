@@ -1447,10 +1447,73 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/armorvest
-	name = "Armor Vest"
+	name = "MK1 Armor Vest"
 	id = "armorvest"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
 	build_path = /obj/item/clothing/suit/armor/vest
-	category = list("Misc")
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestalt
+	name = "MK1-A Armor Vest"
+	id = "armorvestalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/alt
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorduster
+	name = "MK1-D Armored Duster"
+	id = "armorduster"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/duster
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmet
+	name = "MK1 Helmet"
+	id = "helmet"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacehelmet
+	name = "Basic Softsuit Helmet"
+	id = "spacehelmet"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000, /datum/material/glass = 4000)
+	build_path = /obj/item/clothing/head/helmet/space
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacesuit
+	name = "Basic Softsuit Body"
+	id = "spacesuit"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/glass = 12000)
+	build_path = /obj/item/clothing/suit/space
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacehelmetemergency
+	name = "Emergency Softsuit Helmet"
+	id = "spacehelmetemergency"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet/space/fragile
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacesuitemergency
+	name = "Emergency Softsuit Body"
+	id = "spacesuitemergency"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 1000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/space/fragile
+	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
