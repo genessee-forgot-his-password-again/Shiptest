@@ -695,3 +695,86 @@
 	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 5000, /datum/material/lead = 2000)
 	build_path = /obj/item/storage/box/ammo/c9mm
 	category = list("Imported")
+
+// custom stuff
+
+/datum/design/a12g_slugs
+	name = "Ammo Box (12g Slug)"
+	id = "a12gslug"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 12000, /datum/material/lead = 6000, /datum/material/sulfur = 6000)
+	build_path = /obj/item/storage/box/ammo/a12g_slug
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a12g_buckshot
+	name = "Ammo Box (12g Buckshot)"
+	id = "a12gbuckshot"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 12000, /datum/material/lead = 8000, /datum/material/sulfur = 6000)
+	build_path = /obj/item/storage/box/ammo/a12g_buckshot
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a12g_rubbershot
+	name = "Ammo Box (12g Rubbershot)"
+	id = "a12grubbershot"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 18000, /datum/material/sulfur = 6000)
+	build_path = /obj/item/storage/box/ammo/a12g_rubbershot
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a12g_beanbag
+	name = "Ammo Box (12g Beanbag)"
+	id = "a12gbeanbag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 16000, /datum/material/sulfur = 6000)
+	build_path = /obj/item/storage/box/ammo/a12g_beanbag
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/c38_hotshot
+	name = "Ammo Box (.38 Hotshot)"
+	id = "c38hotshot"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 5000, /datum/material/lead = 2000, /datum/material/plasma = 10000)
+	build_path = /obj/item/storage/box/ammo/c38_hotshot
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/c38_iceblox
+	name = "Ammo Box (.38 Iceblox)"
+	id = "c38iceblox"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 5000, /datum/material/lead = 2000, /datum/material/plasma = 10000)
+	build_path = /obj/item/storage/box/ammo/c38_iceblox
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/c46x30mm
+	name = "Ammo Box (4.6x30mm)"
+	id = "c46x30mm"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 5000, /datum/material/lead = 2000)
+	build_path = /obj/item/storage/box/ammo/c46x30mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/c46x30mm_ap
+	name = "Ammo Box (4.6x30mm AP)"
+	id = "c46x30mmap"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 5000, /datum/material/lead = 2000, /datum/material/titanium = 2000)
+	build_path = /obj/item/storage/box/ammo/c46x30mm/ap
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/c46x30mm_hp
+	name = "Ammo Box (4.6x30mm HP)"
+	id = "c46x30mmhp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 5000, /datum/material/lead = 2000, /datum/material/silver = 2000)
+	build_path = /obj/item/storage/box/ammo/c46x30mm/hp
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
