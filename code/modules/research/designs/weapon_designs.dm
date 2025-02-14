@@ -623,7 +623,7 @@
 	desc = "An easily concealable gun that uses .38 rounds."
 	id = "derringer"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 8500, /datum/material/glass = 1500, /datum/material/titanium = 2000)
+	materials = list(/datum/material/iron = 8500, /datum/material/glass = 1500)
 	build_path = /obj/item/gun/ballistic/derringer
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
@@ -972,7 +972,7 @@
 	name = "Model 11 'Buckmaster' Shotgun"
 	id = "m11"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 30000, /datum/material/glass = 3000, /datum/material/silver = 12000)
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 3000, /datum/material/silver = 12000, /datum/material/titanium = 12000)
 	build_path = /obj/item/gun/ballistic/shotgun/automatic/m11
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
@@ -1003,3 +1003,147 @@
 	build_path = /obj/item/gun/ballistic/automatic/m12_sporter
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/brimstone
+	name = "Brimstone Shotgun"
+	id = "brimstone"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 3000, /datum/material/silver = 10000)
+	build_path = /obj/item/gun/ballistic/shotgun/automatic/brimstone
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hellfire
+	name = "Hellfire Shotgun"
+	id = "hellfire"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 4000, /datum/material/silver = 15000, /datum/material/titanium = 6000)
+	build_path = /obj/item/gun/ballistic/shotgun/automatic/hellfire
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/shadow
+	name = "Shadow Revolver"
+	id = "shadow"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 6000, /datum/material/silver = 2000)
+	build_path = /obj/item/gun/ballistic/revolver/shadow
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/detectivespecial
+	name = "Detective Special Revolver"
+	id = "detectivespecial"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 3000)
+	build_path = /obj/item/gun/ballistic/revolver/detective
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/speedload_c38
+	name = ".38 Special Speedloader"
+	id = "speedloadc38"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000)
+	build_path = /obj/item/ammo_box/c38
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/speedload_a44roum
+	name = ".44 Roumain Speedloader"
+	id = "speedloada44roum"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/a44roum_speedloader
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/firestorm
+	name = "Firestorm SMG"
+	id = "firestorm"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 45000, /datum/material/glass = 6000, /datum/material/silver = 12000, /datum/material/titanium = 12000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/firestorm
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/firestormmag
+	name = "Firestorm .44 Roumain Rifle Magazine"
+	id = "firestormmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/c44_firestorm_mag
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/firestormmagextended
+	name = "Firestorm .44 Roumain Rifle Drum"
+	id = "firestormmagextended"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/ammo_box/magazine/c44_firestorm_mag/pan
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/conflagration
+	name = "Conflagration Shotgun"
+	id = "conflagration"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 3000, /datum/material/silver = 6000, /datum/material/gold = 500)
+	build_path = /obj/item/gun/ballistic/shotgun/flamingarrow/conflagration
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/absolution
+	name = "Absolution Lever-action Rifle"
+	id = "absolution"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 9000, /datum/material/silver = 12000, /datum/material/gold = 1500, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/shotgun/flamingarrow/absolution
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/ashhand
+	name = "Ashhand Revolver"
+	id = "ashhand"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 12000, /datum/material/silver = 4000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/ballistic/revolver/ashhand
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a4570
+	name = "Ammo Box (.45-70)"
+	id = "a4570"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 10000, /datum/material/lead = 2000)
+	build_path = /obj/item/storage/box/ammo/a4570
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a4570hp
+	name = "Ammo Box (.45-70 HP)"
+	id = "a4570hp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 10000, /datum/material/lead = 2000, /datum/material/silver = 2000)
+	build_path = /obj/item/storage/box/ammo/a4570_hp
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a4570match
+	name = "Ammo Box (.45-70 Match)"
+	id = "a4570match"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 10000, /datum/material/lead = 2000, /datum/material/plasma = 2000)
+	build_path = /obj/item/storage/box/ammo/a4570_match
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a4570explosive
+	name = "Ammo Box (.45-70 Explosive)"
+	id = "a4570explosive"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 30000, /datum/material/lead = 2000, /datum/material/plasma = 10000)
+	build_path = /obj/item/storage/box/ammo/a4570_explosive
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
