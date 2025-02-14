@@ -1862,7 +1862,7 @@
 
 /datum/design/mastiff
 	name = "Mastiff Shotgun"
-	id = "hellfire"
+	id = "mastiff"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 10000, /datum/material/silver = 20000, /datum/material/titanium = 10000, /datum/material/plasma = 20000)
 	build_path = /obj/item/gun/ballistic/shotgun/automatic/bulldog/inteq
