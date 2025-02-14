@@ -1742,3 +1742,66 @@
 	build_path = /obj/item/clothing/suit/space/hardsuit/ert/lp/med
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvesthl
+	name = "Gorlex Hardliner MK1-HL Armor Vest"
+	id = "armorvesthl"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/hardliners
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvesthlalt
+	name = "Gorlex Hardliner MK1-HLA Armor Vest"
+	id = "armorvesthlalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/hardliners/jacket
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorcoathl
+	name = "Gorlex Hardliner MK1-HLC Armored Coat"
+	id = "armorcoathl"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/toggle/armor/vest/hardliners
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinehelmethl
+	name = "Gorlex Hardliner MK2-HL Helmet"
+	id = "marinehelmethl"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 2000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/hardliners
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinehelmethlvisor
+	name = "Gorlex Hardliner MK2-HLV Helmet"
+	id = "marinehelmethlvisor"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 6000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/hardliners/swat
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuithl
+	name = "Gorlex Hardliner Hardsuit"
+	id = "hardsuithl"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuithladv
+	name = "Gorlex Hardliner Elite Hardsuit"
+	id = "hardsuithladv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/hl
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
