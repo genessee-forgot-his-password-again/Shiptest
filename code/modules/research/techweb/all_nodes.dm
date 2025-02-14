@@ -17,9 +17,9 @@
 		// Miscellaneous Stufff
 		"paystand", "space_heater", "bucket", "plastic_knife", "plastic_fork", "plastic_spoon", "fax",
 		// Security Stuff
-		"sec_rshot", "sec_beanbag_slug", "sec_slug", "sec_Islug", "sec_dart", 	"sec_38", "buckshot_shell", "beanbag_slug", "rubber_shot",
+		"sec_rshot", "sec_beanbag_slug", "sec_slug", "sec_Islug", "sec_dart", 	"sec_38", "a12gbuckshot", "a12gbeanbag", "a12grubbershot", "c22lrrubber",
 		//Handgun Ammo (Security)
-		"commanderammo", "ringneckammo", "candorammo", "m9cammo", "c9mm", "c10mm", "c45", "c556mmHITP", "rubbershot9mm", "rubbershot10mm", "rubbershot45", "rubbershot556mmHITP",
+		"commanderammo", "ringneckammo", "candorammo", "m9cammo", "c9mm", "c10mm", "c45", "c556mmHITP", "rubbershot9mm", "rubbershot10mm", "rubbershot45", "rubbershot556mmHITP", "a44roumrubber", "a762x40rubber",
 		// Construction Materials
 		"rglass", "plasteel", "plastitanium", "plasmaglass", "plasmareinforcedglass", "titaniumglass", "plastitaniumglass",
 		// You People Are Animals
@@ -702,7 +702,7 @@
 	display_name = "Ballistic Weaponry"
 	description = "This isn't research.. This is reverse-engineering!"
 	prereq_ids = list("weaponry")
-	design_ids = list("mag_oldsmg", "mag_oldsmg_ap", "shotgun_slug")
+	design_ids = list("mag_oldsmg", "mag_oldsmg_ap", "a12gslug", "c46x30mm", "c46x30mmap", "c46x30mmhp", "c22lr", "c22lrap", "c22lrhp")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -711,7 +711,7 @@
 	display_name = "Advanced Ballistics"
 	description = "Refined ballistic ammunition for extra combat trauma."
 	prereq_ids = list("ballistic_weapons", "adv_engi")
-	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP")
+	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
 /datum/techweb_node/exotic_ammo
@@ -719,7 +719,7 @@
 	display_name = "Exotic Ammunition"
 	description = "They won't know what hit em."
 	prereq_ids = list("adv_weaponry", "medical_weapons")
-	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug")
+	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -757,6 +757,24 @@
 	prereq_ids = list("srm_ballistics", "srm_pistols")
 	design_ids = list("candor", "stripper762", "illestren")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
+	export_price = 5000
+
+/datum/techweb_node/so_ballistics
+	id = "so_ballistics"
+	display_name = "Serene Outdoors Ballistics"
+	description = "Ballistics normally manufactured by the Serene Outdoors company."
+	prereq_ids = list("adv_ballistics")
+	design_ids = list("m17", "m17mag", "m12", "m12mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/so_advanced
+	id = "so_advanced"
+	display_name = "Serene Outdoors Advanced Ballistics"
+	description = "More complicated ballistics normally manufactured by the Serene Outdoors company."
+	prereq_ids = list("adv_ballistics")
+	design_ids = list("m11", "m15", "m15mag", "m13")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 ////////////////////////mech technology////////////////////////
