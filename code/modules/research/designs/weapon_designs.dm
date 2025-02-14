@@ -1229,12 +1229,30 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/energypistol
-	name = "Energy Pistol"
-	id = "energypistol"
+/datum/design/energysmg
+	name = "E-TAR Energy SMG"
+	id = "energysmg"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 10000, /datum/material/glass = 15000, /datum/material/silver = 1500, /datum/material/plasma = 1000)
-	build_path = /obj/item/gun/energy/e_gun/mini
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 50000, /datum/material/silver = 6000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/energy/e_gun/smg
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/lasershotgun
+	name = "E-SG 255 Laser Shotgun"
+	id = "lasershotgun"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 50000, /datum/material/silver = 4000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/energy/laser/iot/lethal
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energyshotgun
+	name = "E-SG 500 Energy Shotgun"
+	id = "energyshotgun"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 55000, /datum/material/silver = 6000, /datum/material/plasma = 12000, /datum/material/gold = 5000)
+	build_path = /obj/item/gun/energy/e_gun/iot
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1244,5 +1262,14 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 6000, /datum/material/glass = 10000)
 	build_path = /obj/item/gun/energy/disabler
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hades
+	name = "AL-655 'Hades' Energy Rifle"
+	id = "hades"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 75000, /datum/material/silver = 10000, /datum/material/plasma = 20000, /datum/material/gold = 8000, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/energy/e_gun/hades
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
