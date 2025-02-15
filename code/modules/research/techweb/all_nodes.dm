@@ -719,7 +719,7 @@
 	display_name = "Exotic Ammunition"
 	description = "They won't know what hit em."
 	prereq_ids = list("adv_weaponry", "medical_weapons")
-	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum", "a12gmagextended")
+	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "box_c38_hotshot", "box_c38_iceblox", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum", "a12gmagextended", "c299")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
@@ -831,6 +831,33 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
+/datum/techweb_node/gm_armor
+	id = "gm_armor"
+	display_name = "Gorlex Marauders Protective Equipment"
+	description = "Old-school designs used during the Inter-Corporate War by the Gorlex Marauders before their dissolution."
+	prereq_ids = list("adv_armor")
+	design_ids = list("armorvestgm", "helmetgm")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/gm_armor_advanced
+	id = "gm_armor"
+	display_name = "Gorlex Marauders Advanced Protective Equipment"
+	description = "Complex old-school designs used during the Inter-Corporate War by the Gorlex Marauders before their dissolution."
+	prereq_ids = list("gm_armor")
+	design_ids = list("hardsuitgm", "hardsuitgmrusted")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
+	export_price = 5000
+
+/datum/techweb_node/hl_armor_experimental
+	id = "hl_armor_experimental"
+	display_name = "Gorlex Marauders Experimental Protective Equipment"
+	description = "Extremely complicated old-school designs used during the Inter-Corporate War by the Gorlex Marauders before their dissolution."
+	prereq_ids = list("gm_armor_advanced")
+	design_ids = list("hardsuitgmadv")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
+	export_price = 5000
+
 /datum/techweb_node/clip_armor
 	id = "hl_armor"
 	display_name = "CLIP Hardliners Protective Equipment"
@@ -872,8 +899,44 @@
 	display_name = "Unlicensed Advanced Ballistics"
 	description = "Complex ballistics normally manufactured by pirates or desperate colonists."
 	prereq_ids = list("pirate_ballistics")
-	design_ids = list("pounder", "poundermag", "skm24v", "chopper", "shredder", "shreddermagbuckshot", "shreddermagslugs", "skm24")
+	design_ids = list("pounder", "poundermag", "skm24v", "chopper", "skm24")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 25000)
+	export_price = 5000
+
+/datum/techweb_node/pirate_ballistics_heavy
+	id = "pirate_ballistics_heavy"
+	display_name = "Unlicensed Heavy Ballistics"
+	description = "Heavy-duty weapons usually only fielded by particularly wealthy pirates."
+	prereq_ids = list("pirate_ballistics_advanced")
+	design_ids = list("shredder", "shreddermagbuckshot", "shreddermagslugs")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
+	export_price = 5000
+
+/datum/techweb_node/scarborough_ballistics
+	id = "scarborough_ballistics"
+	display_name = "Scarborough Arms Ballistics"
+	description = "Ballistics normally manufactured by the Scarborough Arms company."
+	prereq_ids = list("adv_ballistics")
+	design_ids = list("ringneckciv", "ringneckmag", "viperciv", "cobraciv", "cobramag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12500)
+	export_price = 5000
+
+/datum/techweb_node/scarborough_ballistics_advanced
+	id = "scarborough_ballistics_advanced"
+	display_name = "Scarborough Arms Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by pirates or desperate colonists."
+	prereq_ids = list("scarborough_ballistics")
+	design_ids = list("ringneckmil", "vipermil", "asp", "aspmag", "himehabu", "himehabumag", "cobramil", "bulldog", "sidewinder", "sidewindermag", "boomslangciv", "boomslangmag", "hydra", "hydramag", "hydramagextended")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 45000)
+	export_price = 5000
+
+/datum/techweb_node/scarborough_ballistics_marksman
+	id = "scarborough_ballistics_marksman"
+	display_name = "Scarborough Arms Marksman Ballistics"
+	description = "Specialized sniper rifles and marksman weapons normally manufactured by the Scarborough Arms company."
+	prereq_ids = list("scarborough_ballistics_advanced")
+	design_ids = list("boomslangmil", "boomslangmagextended", "taipan", "taipanmag", "hydramarksman", "hydramagdrum", "hydramagdrumextended")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
 /datum/techweb_node/clip_ballistics
@@ -955,6 +1018,15 @@
 	prereq_ids = list("nt_lasers")
 	design_ids = list("energysmg", "energyshotgun", "lasershotgun", "hades")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
+	export_price = 5000
+
+/datum/techweb_node/nt_lasers_eoehoma
+	id = "nt_lasers_eoehoma"
+	display_name = "Eoehoma Archived Designs"
+	description = "Designs formerly produced by the now-defunct Eoehoma company."
+	prereq_ids = list("nt_lasers_advanced", "nt_ballistics")
+	design_ids = list("e10", "e11", "e50", "e40", "e40mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 
 /datum/techweb_node/srm_ballistics
