@@ -1180,7 +1180,7 @@
 	id = "saber"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 20000, /datum/material/titanium = 4000, /datum/material/gold = 2000)
-	build_path = /obj/item/gun/ballistic/automatic/smg/vector
+	build_path = /obj/item/gun/ballistic/automatic/smg/skm_carbine/saber
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -1327,7 +1327,7 @@
 	materials = list(/datum/material/iron = 8000)
 	build_path = /obj/item/ammo_box/magazine/m9mm_mauler
 	category = list("Ammo")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/spitter
 	name = "Spitter SMG"
@@ -1893,5 +1893,194 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000)
 	build_path = /obj/item/ammo_box/magazine/f4_308
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/skm24
+	name = "SKM-24 Assault Rifle"
+	id = "skm24"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 30000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/skm
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm23
+	name = "CM-23 Pistol"
+	id = "cm23"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 2000, /datum/material/silver = 3000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/cm23
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm23mag
+	name = "10mm CM-23 Magazine"
+	id = "cm23"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/ammo_box/magazine/cm23
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm70
+	name = "CM-70 Pistol"
+	id = "cm70"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 8000, /datum/material/silver = 5000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/cm70
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm70mag
+	name = "9mm CM-70 Magazine"
+	id = "cm70mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m9mm_cm70
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm357
+	name = "CM-357 Pistol"
+	id = "cm357"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 24000, /datum/material/glass = 6000, /datum/material/silver = 9000, /datum/material/titanium = 6000, /datum/material/gold = 500)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/cm357
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm357mag
+	name = ".357 CM-357 Magazine"
+	id = "cm357mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/cm357
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm5
+	name = "CM-5 SMG"
+	id = "cm5"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 20000, /datum/material/silver = 16000, /datum/material/titanium = 10000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/cm5
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm5c
+	name = "CM-5c SMG"
+	id = "cm5c"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 20000, /datum/material/silver = 16000, /datum/material/titanium = 14000, /datum/material/gold = 2500)
+	build_path = /obj/item/gun/ballistic/automatic/smg/cm5/compact
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm5mag
+	name = "9mm CM-5 Magazine"
+	id = "cm5mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/cm5_9mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cmf4
+	name = "CM-F4 Marksman Rifle"
+	id = "cmf4"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 75000, /datum/material/glass = 20000, /datum/material/silver = 10000, /datum/material/titanium = 15000, /datum/material/gold = 2000, /datum/material/uranium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/f4
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cmf90
+	name = "CM-F90 Sniper Rifle"
+	id = "cmf90"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 30000, /datum/material/silver = 20000, /datum/material/titanium = 30000, /datum/material/gold = 8000, /datum/material/uranium = 10000, /datum/material/diamond = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/f90
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cmf90mag
+	name = "6.5x57mm CM-F90 Magazine"
+	id = "cmf90mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000)
+	build_path = /obj/item/ammo_box/magazine/f90
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a65clip
+	name = "Ammo Box (6.5x57mm CLIP)"
+	id = "a65clip"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 10000, /datum/material/lead = 2000)
+	build_path = /obj/item/storage/box/ammo/a65clip
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/cm82
+	name = "CM-82 Assault Rifle"
+	id = "cm82"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 90000, /datum/material/glass = 40000, /datum/material/silver = 25000, /datum/material/titanium = 30000, /datum/material/gold = 3000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/cm82
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm82mag
+	name = "5.56x42mm CM-82 Magazine"
+	id = "cm82mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/p16
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm24
+	name = "CM-24 Assault Rifle"
+	id = "cm24"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 30000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/skm/cm24
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm15
+	name = "CM-15 Shotgun"
+	id = "cm15"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 10000, /datum/material/silver = 16000, /datum/material/titanium = 12000, /datum/material/plasma = 10000)
+	build_path = /obj/item/gun/ballistic/shotgun/cm15
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm15mag
+	name = "12g CM-15 Magazine"
+	id = "cm15mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000)
+	build_path = /obj/item/ammo_box/magazine/cm15_12g
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm40
+	name = "CM-40 HMG"
+	id = "cm40"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 180000, /datum/material/glass = 80000, /datum/material/silver = 50000, /datum/material/titanium = 60000, /datum/material/gold = 6000, /datum/material/diamond = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/hmg/cm40
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cm40mag
+	name = "7.62x40mm CM-40 Magazine"
+	id = "cm40mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 18000)
+	build_path = /obj/item/ammo_box/magazine/cm40_762_40_box
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
