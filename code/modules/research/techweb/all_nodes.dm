@@ -814,7 +814,7 @@
 	export_price = 5000
 
 /datum/techweb_node/hl_armor_advanced
-	id = "hl_armor"
+	id = "hl_armor_advanced"
 	display_name = "Gorlex Hardliners Advanced Protective Equipment"
 	description = "Complicated combat armor produced for the Gorlex Hardliners."
 	prereq_ids = list("hl_armor")
@@ -831,6 +831,24 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
+/datum/techweb_node/ngr_armor
+	id = "ngr_armor"
+	display_name = "New Gorlex Republic Protective Equipment"
+	description = "Combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("adv_armor")
+	design_ids = list("armorvestngr", "marinehelmetngr", "marinehelmetngrvisor")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/ngr_armor_advanced
+	id = "ngr_armor_advanced"
+	display_name = "New Gorlex Republic Advanced Protective Equipment"
+	description = "Complicated combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("ngr_armor")
+	design_ids = list("hardsuitngr")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+	export_price = 5000
+
 /datum/techweb_node/gm_armor
 	id = "gm_armor"
 	display_name = "Gorlex Marauders Protective Equipment"
@@ -841,7 +859,7 @@
 	export_price = 5000
 
 /datum/techweb_node/gm_armor_advanced
-	id = "gm_armor"
+	id = "gm_armor_advanced"
 	display_name = "Gorlex Marauders Advanced Protective Equipment"
 	description = "Complex old-school designs used during the Inter-Corporate War by the Gorlex Marauders before their dissolution."
 	prereq_ids = list("gm_armor")
@@ -849,8 +867,8 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
 	export_price = 5000
 
-/datum/techweb_node/hl_armor_experimental
-	id = "hl_armor_experimental"
+/datum/techweb_node/gm_armor_experimental
+	id = "gm_armor_experimental"
 	display_name = "Gorlex Marauders Experimental Protective Equipment"
 	description = "Extremely complicated old-school designs used during the Inter-Corporate War by the Gorlex Marauders before their dissolution."
 	prereq_ids = list("gm_armor_advanced")
@@ -858,17 +876,35 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
+/datum/techweb_node/inteq_armor
+	id = "inteq_armor"
+	display_name = "Inteq Protective Equipment"
+	description = "Combat armor produced by Inteq Risk Management."
+	prereq_ids = list("adv_armor")
+	design_ids = list("armordusterinteq", "armordusterinteqalt", "helmetinteq", "spacehelmetinteq", "spacesuitinteq")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
+/datum/techweb_node/inteq_armor_advanced
+	id = "inteq_armor_advanced"
+	display_name = "Inteq Advanced Protective Equipment"
+	description = "Complicated combat armor produced by Inteq Risk Management."
+	prereq_ids = list("inteq_armor")
+	design_ids = list("hardsuitinteq", "hardsuitinteqadv", "marinearmordustermediuminteq")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 22500)
+	export_price = 5000
+
 /datum/techweb_node/clip_armor
-	id = "hl_armor"
+	id = "clip_armor"
 	display_name = "CLIP Hardliners Protective Equipment"
 	description = "Combat armor produced for CLIP."
 	prereq_ids = list("adv_armor")
 	design_ids = list("marinehelmetclip", "marinehelmetlightclip")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
 /datum/techweb_node/clip_armor_advanced
-	id = "clip_armor"
+	id = "clip_armor_advanced"
 	display_name = "CLIP Advanced Protective Equipment"
 	description = "Complicated combat armor produced for CLIP."
 	prereq_ids = list("clip_armor")
