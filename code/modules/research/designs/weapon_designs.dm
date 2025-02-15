@@ -2498,3 +2498,111 @@
 	build_path = /obj/item/ammo_box/magazine/m556_42_hydra/casket
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/marinehelmetngr
+	name = "New Gorlex Republic MK2-NG Helmet"
+	id = "marinehelmetngr"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 2000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/ngr
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinehelmetngrvisor
+	name = "New Gorlex Republic MK2-NGV Helmet"
+	id = "marinehelmetngrvisor"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 6000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/ngr/swat
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestngr
+	name = "New Gorlex Republic MK1-NG Armor Vest"
+	id = "armorvestngr"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/ngr
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitngr
+	name = "New Gorlex Republic Hardsuit"
+	id = "hardsuitngr"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/ngr
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacehelmetinteq
+	name = "Inteq Softsuit Helmet"
+	id = "spacehelmetinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 5000, /datum/material/silver = 2000)
+	build_path = /obj/item/clothing/head/helmet/space/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacesuitinteq
+	name = "Inteq Softsuit Body"
+	id = "spacesuitinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 14000, /datum/material/silver = 4000)
+	build_path = /obj/item/clothing/suit/space/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetinteq
+	name = "Inteq MK1-IQ Helmet"
+	id = "helmetinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armordusterinteq
+	name = "Inteq MK1-IQD Armored Duster"
+	id = "armordusterinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/hos/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armordusterinteqalt
+	name = "Inteq MK1-IQW Armored Coat"
+	id = "armordusterinteqalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/security/warden/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinearmordustermediuminteq
+	name = "Inteq MK2-M-IQD Armored Duster"
+	id = "marinearmordustermediuminteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 16000, /datum/material/titanium = 8000)
+	build_path = /obj/item/clothing/suit/armor/hos/inteq/honorable
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitinteq
+	name = "Inteq Hardsuit"
+	id = "hardsuitinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 70000, /datum/material/glass = 30000, /datum/material/silver = 16000, /datum/material/titanium = 4000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/security/independent/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitinteqadv
+	name = "Inteq Pointman Hardsuit"
+	id = "hardsuitinteqadv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
