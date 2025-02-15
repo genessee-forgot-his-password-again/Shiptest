@@ -746,7 +746,7 @@
 	display_name = "Complex Armor Layering"
 	description = "The idea that you can have multiple layers of protection in a single package is revolutionary."
 	prereq_ids = list("armor")
-	design_ids = list("marinearmorlight", "marinearmormedium", "marinearmorheavy", "marinehelmet")
+	design_ids = list("marinearmorlight", "marinearmormedium", "marinearmorheavy", "marinehelmet", "marinehelmetlight")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 
@@ -829,6 +829,33 @@
 	prereq_ids = list("hl_armor_advanced")
 	design_ids = list("hardsuithladv")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
+	export_price = 5000
+
+/datum/techweb_node/clip_armor
+	id = "hl_armor"
+	display_name = "CLIP Hardliners Protective Equipment"
+	description = "Combat armor produced for CLIP."
+	prereq_ids = list("adv_armor")
+	design_ids = list("marinehelmetclip", "marinehelmetlightclip")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/clip_armor_advanced
+	id = "clip_armor"
+	display_name = "CLIP Advanced Protective Equipment"
+	description = "Complicated combat armor produced for CLIP."
+	prereq_ids = list("clip_armor")
+	design_ids = list("riothelmetclip", "riotarmorclip", "hardsuitclip")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+	export_price = 5000
+
+/datum/techweb_node/clip_armor_experimental
+	id = "clip_armor_experimental"
+	display_name = "CLIP Experimental Protective Equipment"
+	description = "Profoundly complicated and expensive combat armor produced for CLIP."
+	prereq_ids = list("clip_armor_advanced")
+	design_ids = list("hardsuitclipadv")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
 	export_price = 5000
 
 /datum/techweb_node/pirate_ballistics
