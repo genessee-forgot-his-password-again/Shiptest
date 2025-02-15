@@ -876,6 +876,24 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
+/datum/techweb_node/cybersun_armor
+	id = "cybersun_armor"
+	display_name = "Cybersun Protective Equipment"
+	description = "Combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("adv_armor")
+	design_ids = list("helmetcybersun")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 1000)
+	export_price = 5000
+
+/datum/techweb_node/cybersun_armor_advanced
+	id = "cybersun_armor_advanced"
+	display_name = "Gorlex Hardliners Advanced Protective Equipment"
+	description = "Complicated combat armor produced for the Gorlex Hardliners."
+	prereq_ids = list("cybersun_armor")
+	design_ids = list("hardsuitcybersun", "hardsuitcybersunparamedic", "marinearmorcoatmediumcybersun")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
+	export_price = 5000
+
 /datum/techweb_node/inteq_armor
 	id = "inteq_armor"
 	display_name = "Inteq Protective Equipment"
