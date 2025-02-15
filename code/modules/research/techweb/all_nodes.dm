@@ -863,7 +863,7 @@
 	display_name = "CLIP Advanced Ballistics"
 	description = "Complex ballistics normally manufactured by CLIP."
 	prereq_ids = list("clip_ballistics")
-	design_ids = list("cm357", "cm357mag", "cm5", "cm5c", "cmf4" "cm5mag", "cm82", "cm82mag", "cm24", "cm15", "cm15mag")
+	design_ids = list("cm357", "cm357mag", "cm5", "cm5c", "cmf4", "cm5mag", "cm82", "cm82mag", "cm24", "cm15", "cm15mag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
 	export_price = 5000
 
