@@ -2084,3 +2084,66 @@
 	build_path = /obj/item/ammo_box/magazine/cm40_762_40_box
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/marinehelmetclip
+	name = "CLIP MK2-CM Helmet"
+	id = "marinehelmetclip"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 2000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/bulletproof/x11/clip
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinehelmetlightclip
+	name = "CLIP MK2-L-CM Helmet"
+	id = "marinehelmetlightclip"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/glass = 2000, /datum/material/titanium = 500)
+	build_path = /obj/item/clothing/head/helmet/bulletproof/m10/clip_vc
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/riothelmetclip
+	name = "CLIP RT-CM Helmet"
+	id = "marinehelmetclip"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 12000, /datum/material/titanium = 1000)
+	build_path = /obj/item/clothing/head/helmet/riot/clip
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/riotarmorclip
+	name = "CLIP RT-CM Armor Set"
+	id = "riotarmorclip"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 20000, /datum/material/titanium = 6000)
+	build_path = /obj/item/clothing/suit/armor/riot/clip
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinehelmetlight
+	name = "MK2-L Helmet"
+	id = "marinehelmetlightclip"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/glass = 2000, /datum/material/titanium = 500)
+	build_path = /obj/item/clothing/head/helmet/bulletproof/m10
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitclip
+	name = "CLIP Patrol Hardsuit"
+	id = "hardsuitsecurity"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 8000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/clip_patroller
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitclipadv
+	name = "CLIP Spotter Hardsuit"
+	id = "hardsuitclipadv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 150000, /datum/material/glass = 100000, /datum/material/silver = 40000, /datum/material/titanium = 14000, /datum/material/gold = 6000, /datum/material/diamond = 2000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/clip_spotter
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
