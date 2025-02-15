@@ -783,7 +783,7 @@
 	description = "Complex and pressure-proof combat armor produced by NanoTrasen and their subsidiaries."
 	prereq_ids = list("adv_eva", "nt_armor")
 	design_ids = list("hardsuitntengi", "hardsuitntmining", "hardsuitntatmos", "hardsuitntsecurity", "hardsuitntscience", "hardsuitntmedical")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
 /datum/techweb_node/nt_armor_lp
@@ -792,7 +792,7 @@
 	description = "Combat-grade armor used primarily by NanoTrasen Loss Prevention squads."
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntlpengineering", "hardsuitntlpmedical", "hardsuitntlpcommand", "hardsuitntlpsecurity")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
 	export_price = 5000
 
 /datum/techweb_node/nt_armor_experimental
@@ -801,7 +801,7 @@
 	description = "Armor which was only produced by NanoTrasen and their subsidiaries either in limited quantities or in a purely prototypical setting."
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntengiadv", "hardsuitntsecurityadv", "hardsuitntmedicaladv", "hardsuitntminingadv")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
 	export_price = 5000
 
 /datum/techweb_node/hl_armor
@@ -819,7 +819,7 @@
 	description = "Complicated combat armor produced for the Gorlex Hardliners."
 	prereq_ids = list("hl_armor")
 	design_ids = list("hardsuithl")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
 /datum/techweb_node/hl_armor_experimental
@@ -828,7 +828,7 @@
 	description = "Profoundly complicated and expensive combat armor produced for the Gorlex Hardliners."
 	prereq_ids = list("hl_armor_advanced")
 	design_ids = list("hardsuithladv")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
 /datum/techweb_node/pirate_ballistics
@@ -837,7 +837,7 @@
 	description = "Ballistics normally manufactured by pirates or desperate colonists."
 	prereq_ids = list("adv_ballistics")
 	design_ids = list("spitter", "spittermag", "mauler", "maulermag")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 
 /datum/techweb_node/pirate_ballistics_advanced
@@ -846,7 +846,7 @@
 	description = "Complex ballistics normally manufactured by pirates or desperate colonists."
 	prereq_ids = list("pirate_ballistics")
 	design_ids = list("pounder", "poundermag", "skm24v", "chopper", "shredder", "shreddermagbuckshot", "shreddermagslugs", "skm24")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 25000)
 	export_price = 5000
 
 /datum/techweb_node/clip_ballistics
@@ -863,8 +863,17 @@
 	display_name = "CLIP Advanced Ballistics"
 	description = "Complex ballistics normally manufactured by CLIP."
 	prereq_ids = list("clip_ballistics")
-	design_ids = list("cm357", "cm357mag", "cm5", "cm5c", "cm5mag", "cmf4", "cmf90", "cmf90mag", "cm82", "cm82mag", "cm24", "cm15", "cm15mag", "cm40", "cm40mag")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	design_ids = list("cm357", "cm357mag", "cm5", "cm5c", "cmf4" "cm5mag", "cm82", "cm82mag", "cm24", "cm15", "cm15mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
+	export_price = 5000
+
+/datum/techweb_node/clip_ballistics_special
+	id = "clip_ballistics_special"
+	display_name = "CLIP Specialist Ballistics"
+	description = "Specialized heavy weapons normally manufactured by CLIP."
+	prereq_ids = list("clip_ballistics_advanced")
+	design_ids = list("cmf90", "cmf90mag", "cm40", "cm40mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
 	export_price = 5000
 
 /datum/techweb_node/inteq_ballistics
@@ -882,7 +891,7 @@
 	description = "Complex ballistics normally manufactured by Inteq Risk Management."
 	prereq_ids = list("nt_ballistics")
 	design_ids = list("mongrel", "skm44", "mastiff", "ssg04")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
 /datum/techweb_node/nt_ballistics
@@ -891,7 +900,7 @@
 	description = "Ballistics normally manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("adv_ballistics")
 	design_ids = list("commander")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
 /datum/techweb_node/nt_ballistics_advanced
@@ -900,7 +909,7 @@
 	description = "Complex ballistics normally manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("nt_ballistics")
 	design_ids = list("wt550", "mag_oldsmg", "mag_oldsmg_ap", "vector", "saber")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
 	export_price = 5000
 
 /datum/techweb_node/nt_lasers
@@ -918,7 +927,7 @@
 	description = "Complicated or prototype energy and laser weapons primarily manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("nt_lasers")
 	design_ids = list("energysmg", "energyshotgun", "lasershotgun", "hades")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
 	export_price = 5000
 
 /datum/techweb_node/srm_ballistics
@@ -927,7 +936,7 @@
 	description = "Ballistics normally manufactured by the Saint-Roumain Militia."
 	prereq_ids = list("adv_ballistics")
 	design_ids = list("pepperbox", "doublebarrel", "winchmk2", "detectivespecial", "derringer")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 
 /datum/techweb_node/srm_pistols
@@ -936,7 +945,7 @@
 	description = "Advanced pistols normally manufactured by the Saint-Roumain Militia."
 	prereq_ids = list("srm_ballistics")
 	design_ids = list("montagne", "shadow", "ashhand")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
 /datum/techweb_node/srm_special
@@ -945,7 +954,7 @@
 	description = "Specialty ballistics normally manufactured by the Saint-Roumain Militia."
 	prereq_ids = list("srm_ballistics")
 	design_ids = list("absolution", "candor", "illestren", "brimstone", "firestorm", "firestormmag", "firestormmagextended")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
 /datum/techweb_node/srm_shotguns
@@ -954,7 +963,7 @@
 	description = "Advanced shotguns normally manufactured by the Saint-Roumain Militia."
 	prereq_ids = list("srm_special")
 	design_ids = list("conflagration", "hellfire")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
 /datum/techweb_node/so_ballistics
@@ -972,7 +981,7 @@
 	description = "More complicated ballistics normally manufactured by the Serene Outdoors company."
 	prereq_ids = list("so_ballistics")
 	design_ids = list("m11", "m15", "m15mag", "m13")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12500)
 	export_price = 5000
 
 ////////////////////////mech technology////////////////////////
