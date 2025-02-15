@@ -2147,3 +2147,354 @@
 	build_path = /obj/item/clothing/suit/space/hardsuit/clip_spotter
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/e10
+	name = "E-10 Laser Pistol"
+	id = "e10"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 10000, /datum/material/silver = 500)
+	build_path = /obj/item/gun/energy/laser/e10
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/e50
+	name = "E-50 Laser Cannon"
+	id = "e50"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 100000, /datum/material/silver = 8000, /datum/material/plasma = 5000)
+	build_path = /obj/item/gun/energy/laser/e50
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/e11
+	name = "E-11 Energy Rifle"
+	id = "e11"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 15000, /datum/material/silver = 2000, /datum/material/plasma = 2000)
+	build_path = /obj/item/gun/energy/e_gun/e11
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/c299
+	name = "Ammo Box (.299 Eoehoma)"
+	id = "c299"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 8000, /datum/material/sulfur = 8000, /datum/material/lead = 2000)
+	build_path = /obj/item/storage/box/ammo/c299
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/e40
+	name = "E-40 Hybrid Rifle"
+	id = "e40"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 100000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000, /datum/material/uranium = 8000, /datum/material/plasma = 20000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/skm/cm24
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/e40mag
+	name = ".299 E-40 Magazine"
+	id = "e40mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/e40
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hardsuitgm
+	name = "Gorlex Marauder Hardsuit"
+	id = "hardsuithl"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitgmrusted
+	name = "Budget Gorlex Marauder Hardsuit"
+	id = "hardsuitgmrusted"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 15000, /datum/material/titanium = 4000, /datum/material/gold = 2000, /datum/material/plasma = 6000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitgmadv
+	name = "Gorlex Marauder Elite Hardsuit"
+	id = "hardsuithladv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/hl
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetgm
+	name = "Gorlex Marauder MK1-GM Helmet"
+	id = "helmetgm"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet/syndie
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestgm
+	name = "Gorlex Marauder MK1-GM Armor Vest"
+	id = "armorvestgm"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/syndie
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ringneckciv
+	name = "Ringneck-76 Pistol"
+	id = "ringneckciv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 4000, /datum/material/silver = 4000, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/ringneck/indie
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/ringneckmil
+	name = "PC-76 'Ringneck' Pistol"
+	id = "ringneckmil"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/glass = 8000, /datum/material/silver = 8000, /datum/material/titanium = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/ringneck
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/ringneckmag
+	name = "10mm Ringneck Magazine"
+	id = "ringneckmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/ammo_box/magazine/m10mm_ringneck
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/viperciv
+	name = "Viper-23 Revolver"
+	id = "viperciv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 6000)
+	build_path = /obj/item/gun/ballistic/revolver/viper/indie
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/vipermil
+	name = "R-23 'Viper' Revolver"
+	id = "vipermil"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 20000, /datum/material/silver = 16000, /datum/material/titanium = 14000)
+	build_path = /obj/item/gun/ballistic/revolver/viper
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/asp
+	name = "BC-81 'Asp' Pistol"
+	id = "asp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/glass = 12000, /datum/material/silver = 10000, /datum/material/titanium = 12000, /datum/material/uranium = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/asp
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/aspmag
+	name = "5.7x39mm Asp Magazine"
+	id = "aspmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m57_39_asp
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/rattlesnake
+	name = "MP-84 'Rattlesnake' Pistol"
+	id = "rattlesnake"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/silver = 6000, /datum/material/titanium = 4000, /datum/material/gold = 500)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/rattlesnake
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/himehabu
+	name = "Himehabu Pistol"
+	id = "himehabu"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000, /datum/material/glass = 10000, /datum/material/silver = 6000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/himehabu
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/himehabumag
+	name = ".22LR Himehabu Magazine"
+	id = "himehabumag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000)
+	build_path = /obj/item/ammo_box/magazine/m22lr_himehabu
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cobramil
+	name = "C20-r 'Cobra' SMG"
+	id = "cobramil"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 25000, /datum/material/silver = 20000, /datum/material/titanium = 14000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/cobra
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cobraciv
+	name = "Cobra-20 SMG"
+	id = "cobraciv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 20000, /datum/material/silver = 17500, /datum/material/titanium = 12000, /datum/material/gold = 1600)
+	build_path = /obj/item/gun/ballistic/automatic/smg/cobra/indie
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/cobramag
+	name = ".45 Cobra Magazine"
+	id = "cobramag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m45_cobra
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/sidewinder
+	name = "CDW-81 'Sidewinder' SMG"
+	id = "sidewinder"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 30000, /datum/material/titanium = 20000, /datum/material/gold = 6000, /datum/material/plasma = 6000)
+	build_path = /obj/item/gun/ballistic/automatic/smg/sidewinder
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/sidewindermag
+	name = "5.7x39mm Sidewinder Magazine"
+	id = "sidewindermag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m57_39_sidewinder
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/bulldog
+	name = "Bulldog Shotgun"
+	id = "bulldog"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 10000, /datum/material/silver = 20000, /datum/material/titanium = 10000, /datum/material/plasma = 20000)
+	build_path = /obj/item/gun/ballistic/shotgun/automatic/bulldog
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/boomslangciv
+	name = "Boomslang-90 Marksman Rifle"
+	id = "boomslangciv"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 90000, /datum/material/glass = 25000, /datum/material/silver = 16000, /datum/material/titanium = 20000, /datum/material/gold = 8000, /datum/material/uranium = 8000, /datum/material/diamond = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/boomslang/indie
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/boomslangmil
+	name = "MSR-90 'Boomslang' Marksman Rifle"
+	id = "boomslangmil"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 180000, /datum/material/glass = 50000, /datum/material/silver = 32000, /datum/material/titanium = 40000, /datum/material/gold = 16000, /datum/material/uranium = 16000, /datum/material/diamond = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/boomslang
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/taipan
+	name = "AMR-83 'Taipan' Anti-Material Rifle"
+	id = "taipan"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 320000, /datum/material/glass = 100000, /datum/material/silver = 64000, /datum/material/titanium = 80000, /datum/material/gold = 32000, /datum/material/uranium = 32000, /datum/material/diamond = 8000, /datum/material/bluespace = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/taipan
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/boomslangmag
+	name = "6.5x57mm Boomslang Magazine"
+	id = "boomslangmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/boomslang/short
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/boomslangmagextended
+	name = "6.5x57mm Boomslang Extended Magazine"
+	id = "boomslangmagextended"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/ammo_box/magazine/boomslang
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/taipanmag
+	name = ".50BMG Taipan Magazine"
+	id = "taipanmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 30000)
+	build_path = /obj/item/ammo_box/magazine/sniper_rounds
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hydra
+	name = "SMR-80 'Hydra' Assault Rifle"
+	id = "hydra"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 120000, /datum/material/glass = 45000, /datum/material/silver = 40000, /datum/material/titanium = 30000, /datum/material/gold = 6000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/hydra
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hydramarksman
+	name = "SBR-80 'Hydra' Marksman Rifle"
+	id = "hydramarksman"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 140000, /datum/material/glass = 60000, /datum/material/silver = 40000, /datum/material/titanium = 30000, /datum/material/gold = 8000, /datum/material/diamond = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/assault/hydra/dmr
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hydramag
+	name = "5.56x42mm Hydra Magazine"
+	id = "hydramag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/ammo_box/magazine/m556_42_hydra/small
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hydramagextended
+	name = "5.56x42mm Hydra Extended Magazine"
+	id = "hydramagextended"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/m556_42_hydra
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hydramagdrum
+	name = "5.56x42mm Hydra Drum"
+	id = "hydramagdrum"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/titanium = 2000)
+	build_path = /obj/item/ammo_box/magazine/m556_42_hydra/extended
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/hydramagdrumextended
+	name = "5.56x42mm Hydra Extended Drum"
+	id = "hydramagdrumextended"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/titanium = 4000)
+	build_path = /obj/item/ammo_box/magazine/m556_42_hydra/casket
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
