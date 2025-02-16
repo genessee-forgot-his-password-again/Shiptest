@@ -2651,3 +2651,75 @@
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/cybersun/paramed
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/grenadefrag
+	name = "Fragmentation Grenade"
+	id = "grenadefrag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000, /datum/material/sulfur = 2000)
+	build_path = /obj/item/grenade/frag
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/grenadesmoke
+	name = "Smoke Grenade"
+	id = "grenadesmoke"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000, /datum/material/sulfur = 200)
+	build_path = /obj/item/grenade/smokebomb
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/grenadeflash
+	name = "Flashbang Grenade"
+	id = "grenadeflash"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000, /datum/material/sulfur = 1000)
+	build_path = /obj/item/grenade/flashbang
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/grenadesting
+	name = "Stingbang Grenade"
+	id = "grenadesting"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/sulfur = 2500)
+	build_path = /obj/item/grenade/stingbang
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/grenadeexplosive
+	name = "High Explosive Grenade"
+	id = "grenadeexplosive"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/sulfur = 8000, /datum/material/plasma = 2000)
+	build_path = /obj/item/grenade/syndieminibomb/concussion
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/grenadeexplosivesyndi
+	name = "Scarborough Explosive Grenade"
+	id = "grenadeexplosivesyndi"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/sulfur = 10000, /datum/material/plasma = 2000)
+	build_path = /obj/item/grenade/syndieminibomb
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/c4
+	name = "C4 Plastic Explosive"
+	id = "c4"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 6000, /datum/material/sulfur = 6000)
+	build_path = /obj/item/grenade/c4
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/x4
+	name = "X4 Plastic Explosive"
+	id = "x4"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/plastic = 12000, /datum/material/sulfur = 12000, /datum/material/plasma = 6000)
+	build_path = /obj/item/grenade/c4/x4
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
