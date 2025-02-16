@@ -697,6 +697,24 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
+/datum/techweb_node/grenades
+	id = "grenades"
+	display_name = "Security-Grade Explosives"
+	description = "Chaos in the palms of our hands."
+	prereq_ids = list("explosive_weaponry")
+	design_ids = list("grenadesmoke", "grenadeflash")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/adv_grenades
+	id = "adv_grenades"
+	display_name = "Military-Grade Explosives"
+	description = "Death in the palms of our hands."
+	prereq_ids = list("grenades", "ballistic_weapons")
+	design_ids = list("grenadefrag", "grenadesting", "grenadeexplosive", "c4")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 5000
+
 /datum/techweb_node/ballistic_weapons
 	id = "ballistic_weapons"
 	display_name = "Ballistic Weaponry"
@@ -973,6 +991,15 @@
 	prereq_ids = list("adv_ballistics")
 	design_ids = list("ringneckciv", "ringneckmag", "viperciv", "cobraciv", "cobramag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12500)
+	export_price = 5000
+
+/datum/techweb_node/scarborough_grenades
+	id = "scarborough_grenades"
+	display_name = "Scarborough Arms Ballistics"
+	description = "Bombs and explosives primarily manufactured by the Scarborough Arms company."
+	prereq_ids = list("scarborough_ballistics", "adv_grenades")
+	design_ids = list("grenadeexplosivesyndi", "x4")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 8000)
 	export_price = 5000
 
 /datum/techweb_node/scarborough_ballistics_advanced
