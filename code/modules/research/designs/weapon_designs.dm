@@ -2132,7 +2132,7 @@
 
 /datum/design/hardsuitclip
 	name = "CLIP Patrol Hardsuit"
-	id = "hardsuitsecurity"
+	id = "hardsuitclip"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 8000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/clip_patroller
