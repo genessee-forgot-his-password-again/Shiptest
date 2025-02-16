@@ -2647,7 +2647,7 @@
 	name = "Cybersun Paramedic Hardsuit"
 	id = "hardsuitcybersunparamedic"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 100000, /datum/material/glass = 80000, /datum/material/silver = 25000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 16000, /datum/material/titanium = 6000, /datum/material/gold = 2000, /datum/material/plasma = 8000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/cybersun/paramed
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
