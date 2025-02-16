@@ -1916,7 +1916,7 @@
 
 /datum/design/cm23mag
 	name = "10mm CM-23 Magazine"
-	id = "cm23"
+	id = "cm23mag"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 6000)
 	build_path = /obj/item/ammo_box/magazine/cm23
