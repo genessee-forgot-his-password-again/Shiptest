@@ -2606,3 +2606,39 @@
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/inteq
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetcybersun
+	name = "Cybersun MK1-CS Helmet"
+	id = "helmetcybersun"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet/medical
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/marinearmorcoatmediumcybersun
+	name = "Cybersun MK2-M-CSH Armored Haori"
+	id = "marinearmorcoatmediumcybersun"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 16000, /datum/material/titanium = 8000)
+	build_path = /obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitcybersun
+	name = "Cybersun Hardsuit"
+	id = "hardsuitcybersun"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/cybersun
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitcybersunparamedic
+	name = "Cybersun Paramedic Hardsuit"
+	id = "hardsuitcybersunparamedic"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 80000, /datum/material/silver = 25000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/cybersun/paramed
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
