@@ -2618,7 +2618,7 @@
 
 /datum/design/armorvestcybersun
 	name = "Cybersun MK1-CS Armor Vest"
-	id = "armorvestngr"
+	id = "armorvestcybersun"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
 	build_path = /obj/item/clothing/suit/armor/vest/trauma
