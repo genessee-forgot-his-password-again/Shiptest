@@ -2616,6 +2616,15 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/armorvestcybersun
+	name = "Cybersun MK1-CS Armor Vest"
+	id = "armorvestngr"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/trauma
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/marinearmorcoatmediumcybersun
 	name = "Cybersun MK2-M-CSH Armored Haori"
 	id = "marinearmorcoatmediumcybersun"
