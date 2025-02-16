@@ -817,8 +817,8 @@
 	id = "hl_armor_advanced"
 	display_name = "Gorlex Hardliners Advanced Protective Equipment"
 	description = "Complicated combat armor produced for the Gorlex Hardliners."
-	prereq_ids = list("hl_armor")
-	design_ids = list("hardsuithl")
+	prereq_ids = list("hl_armor", "integrated_HUDs")
+	design_ids = list("hardsuithl", "sechudhl")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
@@ -844,8 +844,8 @@
 	id = "ngr_armor_advanced"
 	display_name = "New Gorlex Republic Advanced Protective Equipment"
 	description = "Complicated combat armor produced for the Gorlex Hardliners."
-	prereq_ids = list("ngr_armor")
-	design_ids = list("hardsuitngr")
+	prereq_ids = list("ngr_armor", "integrated_HUDs")
+	design_ids = list("hardsuitngr", "sechudngr")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
@@ -907,8 +907,8 @@
 	id = "inteq_armor_advanced"
 	display_name = "Inteq Advanced Protective Equipment"
 	description = "Complicated combat armor produced by Inteq Risk Management."
-	prereq_ids = list("inteq_armor")
-	design_ids = list("hardsuitinteq", "hardsuitinteqadv", "marinearmordustermediuminteq")
+	prereq_ids = list("inteq_armor", "integrated_HUDs")
+	design_ids = list("hardsuitinteq", "hardsuitinteqadv", "marinearmordustermediuminteq", "sechudinteq")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 22500)
 	export_price = 5000
 
