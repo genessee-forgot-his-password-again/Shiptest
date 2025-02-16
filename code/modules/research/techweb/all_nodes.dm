@@ -879,16 +879,16 @@
 /datum/techweb_node/cybersun_armor
 	id = "cybersun_armor"
 	display_name = "Cybersun Protective Equipment"
-	description = "Combat armor produced for the Gorlex Hardliners."
+	description = "Combat armor produced by Cybersun Solutions."
 	prereq_ids = list("adv_armor")
-	design_ids = list("helmetcybersun")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 1000)
+	design_ids = list("helmetcybersun", "armorvestcybersun")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
 /datum/techweb_node/cybersun_armor_advanced
 	id = "cybersun_armor_advanced"
 	display_name = "Gorlex Hardliners Advanced Protective Equipment"
-	description = "Complicated combat armor produced for the Gorlex Hardliners."
+	description = "Complicated combat armor produced by Cybersun Solutions."
 	prereq_ids = list("cybersun_armor")
 	design_ids = list("hardsuitcybersun", "hardsuitcybersunparamedic", "marinearmorcoatmediumcybersun")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
