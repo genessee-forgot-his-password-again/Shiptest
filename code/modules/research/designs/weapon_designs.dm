@@ -2723,3 +2723,49 @@
 	build_path = /obj/item/grenade/c4/x4
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/modelh
+	name = "Model H Pistol"
+	id = "modelh"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 24000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/modelh
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/modelhsuns
+	name = "Model H-SUNS Pistol"
+	id = "modelhsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 24000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/modelh/suns
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/modelhmag
+	name = "Ferromagnetic Slug Model H Magazine"
+	id = "modelhmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/ammo_box/magazine/modelh
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+// ferromagnetic stuff doesn't use sulfur because SCIENCE!!! uses a lot of iron instead
+/datum/design/ferroslug
+	name = "Ammo Box (Ferromagnetic Slug)"
+	id = "ferroslug"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000, /datum/material/lead = 2000) 
+	build_path = /obj/item/storage/box/ammo/ferroslug
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferroslughc
+	name = "Ammo Box (Ferromagnetic Slug HC)"
+	id = "ferroslughc"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000, /datum/material/lead = 2000, /datum/material/copper = 6000) 
+	build_path = /obj/item/storage/box/ammo/ferroslug/hc
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
