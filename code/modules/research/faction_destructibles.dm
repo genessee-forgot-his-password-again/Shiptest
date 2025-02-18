@@ -30,7 +30,7 @@
 /obj/item/faction_tech/clip
 	name = "CLIP Design Drive"
 
-obj/item/faction_tech/pirate
+/obj/item/faction_tech/pirate
 	name = "Unlicensed Firearms Design Drive"
 
 /obj/item/faction_tech/scarborough
