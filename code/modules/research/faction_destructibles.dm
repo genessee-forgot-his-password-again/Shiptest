@@ -3,7 +3,7 @@
 
 /obj/item/faction_tech
 	name = "Encrypted Design Drive"
-	//desc = "A large drive for storing equipment design data for construction in protolathes. One use, and <span class='italics'>heavily</span> encrypted, so you'll have to process it in a destructive analyzer first."
+	desc = "A bulky hard drive most often used for transferring sensitive equipment designs. It is <span class='italics'>heavily</span> encrypted; the only way to access the contents is through by dismantling the drive through a destructive analyzer."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "blackcube"
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
