@@ -30,16 +30,14 @@
 /obj/item/faction_tech/clip
 	name = "CLIP Design Drive"
 
-/* do we actually need this one?
 obj/item/faction_tech/pirate
-	name = " Design Drive"
-*/
+	name = "Unlicensed Firearms Design Drive"
 
 /obj/item/faction_tech/scarborough
-	name = "Scarborough Arms Design Drive"
+	name = "Scarborough Armaments Design Drive"
 
 /obj/item/faction_tech/srm
-	name = "Saint-Roumain Militia Design Drive"
+	name = "Hunter's Pride Design Drive"
 
 /obj/item/faction_tech/solgov
 	name = "SolGov Design Drive"

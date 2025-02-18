@@ -792,6 +792,7 @@
 	display_name = "NanoTrasen Equipment"
 	description = "Equipment produced by NanoTrasen and their subsidiaries."
 	boost_item_paths = list(/obj/item/faction_tech/nanotrasen)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/hardliners
@@ -799,6 +800,7 @@
 	display_name = "Gorlex Hardliners Equipment"
 	description = "Equipment produced by Cybersun ostensibly for people other than just the Gorlex Hardliners."
 	boost_item_paths = list(/obj/item/faction_tech/hardliners)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/gorlex_republic
@@ -806,6 +808,7 @@
 	display_name = "New Gorlex Republic Equipment"
 	description = "Equipment produced by the New Gorlex Republic."
 	boost_item_paths = list(/obj/item/faction_tech/gorlex_republic)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/cybersun
@@ -813,6 +816,7 @@
 	display_name = "Cybersun Equipment"
 	description = "Equipment produced by Cybersun."
 	boost_item_paths = list(/obj/item/faction_tech/cybersun)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/inteq
@@ -820,6 +824,7 @@
 	display_name = "Inteq Risk Management Group Equipment"
 	description = "Equipment produced by the Inteq Risk Management Group."
 	boost_item_paths = list(/obj/item/faction_tech/inteq)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/clip
@@ -827,29 +832,31 @@
 	display_name = "Confederated League of Independent Planets Equipment"
 	description = "Equipment produced by the Confederated League of Independent Planets."
 	boost_item_paths = list(/obj/item/faction_tech/clip)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
-/*
 /datum/techweb_node/pirate
 	id = "pirate_tech"
-	display_name = "Pirate Equipment"
-	description = "YAR HAR!"
+	display_name = "Unlicensed Firearms"
+	description = "Unlicensed and possibly illegal firearm designs."
 	boost_item_paths = list(/obj/item/faction_tech/pirate)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
-*/
 
 /datum/techweb_node/scarborough
 	id = "scarborough_tech"
 	display_name = "Scarborough Armaments Armaments"
 	description = "Armaments produced by Scarborough Armaments."
 	boost_item_paths = list(/obj/item/faction_tech/scarborough)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/srm
 	id = "srm_tech"
-	display_name = "Saint-Roumain Militia Equipment"
-	description = "Equipment produced by the Saint-Roumain Militia."
+	display_name = "Hunter's Pride Equipment"
+	description = "Equipment produced by Hunter's Pride."
 	boost_item_paths = list(/obj/item/faction_tech/srm)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/solgov
@@ -857,6 +864,7 @@
 	display_name = "The Most Serene Solar and Intersolar Confederation Equipment"
 	description = "Equipment produced by The Most Serene Solar and Intersolar Confederation."
 	boost_item_paths = list(/obj/item/faction_tech/solgov)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
 /datum/techweb_node/nt_armor
@@ -1034,7 +1042,7 @@
 	id = "pirate_ballistics"
 	display_name = "Unlicensed Ballistics"
 	description = "Ballistics normally manufactured by pirates or desperate colonists."
-	prereq_ids = list("adv_ballistics")
+	prereq_ids = list("adv_ballistics", "pirate_tech")
 	design_ids = list("spitter", "spittermag", "mauler", "maulermag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
@@ -1185,8 +1193,8 @@
 
 /datum/techweb_node/srm_ballistics
 	id = "srm_ballistics"
-	display_name = "Saint-Roumain Ballistics"
-	description = "Ballistics normally manufactured by the Saint-Roumain Militia."
+	display_name = "Hunter's Pride Ballistics"
+	description = "Ballistics normally manufactured by Hunter's Pride."
 	prereq_ids = list("adv_ballistics")
 	design_ids = list("pepperbox", "doublebarrel", "winchmk2", "detectivespecial", "derringer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
@@ -1195,7 +1203,7 @@
 /datum/techweb_node/srm_pistols
 	id = "srm_pistols"
 	display_name = "Saint-Roumain Specialty Pistols"
-	description = "Advanced pistols normally manufactured by the Saint-Roumain Militia."
+	description = "Advanced pistols normally manufactured by Hunter's Pride."
 	prereq_ids = list("srm_ballistics")
 	design_ids = list("montagne", "shadow", "ashhand")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
@@ -1204,7 +1212,7 @@
 /datum/techweb_node/srm_special
 	id = "srm_special"
 	display_name = "Saint-Roumain Advanced Ballistics"
-	description = "Specialty ballistics normally manufactured by the Saint-Roumain Militia."
+	description = "Specialty ballistics normally manufactured by Hunter's Pride."
 	prereq_ids = list("srm_ballistics")
 	design_ids = list("absolution", "candor", "illestren", "brimstone", "firestorm", "firestormmag", "firestormmagextended")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
@@ -1213,7 +1221,7 @@
 /datum/techweb_node/srm_shotguns
 	id = "srm_shotguns"
 	display_name = "Saint-Roumain Specialty Shotguns"
-	description = "Advanced shotguns normally manufactured by the Saint-Roumain Militia."
+	description = "Advanced shotguns normally manufactured by Hunter's Pride."
 	prereq_ids = list("srm_special")
 	design_ids = list("conflagration", "hellfire")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
