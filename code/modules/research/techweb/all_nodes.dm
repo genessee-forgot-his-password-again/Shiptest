@@ -1060,7 +1060,7 @@
 	id = "inteq_ballistics_advanced"
 	display_name = "Inteq Advanced Ballistics"
 	description = "Complex ballistics normally manufactured by Inteq Risk Management."
-	prereq_ids = list("nt_ballistics")
+	prereq_ids = list("inteq_ballistics")
 	design_ids = list("mongrel", "skm44", "mastiff", "ssg04")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
