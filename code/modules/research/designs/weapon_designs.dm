@@ -1000,7 +1000,7 @@
 	id = "m13"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 18000, /datum/material/glass = 2000, /datum/material/silver = 2000, /datum/material/titanium = 2000)
-	build_path = /obj/item/gun/ballistic/automatic/m12_sporter
+	build_path = /obj/item/gun/ballistic/automatic/m12_sporter/mod
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
