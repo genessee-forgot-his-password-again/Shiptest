@@ -85,6 +85,13 @@
 	faction = /datum/faction/solgov
 	contains = list(/obj/item/faction_tech/solgov)
 
+/datum/supply_pack/science/faction_tech/suns
+	name = "Student-Union Association of the Natural Sciences Equipment Design Drive"
+	desc = "Contains one Student-Union Association of the Natural Sciences Equipment Design Drive."
+	cost = 6000
+	faction = /datum/faction/syndicate/suns
+	contains = list(/obj/item/faction_tech/suns)
+
 /datum/supply_pack/science/faction_tech/serene
 	name = "Serene Outdoors Equipment Design Drive"
 	desc = "Contains one Serene Outdoors Design Drive."

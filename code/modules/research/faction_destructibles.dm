@@ -42,6 +42,9 @@
 /obj/item/faction_tech/solgov
 	name = "The Most Serene Solar and Intersolar Confederation Design Drive"
 
+/obj/item/faction_tech/suns
+	name = "Student-Union Association of the Natural Sciences Design Drive"
+
 /obj/item/faction_tech/serene
 	name = "Serene Outdoors Design Drive"
 
