@@ -651,3 +651,31 @@
 	build_path = /obj/item/clothing/glasses/hud/security/sunglasses/ngr
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+// identical to a regular sechud (no sunglasses) so it costs the same as one
+/datum/design/sechudsuns
+	name = "SUNS Security HUD"
+	id = "sechudsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 250, /datum/material/carbon = 250, /datum/material/silicon = 200, /datum/material/copper = 100)
+	build_path = /obj/item/clothing/glasses/hud/security/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/medhudsuns
+	name = "SUNS Medical HUD"
+	id = "medhudsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 250, /datum/material/carbon = 250, /datum/material/silicon = 200, /datum/material/copper = 100)
+	build_path = /obj/item/clothing/glasses/hud/health/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/scigogglessuns
+	name = "SUNS Science Goggles"
+	id = "scigogglessuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 250, /datum/material/carbon = 250, /datum/material/silicon = 200, /datum/material/copper = 100)
+	build_path = /obj/item/clothing/glasses/science/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE

@@ -1000,7 +1000,7 @@
 	id = "m13"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 18000, /datum/material/glass = 2000, /datum/material/silver = 2000, /datum/material/titanium = 2000)
-	build_path = /obj/item/gun/ballistic/automatic/m12_sporter
+	build_path = /obj/item/gun/ballistic/automatic/m12_sporter/mod
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -2204,10 +2204,10 @@
 
 /datum/design/hardsuitgm
 	name = "Gorlex Marauder Hardsuit"
-	id = "hardsuithl"
+	id = "hardsuitgm"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2216,16 +2216,16 @@
 	id = "hardsuitgmrusted"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 15000, /datum/material/titanium = 4000, /datum/material/gold = 2000, /datum/material/plasma = 6000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/ramzi
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitgmadv
 	name = "Gorlex Marauder Elite Hardsuit"
-	id = "hardsuithladv"
+	id = "hardsuitgmadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/hl
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2723,3 +2723,238 @@
 	build_path = /obj/item/grenade/c4/x4
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/modelh
+	name = "Model H Pistol"
+	id = "modelh"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 24000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/modelh
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/modelhsuns
+	name = "Model H-SUNS Pistol"
+	id = "modelhsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 24000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/modelh/suns
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/modelhmag
+	name = "Ferromagnetic Slug Model H Magazine"
+	id = "modelhmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/ammo_box/magazine/modelh
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+// ferromagnetic stuff doesn't use sulfur because SCIENCE!!! uses a lot of iron instead
+/datum/design/ferroslug
+	name = "Ammo Box (Ferromagnetic Slug)"
+	id = "ferroslug"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000, /datum/material/lead = 2000) 
+	build_path = /obj/item/storage/box/ammo/ferroslug
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferropellet
+	name = "Ammo Box (Ferromagnetic Pellet)"
+	id = "ferropellet"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/lead = 2000) 
+	build_path = /obj/item/storage/box/ammo/ferropellet
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferrolance
+	name = "Ammo Box (Ferromagnetic Lance)"
+	id = "ferrolance"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 16000, /datum/material/lead = 2000) 
+	build_path = /obj/item/storage/box/ammo/ferrolance
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/claris
+	name = "Claris Rifle"
+	id = "claris"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 85000, /datum/material/glass = 18000, /datum/material/silver = 10000, /datum/material/titanium = 6000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/claris
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/clarissuns
+	name = "Claris-SUNS Rifle"
+	id = "clarissuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 85000, /datum/material/glass = 18000, /datum/material/silver = 10000, /datum/material/titanium = 6000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/claris/suns
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/clarismag
+	name = "Ferromagnetic Pellet Claris Speedloader"
+	id = "clarismag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/amagpellet_claris
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/gar
+	name = "Solar 'GAR' SMG"
+	id = "gar"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 30000, /datum/material/titanium = 22000, /datum/material/gold = 8000, /datum/material/plasma = 6000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/gar
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/garsuns
+	name = "Solar 'GAR-SUNS' SMG"
+	id = "garsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 30000, /datum/material/titanium = 22000, /datum/material/gold = 8000, /datum/material/plasma = 6000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/gar/suns
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/garmag
+	name = "Ferromagnetic Lance GAR Magazine"
+	id = "garmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/gar
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pistolec
+	name = "Pistole C Pistol"
+	id = "pistolec"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 4000, /datum/material/silver = 4000, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/solgov
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pistolecmag
+	name = "5.56mm HITP Pistole C Magazine"
+	id = "pistolecmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/pistol556mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ssg669c
+	name = "SSG-669c Sniper Rifle"
+	id = "ssg669c"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 20000, /datum/material/silver = 6000, /datum/material/diamond = 500, /datum/material/titanium = 6000)
+	build_path = /obj/item/gun/ballistic/rifle/solgov
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/ssg669cmag
+	name = "8x58mm SSG-669c Stripper Clip"
+	id = "ssg669cmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/a858
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a858
+	name = "Ammo Box (8x58mm)"
+	id = "a858"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/copper = 10000, /datum/material/sulfur = 8000, /datum/material/lead = 2000)
+	build_path = /obj/item/storage/box/ammo/a858
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestsuns
+	name = "SUNS MK1-PC Armor Vest"
+	id = "armorvestsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestsunsalt
+	name = "SUNS MK1-PCG Armor Vest"
+	id = "armorvestsunsalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/suns/hos
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetsuns
+	name = "SUNS MK1-PC Helmet"
+	id = "helmetsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/welding/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetsunsalt
+	name = "SUNS MK1-PCG Helmet"
+	id = "helmetsunsalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/welding/suns/hos
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacehelmetsyndisuns
+	name = "SUNS Softsuit Helmet"
+	id = "spacehelmetsyndisuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 5000, /datum/material/silver = 2000)
+	build_path = /obj/item/clothing/head/helmet/space/syndicate/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacesuitsyndisuns
+	name = "SUNS Softsuit Body"
+	id = "spacesuitsyndisuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 14000, /datum/material/silver = 4000)
+	build_path = /obj/item/clothing/suit/space/syndicate/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitminingsuns
+	name = "SUNS Industrial Hardsuit"
+	id = "hardsuitmining"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 2000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/mining/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitsecuritysuns
+	name = "SUNS Peacekeeper Hardsuit"
+	id = "hardsuitsecurity"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 4000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/security/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitelitesuns
+	name = "SUNS Elite Hardsuit"
+	id = "hardsuitelitesuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/solgov/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
