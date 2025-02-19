@@ -2760,12 +2760,3 @@
 	build_path = /obj/item/storage/box/ammo/ferroslug
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
-/datum/design/ferroslughc
-	name = "Ammo Box (Ferromagnetic Slug HC)"
-	id = "ferroslughc"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 14000, /datum/material/lead = 2000, /datum/material/copper = 6000) 
-	build_path = /obj/item/storage/box/ammo/ferroslug/hc
-	category = list("Ammo")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
