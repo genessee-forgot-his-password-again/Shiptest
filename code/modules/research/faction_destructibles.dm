@@ -25,10 +25,10 @@
 	name = "Cybersun Design Drive"
 
 /obj/item/faction_tech/inteq
-	name = "Inteq Design Drive"
+	name = "Inteq Risk Management Group Design Drive"
 
 /obj/item/faction_tech/clip
-	name = "CLIP Design Drive"
+	name = "Confederated League of Independent Planets Design Drive"
 
 /obj/item/faction_tech/pirate
 	name = "Unlicensed Firearms Design Drive"
@@ -40,5 +40,8 @@
 	name = "Hunter's Pride Design Drive"
 
 /obj/item/faction_tech/solgov
-	name = "SolGov Design Drive"
+	name = "The Most Serene Solar and Intersolar Confederation Design Drive"
+
+/obj/item/faction_tech/serene
+	name = "Serene Outdoors Design Drive"
 

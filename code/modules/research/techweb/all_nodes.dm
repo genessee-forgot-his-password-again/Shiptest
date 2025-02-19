@@ -859,6 +859,14 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
+/datum/techweb_node/serene
+	id = "serene_tech"
+	display_name = "Serene Outdoors Equipment"
+	description = "Equipment produced by Serene Outdoors."
+	boost_item_paths = list(/obj/item/faction_tech/serene)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
+	hidden = TRUE
+
 /datum/techweb_node/solgov
 	id = "solgov_tech"
 	display_name = "The Most Serene Solar and Intersolar Confederation Equipment"
@@ -1231,7 +1239,7 @@
 	id = "so_ballistics"
 	display_name = "Serene Outdoors Ballistics"
 	description = "Ballistics normally manufactured by the Serene Outdoors company."
-	prereq_ids = list("adv_ballistics")
+	prereq_ids = list("adv_ballistics", "serene_tech")
 	design_ids = list("m17", "m17mag", "m12", "m12mag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
