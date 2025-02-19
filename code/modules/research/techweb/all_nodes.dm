@@ -875,8 +875,8 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
-/datum/techweb_node/SUNS
-	id = "SUNS_tech"
+/datum/techweb_node/suns
+	id = "suns_tech"
 	display_name = "Student-Union Association of Naturalistic Sciences Equipment"
 	description = "Equipment produced by the Student-Union Association of Naturalistic Sciences."
 	boost_item_paths = list(/obj/item/faction_tech/SUNS)
@@ -995,7 +995,7 @@
 	id = "suns_armor"
 	display_name = "SUNS Protective Equipment"
 	description = "Armor designs produced by the Student-Union Association of the Natural Sciences."
-	prereq_ids = list("adv_armor", "SUNS_tech")
+	prereq_ids = list("adv_armor", "suns_tech")
 	design_ids = list("armorvestsuns", "armorvestsunsalt", "helmetsuns", "helmetsunsalt", "spacesuitsyndisuns", "spacehelmetsyndisuns")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
@@ -1103,7 +1103,7 @@
 	id = "suns_ballistics"
 	display_name = "SUNS Ballistics"
 	description = "Ballistics normally manufactured by the Student-Union Association of the Natural Sciences."
-	prereq_ids = list("adv_ballistics", "SUNS_tech")
+	prereq_ids = list("adv_ballistics", "suns_tech")
 	design_ids = list("modelhsuns")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
 	export_price = 5000
