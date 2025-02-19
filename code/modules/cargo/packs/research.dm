@@ -20,26 +20,19 @@
 	faction = /datum/faction/syndicate
 	contains = list(/obj/item/faction_tech/scarborough)
 
-/datum/supply_pack/science/faction_tech/gorlex_marauders
-	name = "Gorlex Marauders Equipment Design Drive"
-	desc = "Contains one Gorlex Marauders Equipment Design Drive."
-	cost = 4000
-	faction = /datum/faction/syndicate
-	contains = list(/obj/item/faction_tech/gorlex_marauders)
-
 /datum/supply_pack/science/faction_tech/hardliners
 	name = "Hardliners Equipment Design Drive"
 	desc = "Contains one Hardliners Equipment Design Drive."
 	cost = 5000
 	faction = /datum/faction/syndicate/hardliners
-	contains = list(/obj/item/faction_tech/hardliners)
+	contains = list(/obj/item/faction_tech/hardliners, /obj/item/faction_tech/gorlex_marauders)
 
 /datum/supply_pack/science/faction_tech/gorlex_republic
 	name = "New Gorlex Republic Equipment Design Drive"
 	desc = "Contains one New Gorlex Republic Equipment Design Drive."
 	cost = 5000
 	faction = /datum/faction/syndicate/ngr
-	contains = list(/obj/item/faction_tech/gorlex_republic)
+	contains = list(/obj/item/faction_tech/gorlex_republic, /obj/item/faction_tech/gorlex_marauders)
 
 /datum/supply_pack/science/faction_tech/cybersun
 	name = "Cybersun Equipment Design Drive"
