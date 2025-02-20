@@ -2769,3 +2769,21 @@
 	build_path = /obj/item/storage/box/ammo/ferroslug/hc
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/m20
+	name = "Model 20 'Auto Elite' Pistol"
+	id = "m20"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 6000, /datum/material/silver = 3000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/m20_auto_elite
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pinscher
+	name = "PO-20 'Pinscher' Pistol"
+	id = "pinscher"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 6000, /datum/material/silver = 3000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/m20_auto_elite/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
