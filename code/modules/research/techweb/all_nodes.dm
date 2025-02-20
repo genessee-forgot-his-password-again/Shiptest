@@ -879,7 +879,7 @@
 	id = "suns_tech"
 	display_name = "Student-Union Association of Naturalistic Sciences Equipment"
 	description = "Equipment produced by the Student-Union Association of Naturalistic Sciences."
-	boost_item_paths = list(/obj/item/faction_tech/SUNS)
+	boost_item_paths = list(/obj/item/faction_tech/suns)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
