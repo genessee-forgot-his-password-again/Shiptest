@@ -811,6 +811,14 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
+/datum/techweb_node/gorlex_marauders
+	id = "gm_tech"
+	display_name = "Gorlex Marauders Equipment"
+	description = "Equipment produced by the Gorlex Marauders."
+	boost_item_paths = list(/obj/item/faction_tech/gorlex_marauders)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
+	hidden = TRUE
+
 /datum/techweb_node/cybersun
 	id = "cybersun_tech"
 	display_name = "Cybersun Equipment"

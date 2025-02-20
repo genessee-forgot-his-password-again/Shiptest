@@ -916,7 +916,7 @@
 
 /datum/design/c22lrhp
 	name = "Ammo Box (.22LR HP)"
-	id = "c22lrap"
+	id = "c22lrhp"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 6500, /datum/material/silver = 500)
 	build_path = /obj/item/storage/box/ammo/c22lr/hp
@@ -2105,7 +2105,7 @@
 
 /datum/design/riothelmetclip
 	name = "CLIP RT-CM Helmet"
-	id = "marinehelmetclip"
+	id = "riothelmetclip"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 16000, /datum/material/glass = 12000, /datum/material/titanium = 1000)
 	build_path = /obj/item/clothing/head/helmet/riot/clip
@@ -2123,7 +2123,7 @@
 
 /datum/design/marinehelmetlight
 	name = "MK2-L Helmet"
-	id = "marinehelmetlightclip"
+	id = "marinehelmetlight"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 12000, /datum/material/glass = 2000, /datum/material/titanium = 500)
 	build_path = /obj/item/clothing/head/helmet/bulletproof/m10
@@ -2204,7 +2204,7 @@
 
 /datum/design/hardsuitgm
 	name = "Gorlex Marauder Hardsuit"
-	id = "hardsuithl"
+	id = "hardsuitgm"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
@@ -2222,7 +2222,7 @@
 
 /datum/design/hardsuitgmadv
 	name = "Gorlex Marauder Elite Hardsuit"
-	id = "hardsuithladv"
+	id = "hardsuitgmadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/hl
