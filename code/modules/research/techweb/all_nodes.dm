@@ -789,8 +789,8 @@
 ////////////////////////Faction technology////////////////////////
 /datum/techweb_node/nanotrasen
 	id = "nt_tech"
-	display_name = "Nanotrasen Equipment"
-	description = "Equipment produced by Nanotrasen and their subsidiaries."
+	display_name = "NanoTrasen Equipment"
+	description = "Equipment produced by NanoTrasen and their subsidiaries."
 	boost_item_paths = list(/obj/item/faction_tech/nanotrasen)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
@@ -808,14 +808,6 @@
 	display_name = "New Gorlex Republic Equipment"
 	description = "Equipment produced by the New Gorlex Republic."
 	boost_item_paths = list(/obj/item/faction_tech/gorlex_republic)
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
-	hidden = TRUE
-
-/datum/techweb_node/gorlex_marauders
-	id = "gm_tech"
-	display_name = "Gorlex Marauders Equipment"
-	description = "Equipment produced by the Gorlex Marauders."
-	boost_item_paths = list(/obj/item/faction_tech/gorlex_marauders)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
@@ -867,6 +859,14 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
+/datum/techweb_node/serene
+	id = "serene_tech"
+	display_name = "Serene Outdoors Equipment"
+	description = "Equipment produced by Serene Outdoors."
+	boost_item_paths = list(/obj/item/faction_tech/serene)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
+	hidden = TRUE
+
 /datum/techweb_node/solgov
 	id = "solgov_tech"
 	display_name = "The Most Serene Solar and Intersolar Confederation Equipment"
@@ -875,10 +875,18 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
+/datum/techweb_node/suns
+	id = "suns_tech"
+	display_name = "Student-Union Association of Naturalistic Sciences Equipment"
+	description = "Equipment produced by the Student-Union Association of Naturalistic Sciences."
+	boost_item_paths = list(/obj/item/faction_tech/suns)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
+	hidden = TRUE
+
 /datum/techweb_node/nt_armor
 	id = "nt_armor"
-	display_name = "Nanotrasen Protective Equipment"
-	description = "Combat armor produced by Nanotrasen and their subsidiaries."
+	display_name = "NanoTrasen Protective Equipment"
+	description = "Combat armor produced by NanoTrasen and their subsidiaries."
 	prereq_ids = list("adv_armor", "nt_tech")
 	design_ids = list("armorvestnt", "armorvestntalt", "armordusternt")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
@@ -886,8 +894,8 @@
 
 /datum/techweb_node/nt_armor_advanced
 	id = "nt_armor_advanced"
-	display_name = "Nanotrasen Advanced Protective Equipment"
-	description = "Complex and pressure-proof combat armor produced by Nanotrasen and their subsidiaries."
+	display_name = "NanoTrasen Advanced Protective Equipment"
+	description = "Complex and pressure-proof combat armor produced by NanoTrasen and their subsidiaries."
 	prereq_ids = list("adv_eva", "nt_armor")
 	design_ids = list("hardsuitntengi", "hardsuitntmining", "hardsuitntatmos", "hardsuitntsecurity", "hardsuitntscience", "hardsuitntmedical")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
@@ -895,8 +903,8 @@
 
 /datum/techweb_node/nt_armor_lp
 	id = "nt_armor_lp"
-	display_name = "Nanotrasen Loss Prevention Equipment"
-	description = "Combat-grade armor used primarily by Nanotrasen Loss Prevention squads."
+	display_name = "NanoTrasen Loss Prevention Equipment"
+	description = "Combat-grade armor used primarily by NanoTrasen Loss Prevention squads."
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntlpengineering", "hardsuitntlpmedical", "hardsuitntlpcommand", "hardsuitntlpsecurity")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
@@ -904,8 +912,8 @@
 
 /datum/techweb_node/nt_armor_experimental
 	id = "nt_armor_experimental"
-	display_name = "Nanotrasen Experimental Protective Equipment"
-	description = "Armor which was only produced by Nanotrasen and their subsidiaries either in limited quantities or in a purely prototypical setting."
+	display_name = "NanoTrasen Experimental Protective Equipment"
+	description = "Armor which was only produced by NanoTrasen and their subsidiaries either in limited quantities or in a purely prototypical setting."
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntengiadv", "hardsuitntsecurityadv", "hardsuitntmedicaladv", "hardsuitntminingadv")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
@@ -983,6 +991,33 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
+/datum/techweb_node/suns_armor
+	id = "suns_armor"
+	display_name = "SUNS Protective Equipment"
+	description = "Armor designs produced by the Student-Union Association of the Natural Sciences."
+	prereq_ids = list("adv_armor", "suns_tech")
+	design_ids = list("armorvestsuns", "armorvestsunsalt", "helmetsuns", "helmetsunsalt", "spacesuitsyndisuns", "spacehelmetsyndisuns")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
+/datum/techweb_node/suns_armor_advanced
+	id = "suns_armor_advanced"
+	display_name = "SUNS Advanced Protective Equipment"
+	description = "Complex armor designs produced by the Student-Union Association of the Natural Sciences."
+	prereq_ids = list("suns_armor", "integrated_HUDs")
+	design_ids = list("hardsuitminingsuns", "hardsuitsecuritysuns", "sechudsuns", "medhudsuns", "scigogglessuns")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 5000
+
+/datum/techweb_node/suns_armor_experimental
+	id = "suns_armor_experimental"
+	display_name = "SUNS Experimental Protective Equipment"
+	description = "Profoundly complex armor designs produced by the Student-Union Association of the Natural Sciences."
+	prereq_ids = list("suns_armor_advanced")
+	design_ids = list("hardsuitelitesuns")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+	export_price = 5000
+
 /datum/techweb_node/cybersun_armor
 	id = "cybersun_armor"
 	display_name = "Cybersun Protective Equipment"
@@ -1044,6 +1079,42 @@
 	prereq_ids = list("clip_armor_advanced")
 	design_ids = list("hardsuitclipadv")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
+	export_price = 5000
+
+/datum/techweb_node/solgov_ballistics
+	id = "solgov_ballistics"
+	display_name = "Solarian Confederation Ballistics"
+	description = "Ballistics normally manufactured by the Solarian Confederation."
+	prereq_ids = list("adv_ballistics", "solgov_tech")
+	design_ids = list("modelh", "pistolec", "pistolecmag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
+	export_price = 5000
+
+/datum/techweb_node/solgov_ballistics_advanced
+	id = "solgov_ballistics_advanced"
+	display_name = "Solarian Confederation Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by the Solarian Confederation."
+	prereq_ids = list("solgov_ballistics")
+	design_ids = list("gar", "claris", "ssg669c", "ssg669cmag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+	export_price = 5000
+
+/datum/techweb_node/suns_ballistics
+	id = "suns_ballistics"
+	display_name = "SUNS Ballistics"
+	description = "Ballistics normally manufactured by the Student-Union Association of the Natural Sciences."
+	prereq_ids = list("adv_ballistics", "suns_tech")
+	design_ids = list("modelhsuns")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 3000)
+	export_price = 5000
+
+/datum/techweb_node/suns_ballistics_advanced
+	id = "suns_ballistics_advanced"
+	display_name = "SUNS Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by the Student-Union Association of the Natural Sciences."
+	prereq_ids = list("suns_ballistics")
+	design_ids = list("garsuns", "clarissuns")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
 /datum/techweb_node/pirate_ballistics
@@ -1156,8 +1227,8 @@
 
 /datum/techweb_node/nt_ballistics
 	id = "nt_ballistics"
-	display_name = "Nanotrasen Ballistics"
-	description = "Ballistics normally manufactured by Nanotrasen or their subsidiaries."
+	display_name = "NanoTrasen Ballistics"
+	description = "Ballistics normally manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("adv_ballistics", "nt_tech")
 	design_ids = list("commander")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
@@ -1165,8 +1236,8 @@
 
 /datum/techweb_node/nt_ballistics_advanced
 	id = "nt_ballistics_advanced"
-	display_name = "Nanotrasen Advanced Ballistics"
-	description = "Complex ballistics normally manufactured by Nanotrasen or their subsidiaries."
+	display_name = "NanoTrasen Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("nt_ballistics")
 	design_ids = list("wt550", "mag_oldsmg", "mag_oldsmg_ap", "vector", "saber")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
@@ -1174,8 +1245,8 @@
 
 /datum/techweb_node/nt_lasers
 	id = "nt_lasers"
-	display_name = "Nanotrasen Optics"
-	description = "Energy and laser weapons primarily manufactured by Nanotrasen or their subsidiaries."
+	display_name = "NanoTrasen Optics"
+	description = "Energy and laser weapons primarily manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("adv_beam_weapons", "nt_tech")
 	design_ids = list("laserrifle", "energypistol", "energyrifle")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
@@ -1183,8 +1254,8 @@
 
 /datum/techweb_node/nt_lasers_advanced
 	id = "nt_lasers_advanced"
-	display_name = "Nanotrasen Advanced Optics"
-	description = "Complicated or prototype energy and laser weapons primarily manufactured by Nanotrasen or their subsidiaries."
+	display_name = "NanoTrasen Advanced Optics"
+	description = "Complicated or prototype energy and laser weapons primarily manufactured by NanoTrasen or their subsidiaries."
 	prereq_ids = list("nt_lasers")
 	design_ids = list("energysmg", "energyshotgun", "lasershotgun", "hades")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
@@ -1203,7 +1274,7 @@
 	id = "srm_ballistics"
 	display_name = "Hunter's Pride Ballistics"
 	description = "Ballistics normally manufactured by Hunter's Pride."
-	prereq_ids = list("adv_ballistics")
+	prereq_ids = list("adv_ballistics", "srm_tech")
 	design_ids = list("pepperbox", "doublebarrel", "winchmk2", "detectivespecial", "derringer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
@@ -1239,7 +1310,7 @@
 	id = "so_ballistics"
 	display_name = "Serene Outdoors Ballistics"
 	description = "Ballistics normally manufactured by the Serene Outdoors company."
-	prereq_ids = list("adv_ballistics")
+	prereq_ids = list("adv_ballistics", "serene_tech")
 	design_ids = list("m17", "m17mag", "m12", "m12mag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
