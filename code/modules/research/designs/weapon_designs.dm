@@ -17,20 +17,20 @@
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
 
-/datum/design/c38_hotshot
+/datum/design/hotshotspeedloader
 	name = "Speed Loader (.38 Hearth)"
 	desc = "Designed to quickly reload revolvers. Hot Shot bullets contain an incendiary payload."
-	id = "c38_hotshot"
+	id = "hotshotspeedloader"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000, /datum/material/plasma = 5000)
 	build_path = /obj/item/ammo_box/c38/hotshot
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
 
-/datum/design/c38_iceblox
+/datum/design/icebloxspeedloader
 	name = "Speed Loader (.38 Chilled)"
 	desc = "Designed to quickly reload revolvers. Iceblox bullets contain a cryogenic payload."
-	id = "c38_iceblox"
+	id = "icebloxspeedloader"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000, /datum/material/plasma = 5000)
 	build_path = /obj/item/ammo_box/c38/iceblox
@@ -736,7 +736,7 @@
 
 /datum/design/c38_hotshot
 	name = "Ammo Box (.38 Hotshot)"
-	id = "box_c38hotshot"
+	id = "c38_hotshot"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 15000, /datum/material/plasma = 10000)
 	build_path = /obj/item/storage/box/ammo/c38_hotshot
@@ -745,7 +745,7 @@
 
 /datum/design/c38_iceblox
 	name = "Ammo Box (.38 Iceblox)"
-	id = "box_c38iceblox"
+	id = "c38_iceblox"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 15000, /datum/material/plasma = 10000)
 	build_path = /obj/item/storage/box/ammo/c38_iceblox
