@@ -2774,8 +2774,17 @@
 	name = "Ammo Box (Ferromagnetic Pellet)"
 	id = "ferropellet"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 16000, /datum/material/lead = 2000) 
+	materials = list(/datum/material/iron = 18000) 
 	build_path = /obj/item/storage/box/ammo/ferropellet
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferropellethc
+	name = "Ammo Box (Ferromagnetic Pellet HC)"
+	id = "ferropellethc"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 26000) 
+	build_path = /obj/item/storage/box/ammo/ferropellet/hc
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2783,8 +2792,17 @@
 	name = "Ammo Box (Ferromagnetic Lance)"
 	id = "ferrolance"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 16000, /datum/material/lead = 2000) 
+	materials = list(/datum/material/iron = 18000) 
 	build_path = /obj/item/storage/box/ammo/ferrolance
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferrolancehc
+	name = "Ammo Box (Ferromagnetic Lance HC)"
+	id = "ferrolancehc"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 26000) 
+	build_path = /obj/item/storage/box/ammo/ferrolance/hc
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2882,7 +2900,7 @@
 	name = "Ammo Box (8x58mm)"
 	id = "a858"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/copper = 10000, /datum/material/sulfur = 8000, /datum/material/lead = 2000)
+	materials = list(/datum/material/iron = 20000)
 	build_path = /obj/item/storage/box/ammo/a858
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
