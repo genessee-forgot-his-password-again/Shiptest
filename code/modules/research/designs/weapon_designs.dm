@@ -1591,7 +1591,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntengi
-	name = "NanoTrasen Engineering Hardsuit"
+	name = "Nanotrasen Engineering Hardsuit"
 	id = "hardsuitntengi"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 25000, /datum/material/silver = 6000, /datum/material/titanium = 2000)
@@ -1600,7 +1600,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntatmos
-	name = "NanoTrasen Atmospherics Hardsuit"
+	name = "Nanotrasen Atmospherics Hardsuit"
 	id = "hardsuitntatmos"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 25000, /datum/material/silver = 6000, /datum/material/titanium = 2000, /datum/material/plasma = 6000)
@@ -1609,7 +1609,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntsecurity
-	name = "NanoTrasen Security Hardsuit"
+	name = "Nanotrasen Security Hardsuit"
 	id = "hardsuitntsecurity"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 50000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 4000)
@@ -1618,7 +1618,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntmining
-	name = "NanoTrasen Mining Hardsuit"
+	name = "Nanotrasen Mining Hardsuit"
 	id = "hardsuitntmining"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 2000)
@@ -1627,7 +1627,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntmedical
-	name = "NanoTrasen Medical Hardsuit"
+	name = "Nanotrasen Medical Hardsuit"
 	id = "hardsuitntmedical"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 8000, /datum/material/titanium = 15000)
@@ -1636,7 +1636,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntscience
-	name = "NanoTrasen Research Hardsuit"
+	name = "Nanotrasen Research Hardsuit"
 	id = "hardsuitntscience"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 8000, /datum/material/uranium = 8000)
@@ -1672,7 +1672,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntengiadv
-	name = "NanoTrasen Elite Engineering Hardsuit"
+	name = "Nanotrasen Elite Engineering Hardsuit"
 	id = "hardsuitntengiadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 12000, /datum/material/titanium = 4000, /datum/material/diamond = 2000, /datum/material/uranium = 10000)
@@ -1681,7 +1681,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntsecurityadv
-	name = "NanoTrasen Heavy Security Hardsuit"
+	name = "Nanotrasen Heavy Security Hardsuit"
 	id = "hardsuitntsecurityadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000)
@@ -1690,7 +1690,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntmedicaladv
-	name = "NanoTrasen Advanced Medical Hardsuit"
+	name = "Nanotrasen Advanced Medical Hardsuit"
 	id = "hardsuitntmedicaladv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 60000, /datum/material/glass = 40000, /datum/material/silver = 16000, /datum/material/titanium = 30000)
@@ -1699,7 +1699,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntminingadv
-	name = "NanoTrasen Heavy Mining Hardsuit"
+	name = "Nanotrasen Heavy Mining Hardsuit"
 	id = "hardsuitntminingadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 75000, /datum/material/glass = 40000, /datum/material/silver = 10000, /datum/material/titanium = 4000, /datum/material/diamond = 4000)
@@ -1708,7 +1708,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpcommand
-	name = "NanoTrasen LP-COM Hardsuit"
+	name = "Nanotrasen LP-COM Hardsuit"
 	id = "hardsuitntlpcommand"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -1717,7 +1717,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpengineering
-	name = "NanoTrasen LP-ENGI Hardsuit"
+	name = "Nanotrasen LP-ENGI Hardsuit"
 	id = "hardsuitntlpengineering"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -1726,7 +1726,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpsecurity
-	name = "NanoTrasen LP-SEC Hardsuit"
+	name = "Nanotrasen LP-SEC Hardsuit"
 	id = "hardsuitntlpsecurity"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -1735,7 +1735,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpmedical
-	name = "NanoTrasen LP-MED Hardsuit"
+	name = "Nanotrasen LP-MED Hardsuit"
 	id = "hardsuitntlpmedical"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)

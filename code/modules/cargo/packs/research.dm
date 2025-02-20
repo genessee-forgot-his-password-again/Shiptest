@@ -9,8 +9,8 @@
 	small_item = TRUE
 
 /datum/supply_pack/science/faction_tech/nanotrasen
-	name = "NanoTrasen Equipment Design Drive"
-	desc = "Contains one NanoTrasen Equipment Design Drive."
+	name = "Nanotrasen Equipment Design Drive"
+	desc = "Contains one Nanotrasen Equipment Design Drive."
 	faction = /datum/faction/nt
 	contains = list(/obj/item/faction_tech/nanotrasen)
 
