@@ -3003,3 +3003,39 @@
 	build_path = /obj/item/gun/ballistic/automatic/pistol/m20_auto_elite/inteq
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/m20mag
+	name = ".44 Model 20 Magazine"
+	id = "m20mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m20_auto_elite
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pinschermag
+	name = ".44 Pinscher Magazine"
+	id = "pinschermag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m20_auto_elite/inteq
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/m23
+	name = "Model 23 Sniper Rifle"
+	id = "m23"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 90000, /datum/material/glass = 6000, /datum/material/silver = 4000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/woodsman
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/m23mag
+	name = "8x50mm Model 23 Magazine"
+	id = "m23mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/m23
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
