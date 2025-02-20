@@ -1068,20 +1068,20 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/firestormmag
-	name = "Firestorm .45 Roumain Rifle Magazine"
+	name = "Firestorm .44 Roumain Rifle Magazine"
 	id = "firestormmag"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000)
-	build_path = /obj/item/ammo_box/magazine/c45_firestorm_mag
+	build_path = /obj/item/ammo_box/magazine/c44_firestorm_mag
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/firestormmagextended
-	name = "Firestorm .45 Roumain Rifle Drum"
+	name = "Firestorm .44 Roumain Rifle Drum"
 	id = "firestormmagextended"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000)
-	build_path = /obj/item/ammo_box/magazine/c45_firestorm_mag/pan
+	build_path = /obj/item/ammo_box/magazine/c44_firestorm_mag/pan
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -2594,7 +2594,7 @@
 	id = "hardsuitinteq"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 70000, /datum/material/glass = 30000, /datum/material/silver = 16000, /datum/material/titanium = 4000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/security/independent/inteq
+	build_path = /obj/item/clothing/suit/space/hardsuit/security/inteq
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
