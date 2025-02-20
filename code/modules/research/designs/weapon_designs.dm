@@ -2961,7 +2961,7 @@
 
 /datum/design/hardsuitminingsuns
 	name = "SUNS Industrial Hardsuit"
-	id = "hardsuitmining"
+	id = "hardsuitminingsuns"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 2000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/mining/suns
@@ -2970,7 +2970,7 @@
 
 /datum/design/hardsuitsecuritysuns
 	name = "SUNS Peacekeeper Hardsuit"
-	id = "hardsuitsecurity"
+	id = "hardsuitsecuritysuns"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 50000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 4000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/security/suns
