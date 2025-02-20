@@ -2,6 +2,55 @@
 	group = "Science"
 	crate_type = /obj/structure/closet/crate/science
 
+/datum/supply_pack/science/rdconsole
+	name = "Research And Development Console Circuit Board"
+	desc = "Contains one Research And Development Console circuit board."
+	cost = 1000
+	contains = list(/obj/item/circuitboard/computer/rdconsole)
+
+/datum/supply_pack/science/analyzer
+	name = "Destructive Analyzer Circuit Board"
+	desc = "Contains one Destructive Analyzer circuit board."
+	cost = 500
+	contains = list(/obj/item/circuitboard/machine/destructive_analyzer)
+
+/datum/supply_pack/science/techfab
+	cost = 5000
+
+/datum/supply_pack/science/techfab/security
+	name = "Security Technology Fabricator Circuit Board"
+	desc = "Contains one Security Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/security)
+
+/datum/supply_pack/science/techfab/ballistics
+	name = "Ballistics Technology Fabricator Circuit Board"
+	desc = "Contains one Ballistics Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/ballistics)
+
+/datum/supply_pack/science/techfab/science
+	name = "Science Technology Fabricator Circuit Board"
+	desc = "Contains one Science Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/science)
+
+/datum/supply_pack/science/techfab/cargo
+	name = "Cargo Technology Fabricator Circuit Board"
+	desc = "Contains one Cargo Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/cargo)
+
+/datum/supply_pack/science/techfab/service
+	name = "Service Technology Fabricator Circuit Board"
+	desc = "Contains one Service Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/service)
+
+/datum/supply_pack/science/techfab/medical
+	name = "Medical Technology Fabricator Circuit Board"
+	desc = "Contains one Medical Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/medical)
+
+/datum/supply_pack/science/techfab/engineering
+	name = "Engineering Technology Fabricator Circuit Board"
+	desc = "Contains one Engineering Technology Fabricator circuit board."
+	contains = list(/obj/item/circuitboard/machine/techfab/department/engineering)
 /datum/supply_pack/science/faction_tech
 	faction_discount = 0
 	faction_locked = TRUE
