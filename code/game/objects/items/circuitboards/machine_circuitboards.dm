@@ -1132,6 +1132,11 @@
 	icon_state = "security"
 	build_path = /obj/machinery/rnd/production/techfab/department/security
 
+/obj/item/circuitboard/machine/techfab/department/ballistics
+	name = "\improper Departmental Techfab (Machine Board) - Ballistics"
+	icon_state = "security"
+	build_path = /obj/machinery/rnd/production/techfab/department/ballistics
+
 //Service
 
 /obj/item/circuitboard/machine/biogenerator
