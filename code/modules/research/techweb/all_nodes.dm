@@ -1212,7 +1212,7 @@
 	display_name = "Inteq Ballistics"
 	description = "Ballistics normally manufactured by Inteq Risk Management."
 	prereq_ids = list("adv_ballistics", "inteq_tech")
-	design_ids = list("commissioner", "kingsnake")
+	design_ids = list("commissioner", "pinscher", "pinschermag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
@@ -1221,8 +1221,8 @@
 	display_name = "Inteq Advanced Ballistics"
 	description = "Complex ballistics normally manufactured by Inteq Risk Management."
 	prereq_ids = list("inteq_ballistics")
-	design_ids = list("mongrel", "skm44", "mastiff", "ssg04")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+	design_ids = list("mongrel", "skm44", "mastiff", "ssg04", "kingsnake")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
 	export_price = 5000
 
 /datum/techweb_node/nt_ballistics
@@ -1320,8 +1320,8 @@
 	display_name = "Serene Outdoors Advanced Ballistics"
 	description = "More complicated ballistics normally manufactured by the Serene Outdoors company."
 	prereq_ids = list("so_ballistics")
-	design_ids = list("m11", "m15", "m15mag", "m13")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12500)
+	design_ids = list("m11", "m15", "m15mag", "m13", "m20", "m20mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
 ////////////////////////mech technology////////////////////////
