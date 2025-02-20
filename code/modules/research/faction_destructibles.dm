@@ -10,7 +10,7 @@
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 
 /obj/item/faction_tech/nanotrasen
-	name = "Nanotrasen Design Drive"
+	name = "NanoTrasen Design Drive"
 
 /obj/item/faction_tech/hardliners
 	name = "Gorlex Hardliners Design Drive"
@@ -25,10 +25,10 @@
 	name = "Cybersun Design Drive"
 
 /obj/item/faction_tech/inteq
-	name = "Inteq Design Drive"
+	name = "Inteq Risk Management Group Design Drive"
 
 /obj/item/faction_tech/clip
-	name = "CLIP Design Drive"
+	name = "Confederated League of Independent Planets Design Drive"
 
 /obj/item/faction_tech/pirate
 	name = "Unlicensed Firearms Design Drive"
@@ -40,5 +40,10 @@
 	name = "Hunter's Pride Design Drive"
 
 /obj/item/faction_tech/solgov
-	name = "SolGov Design Drive"
+	name = "The Most Serene Solar and Intersolar Confederation Design Drive"
 
+/obj/item/faction_tech/suns
+	name = "Student-Union Association of the Natural Sciences Design Drive"
+
+/obj/item/faction_tech/serene
+	name = "Serene Outdoors Design Drive"
