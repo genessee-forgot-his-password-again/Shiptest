@@ -842,7 +842,7 @@
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/a308
+/datum/design/a308ap
 	name = "Ammo Box (.308 AP)"
 	id = "a308ap"
 	build_type = PROTOLATHE
@@ -851,7 +851,7 @@
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/a308
+/datum/design/a308hp
 	name = "Ammo Box (.308 HP)"
 	id = "a308hp"
 	build_type = PROTOLATHE

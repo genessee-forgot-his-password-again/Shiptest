@@ -701,7 +701,7 @@
 	id = "grenades"
 	display_name = "Security-Grade Explosives"
 	description = "Chaos in the palms of our hands."
-	prereq_ids = list("explosive_weaponry")
+	prereq_ids = list("explosive_weapons")
 	design_ids = list("grenadesmoke", "grenadeflash")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
