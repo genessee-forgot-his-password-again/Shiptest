@@ -1320,8 +1320,8 @@
 	display_name = "Serene Outdoors Advanced Ballistics"
 	description = "More complicated ballistics normally manufactured by the Serene Outdoors company."
 	prereq_ids = list("so_ballistics")
-	design_ids = list("m11", "m15", "m15mag", "m13", "m20", "m20mag")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
+	design_ids = list("m11", "m15", "m15mag", "m13", "m20", "m20mag", "m23", "m23mag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
 	export_price = 5000
 
 ////////////////////////mech technology////////////////////////
