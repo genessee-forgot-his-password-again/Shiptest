@@ -1274,7 +1274,7 @@
 	id = "srm_ballistics"
 	display_name = "Hunter's Pride Ballistics"
 	description = "Ballistics normally manufactured by Hunter's Pride."
-	prereq_ids = list("adv_ballistics")
+	prereq_ids = list("adv_ballistics", "srm_tech")
 	design_ids = list("pepperbox", "doublebarrel", "winchmk2", "detectivespecial", "derringer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
