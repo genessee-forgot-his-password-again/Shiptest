@@ -122,9 +122,6 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/cargo)
-"bC" = (
-/turf/template_noop,
-/area/ship/cargo)
 "bM" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
@@ -1715,19 +1712,13 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "qm" = (
-/obj/structure/table/reinforced,
 /obj/effect/turf_decal/industrial/fire,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/trash/syndi_cakes{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/obj/item/t_scanner{
-	pixel_x = -2;
-	pixel_y = 12
-	},
 /obj/machinery/light/directional/north,
 /obj/machinery/firealarm/directional/east,
+/obj/machinery/rnd/production/techfab/department/ballistics{
+	pixel_y = 7
+	},
 /turf/open/floor/pod/dark,
 /area/ship/security/armory)
 "qz" = (
@@ -5776,7 +5767,7 @@ CM
 "}
 (11,1,1) = {"
 CM
-bC
+CM
 Ep
 uJ
 es
