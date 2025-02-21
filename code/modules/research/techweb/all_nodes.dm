@@ -764,7 +764,7 @@
 	display_name = "Complex Armor Layering"
 	description = "The idea that you can have multiple layers of protection in a single package is revolutionary."
 	prereq_ids = list("armor")
-	design_ids = list("marinearmorlight", "marinearmormedium", "marinearmorheavy", "marinehelmet", "marinehelmetlight")
+	design_ids = list("marinearmorlight", "marinearmormedium", "marinearmorheavy", "marinehelmet", "marinehelmetlight", "armorvestballistic")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 
@@ -792,6 +792,22 @@
 	display_name = "Nanotrasen Equipment"
 	description = "Equipment produced by Nanotrasen and their subsidiaries."
 	boost_item_paths = list(/obj/item/faction_tech/nanotrasen)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
+	hidden = TRUE
+
+/datum/techweb_node/etherbor
+	id = "etherbor_tech"
+	display_name = "Etherbor Industries Equipment"
+	description = "Equipment produced by Etherbor Industries."
+	boost_item_paths = list(/obj/item/faction_tech/etherbor)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
+	hidden = TRUE
+
+/datum/techweb_node/pgf
+	id = "pgf_tech"
+	display_name = "Pan-Gezena Federation Equipment"
+	description = "Equipment produced by the Pan-Geneza Federation."
+	boost_item_paths = list(/obj/item/faction_tech/pgf)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
 
@@ -925,6 +941,15 @@
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntengiadv", "hardsuitntsecurityadv", "hardsuitntmedicaladv", "hardsuitntminingadv")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
+	export_price = 5000
+
+/datum/techweb_node/pgf_armor
+	id = "pgf_armor"
+	display_name = "Pan-Geneza Federation Protective Equipment"
+	description = "Combat armor produced by the Pan-Geneza Federation."
+	prereq_ids = list("adv_armor", "pgf_tech")
+	design_ids = list("armorvestpgf", "armorvestpgfalt", "helmetpgf", "spacesuitpgf", "spacehelmetpgf")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
 /datum/techweb_node/hl_armor
@@ -1276,6 +1301,24 @@
 	prereq_ids = list("nt_lasers_advanced", "nt_ballistics")
 	design_ids = list("e10", "e11", "e50", "e40", "e40mag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
+/datum/techweb_node/etherbor_lasers
+	id = "etherbor_lasers"
+	display_name = "Etherbor Industries Optics"
+	description = "Energy and laser weapons primarily manufactured by Etherbor Industries."
+	prereq_ids = list("adv_beam_weapons", "etherbor_tech")
+	design_ids = list("sg8", "sg12", "gun_celletherbor")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	export_price = 5000
+
+/datum/techweb_node/etherbor_lasers_advanced
+	id = "etherbor_lasers_advanced"
+	display_name = "Etherbor Industries Advanced Optics"
+	description = "Complicated or prototype energy and laser weapons primarily manufactured by Etherbor Industries."
+	prereq_ids = list("etherbor_lasers")
+	design_ids = list("sg16", "hbg7", "hbg7l", "gun_cellpgf")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
 	export_price = 5000
 
 /datum/techweb_node/srm_ballistics

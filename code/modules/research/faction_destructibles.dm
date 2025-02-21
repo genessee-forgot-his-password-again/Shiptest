@@ -12,6 +12,12 @@
 /obj/item/faction_tech/nanotrasen
 	name = "Nanotrasen Design Drive"
 
+/obj/item/faction_tech/pgf
+	name = "Pan-Gezena Federation Design Drive"
+
+/obj/item/faction_tech/etherbor
+	name = "Etherbor Industries Design Drive"
+
 /obj/item/faction_tech/hardliners
 	name = "Gorlex Hardliners Design Drive"
 
