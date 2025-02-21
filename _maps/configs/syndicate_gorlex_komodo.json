@@ -44,7 +44,7 @@
 			"slots": 1
 		},
 		"Trooper": {
-			"outfit": "/datum/outfit/job/syndicate/security/pajamas",
+			"outfit": "/datum/outfit/job/syndicate/security/unequipped",
 			"slots": 3
 		},
 		"Student Mixologist": {

@@ -945,12 +945,13 @@
 
 	head = /obj/item/clothing/head/helmet/hardliners/swat
 
-/datum/outfit/job/syndicate/security/pajamas
-	name = "Syndicate - Trooper (Pajamas)"
+/datum/outfit/job/syndicate/security/unequipped
+	name = "Syndicate - Trooper (Unequipped)"
 	id_assignment = "Trooper"
 
-	uniform = /obj/item/clothing/under/syndicate/bloodred/sleepytime
-	shoes = /obj/item/clothing/shoes/sandal/slippers
+	uniform = /obj/item/clothing/under/syndicate
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/combat
 	backpack = /obj/item/storage/backpack/security
 	satchel = /obj/item/storage/backpack/satchel/sec
 	duffelbag = /obj/item/storage/backpack/duffelbag/syndie
@@ -958,7 +959,6 @@
 	belt = null
 	suit = null
 	ears = null
-	gloves = null
 	head = null
 	l_pocket = null
 	r_pocket = null

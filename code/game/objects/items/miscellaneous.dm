@@ -175,9 +175,8 @@
 	new /obj/item/storage/belt/security/webbing/hardliners(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses/hardliners(src)
 	new /obj/item/clothing/mask/balaclava/combat(src)
-	new /obj/item/clothing/gloves/combat(src)
-	new /obj/item/clothing/shoes/combat(src)
 	new /obj/item/storage/box/survival/security(src)
+	new /obj/item/clothing/suit/space/hardsuit/syndi/hl(src)
 
 /obj/item/storage/box/syndicate_trooper/republic
 	name = "New Gorlex Republic Trooper Equipment Box"
@@ -190,9 +189,8 @@
 	new /obj/item/storage/belt/security/webbing/ngr(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses/ngr(src)
 	new /obj/item/clothing/mask/balaclava/ngr(src)
-	new /obj/item/clothing/gloves/combat(src)
-	new /obj/item/clothing/shoes/combat(src)
 	new /obj/item/storage/box/survival/security(src)
+	new /obj/item/clothing/suit/space/hardsuit/syndi/ngr(src)
 
 /obj/item/skub
 	desc = "It's skub."
