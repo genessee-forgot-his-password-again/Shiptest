@@ -729,7 +729,7 @@
 	display_name = "Advanced Ballistics"
 	description = "Refined ballistic ammunition for extra combat trauma."
 	prereq_ids = list("ballistic_weapons", "adv_engi")
-	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm", "a8_50r", "a8_50rhp", "skmmag", "skmmagextended", "rattlesnakemag", "a308mag", "a65clip")
+	design_ids = list("ap9mm", "ap10mm", "ap45", "hp9mm", "hp10mm", "hp45", "ap556mmHITP", "hp556mmHITP", "a357", "a357hp", "a44roum", "a44roumhp", "a308", "a308hp", "a308ap", "a762x40", "a762x40ap", "a762x40hp", "speedloada44roum", "speedload357", "stripper762", "speedloadc38", "a4570", "a4570hp", "smgm9mm", "smgm10mm", "a8_50r", "a8_50rhp", "skmmag", "skmmagextended", "rattlesnakemag", "a308mag", "a65clip", "a556_42", "a556_42ap", "a556_42hp")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
 /datum/techweb_node/exotic_ammo
