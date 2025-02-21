@@ -737,7 +737,7 @@
 	display_name = "Exotic Ammunition"
 	description = "They won't know what hit em."
 	prereq_ids = list("adv_weaponry", "medical_weapons")
-	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "hotshotspeedloader", "icebloxspeedloader", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum", "a12gmagextended", "c299", "ferroslug", "ferroslughc", "ferrolance", "ferrolancehc", "ferropellet", "ferropellethc")
+	design_ids = list("techshotshell", "c38_hotshot", "c38_iceblox", "incendiary_slug", "hotshotspeedloader", "icebloxspeedloader", "a357match", "a4570match", "a4570explosive", "a8_50rmatch", "skmmagdrum", "a12gmagextended", "c299", "ferroslug", "ferroslughc", "ferrolance", "ferrolancehc", "ferropellet", "ferropellethc", "modelhmag", "garmag", "clarismag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
