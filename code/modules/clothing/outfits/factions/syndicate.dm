@@ -945,6 +945,25 @@
 
 	head = /obj/item/clothing/head/helmet/hardliners/swat
 
+/datum/outfit/job/syndicate/security/pajamas
+	name = "Syndicate - Trooper (Pajamas)"
+	id_assignment = "Trooper"
+
+	uniform = /obj/item/clothing/under/syndicate/bloodred/sleepytime
+	shoes = /obj/item/clothing/shoes/sandal/slippers
+	backpack = /obj/item/storage/backpack/security
+	satchel = /obj/item/storage/backpack/satchel/sec
+	duffelbag = /obj/item/storage/backpack/duffelbag/syndie
+	courierbag = /obj/item/storage/backpack/messenger/sec
+	belt = null
+	suit = null
+	ears = null
+	gloves = null
+	head = null
+	l_pocket = null
+	r_pocket = null
+
+	box = /obj/item/choice_beacon/syndicate_trooper
 /datum/outfit/job/syndicate/security/ngr
 	name = "Syndicate - Operative (New Gorlex Republic)"
 	id_assignment = "Operative"

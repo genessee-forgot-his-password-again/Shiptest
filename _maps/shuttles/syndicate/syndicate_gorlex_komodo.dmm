@@ -1110,16 +1110,16 @@
 	req_access_txt = "20"
 	},
 /obj/item/clothing/gloves/krav_maga/combatglovesplus,
-/obj/item/clothing/glasses/thermal/eyepatch,
 /obj/item/gun/ballistic/revolver/viper,
 /obj/item/clothing/under/syndicate/sniper,
 /obj/item/ammo_box/a357,
 /obj/item/ammo_box/a357,
 /obj/item/radio/headset/syndicate/alt/leader,
 /obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners/officer,
-/obj/item/clothing/suit/toggle/armor/vest/hardliners,
-/obj/item/clothing/head/hardliners/peaked,
+/obj/item/clothing/glasses/thermal,
+/obj/item/clothing/under/syndicate/ngr/officer,
+/obj/item/clothing/suit/armor/ngr/captain,
+/obj/item/clothing/head/ngr/peaked,
 /turf/open/floor/carpet/black,
 /area/ship/bridge)
 "kD" = (
@@ -3971,24 +3971,48 @@
 /turf/open/floor/plating,
 /area/ship/bridge)
 "MF" = (
+/obj/item/clothing/under/syndicate/suns/alt{
+	pixel_x = -3;
+	pixel_y = 0
+	},
+/obj/item/clothing/under/syndicate/suns/uniform2{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/obj/item/clothing/gloves/suns{
+	pixel_y = -12;
+	pixel_x = 5
+	},
+/obj/item/clothing/shoes/laceup/suns{
+	pixel_y = -11;
+	pixel_x = -5
+	},
+/obj/item/clothing/accessory/waistcoat/suns/ribbon{
+	pixel_y = -4;
+	pixel_x = -11
+	},
+/obj/item/clothing/accessory/waistcoat/suns/poof{
+	pixel_y = -5;
+	pixel_x = 12
+	},
+/obj/item/melee/classic_baton{
+	name = "wooden baton";
+	pixel_y = -4
+	},
 /obj/effect/turf_decal/trimline/transparent/bar/filled/line{
 	dir = 6
 	},
-/obj/structure/closet/wall/red/directional/south{
-	name = "Bartender's locker"
-	},
-/obj/item/clothing/shoes/cowboy/black,
-/obj/item/storage/belt/military/snack,
 /obj/item/storage/pill_bottle/lsd{
 	pixel_x = 9;
 	pixel_y = 5
 	},
-/obj/item/clothing/accessory/waistcoat,
 /obj/item/reagent_containers/food/drinks/shaker{
 	pixel_x = -9;
 	pixel_y = 2
 	},
-/obj/item/clothing/under/suit/waiter/syndicate,
+/obj/structure/closet/wall/red/directional/south{
+	name = "Bartender's locker"
+	},
 /obj/machinery/vending/boozeomat/syndicate_access{
 	density = 0;
 	pixel_x = 32
@@ -4106,9 +4130,6 @@
 /obj/item/clothing/head/helmet/syndie,
 /obj/item/clothing/head/helmet/syndie,
 /obj/item/clothing/head/helmet/syndie,
-/obj/item/clothing/glasses/hud/security/sunglasses/hardliners,
-/obj/item/clothing/glasses/hud/security/sunglasses/hardliners,
-/obj/item/clothing/glasses/hud/security/sunglasses/hardliners,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Nj" = (
@@ -4170,26 +4191,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red_gold,
 /area/ship/crew/dorm)
-"Od" = (
-/obj/structure/closet/secure_closet{
-	anchored = 1;
-	icon_state = "hos";
-	name = "captain's locker";
-	req_access_txt = "20"
-	},
-/obj/item/clothing/gloves/krav_maga/combatglovesplus,
-/obj/item/clothing/glasses/thermal/eyepatch,
-/obj/item/gun/ballistic/revolver/viper,
-/obj/item/clothing/under/syndicate/sniper,
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
-/obj/item/radio/headset/syndicate/alt/leader,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners/officer,
-/obj/item/clothing/suit/toggle/armor/vest/hardliners,
-/obj/item/clothing/head/hardliners/peaked,
-/turf/open/floor/carpet/black,
-/area/template_noop)
 "Oe" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 1
@@ -4916,10 +4917,6 @@
 	pixel_y = 6
 	},
 /obj/item/stack/medical/gauze,
-/obj/item/stack/medical/ointment,
-/obj/item/stack/medical/bruise_pack{
-	pixel_x = 6
-	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -4935,6 +4932,10 @@
 	pixel_y = -3
 	},
 /obj/machinery/power/apc/auto_name/directional/north,
+/obj/item/stack/medical/suture{
+	pixel_x = 6
+	},
+/obj/item/stack/medical/mesh,
 /turf/open/floor/pod/dark,
 /area/ship/medical)
 "VK" = (
@@ -5259,25 +5260,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/holofloor/wood,
 /area/ship/bridge)
-"XY" = (
-/obj/structure/closet/secure_closet{
-	anchored = 1;
-	icon_state = "hos";
-	name = "captain's locker";
-	req_access_txt = "20"
-	},
-/obj/item/clothing/gloves/krav_maga/combatglovesplus,
-/obj/item/clothing/glasses/thermal/eyepatch,
-/obj/item/gun/ballistic/revolver/viper,
-/obj/item/clothing/under/syndicate/sniper,
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
-/obj/item/radio/headset/syndicate/alt/leader,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/suit/armor/vest/capcarapace/syndicate,
-/obj/item/clothing/head/HoS/syndicate,
-/turf/open/floor/carpet/black,
-/area/template_noop)
 "Yb" = (
 /obj/machinery/power/shuttle/engine/electric,
 /obj/structure/cable{
@@ -5601,17 +5583,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/storage/backpack/duffelbag/syndie,
 /obj/item/storage/backpack/duffelbag/syndie,
-/obj/item/clothing/under/syndicate/gorlex,
-/obj/item/clothing/under/syndicate/gorlex,
-/obj/item/clothing/under/syndicate/gorlex,
-/obj/item/clothing/under/syndicate/combat,
-/obj/item/clothing/under/syndicate/combat,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
 	},
-/obj/item/storage/backpack/satchel,
-/obj/item/storage/backpack/satchel,
-/obj/item/storage/backpack/satchel,
+/obj/item/clothing/under/syndicate/hardliners,
+/obj/item/clothing/under/syndicate/hardliners,
+/obj/item/clothing/under/syndicate/hardliners,
+/obj/item/clothing/under/syndicate/ngr,
+/obj/item/clothing/under/syndicate/ngr,
+/obj/item/clothing/under/syndicate/ngr,
+/obj/item/storage/backpack/satchel/sec,
+/obj/item/storage/backpack/satchel/sec,
 /turf/open/floor/holofloor/wood,
 /area/ship/crew/dorm)
 
@@ -6416,7 +6398,7 @@ CM
 CM
 "}
 (41,1,1) = {"
-Od
+CM
 CM
 CM
 CM
@@ -6436,7 +6418,7 @@ CM
 CM
 "}
 (42,1,1) = {"
-XY
+CM
 CM
 CM
 CM
