@@ -2189,7 +2189,7 @@
 	id = "e40"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 100000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000, /datum/material/uranium = 8000, /datum/material/plasma = 20000)
-	build_path = /obj/item/gun/ballistic/automatic/assault/skm/cm24
+	build_path = /obj/item/gun/ballistic/automatic/assault/e40
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
