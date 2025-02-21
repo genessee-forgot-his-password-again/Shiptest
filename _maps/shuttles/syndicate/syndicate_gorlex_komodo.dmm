@@ -193,7 +193,6 @@
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/starboard)
 "dD" = (
-/obj/item/clothing/mask/gas/syndicate,
 /obj/effect/turf_decal/techfloor{
 	dir = 10
 	},
@@ -201,8 +200,6 @@
 	desc = "It's a basic storage unit.";
 	name = "uniform closet"
 	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "dG" = (
@@ -463,7 +460,9 @@
 /obj/machinery/camera/autoname{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
 "fd" = (
@@ -657,7 +656,6 @@
 	dir = 1;
 	layer = 2.8
 	},
-/obj/item/clothing/mask/gas/syndicate,
 /obj/effect/turf_decal/techfloor{
 	dir = 8
 	},
@@ -670,8 +668,6 @@
 	pixel_x = -23;
 	pixel_y = 4
 	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "hk" = (
@@ -1069,7 +1065,9 @@
 /obj/effect/turf_decal/techfloor,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
-/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
 "ko" = (
@@ -3314,20 +3312,16 @@
 	},
 /area/ship/maintenance/starboard)
 "GD" = (
-/obj/item/clothing/mask/gas/syndicate,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /obj/effect/turf_decal/techfloor{
 	dir = 9
 	},
-/obj/item/clothing/mask/balaclava,
 /obj/structure/closet/syndicate{
 	desc = "It's a basic storage unit.";
 	name = "uniform closet"
 	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "GJ" = (
@@ -3536,7 +3530,9 @@
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/effect/turf_decal/techfloor,
 /obj/machinery/light/directional/south,
-/obj/machinery/suit_storage_unit/syndicate,
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security/armory)
 "If" = (
@@ -3850,21 +3846,13 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/aft)
 "Lb" = (
-/obj/item/clothing/neck/scarf/red,
-/obj/item/clothing/mask/bandana/skull,
-/obj/item/clothing/mask/gas/syndicate,
 /obj/effect/turf_decal/techfloor{
 	dir = 10
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
-/obj/structure/closet/syndicate{
-	desc = "It's a basic storage unit.";
-	name = "uniform closet"
-	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners/jumpsuit,
+/obj/item/kirbyplants/random,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "Lj" = (
@@ -4086,17 +4074,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "Nf" = (
-/obj/item/clothing/under/syndicate/combat,
-/obj/item/clothing/mask/gas/syndicate,
 /obj/effect/turf_decal/techfloor{
 	dir = 9
 	},
-/obj/structure/closet/syndicate{
-	desc = "It's a basic storage unit.";
-	name = "uniform closet"
-	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners/jumpsuit,
+/obj/item/kirbyplants/random,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "Ni" = (
@@ -5140,17 +5121,13 @@
 /area/ship/hallway/central)
 "WQ" = (
 /obj/structure/railing,
-/obj/item/clothing/mask/gas/syndicate,
 /obj/effect/turf_decal/techfloor{
 	dir = 8
 	},
-/obj/item/clothing/mask/balaclava,
 /obj/structure/closet/syndicate{
 	desc = "It's a basic storage unit.";
 	name = "uniform closet"
 	},
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/syndicate/hardliners,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "WR" = (
