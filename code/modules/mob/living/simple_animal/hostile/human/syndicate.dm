@@ -295,7 +295,8 @@
 	r_hand = /obj/item/gun/ballistic/automatic/smg/cobra
 	rapid = 3
 	casingtype = /obj/item/ammo_casing/c45
-
+	projectilesound = 'sound/weapons/gun/smg/shot.ogg'
+	r_hand = /obj/item/gun/ballistic/automatic/smg/cobra
 
 /mob/living/simple_animal/hostile/human/ramzi/ranged/space/shotgun
 	name = "Ramzi Clique Breacher"
