@@ -3066,3 +3066,131 @@
 	build_path = /obj/item/storage/box/ammo/a556_42/hp
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/sg8
+	name = "Etherbor SG-8 Laser Pistol"
+	id = "sg8"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 30000, /datum/material/silver = 2000, /datum/material/plasma = 1000, /datum/material/uranium = 1000)
+	build_path = /obj/item/gun/energy/kalix/pistol
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/sg12
+	name = "Etherbor SG-12 Laser Rifle"
+	id = "sg12"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 80000, /datum/material/silver = 4000, /datum/material/plasma = 2000, /datum/material/uranium = 2000)
+	build_path = /obj/item/gun/energy/kalix
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/cm1
+	name = "CM-1 Laser Rifle"
+	id = "cm1"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 80000, /datum/material/silver = 4000, /datum/material/plasma = 2000, /datum/material/uranium = 2000)
+	build_path = /obj/item/gun/energy/kalix/clip
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/sg16
+	name = "Etherbor SG-16 Laser Rifle"
+	id = "sg16"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 100000, /datum/material/silver = 8000, /datum/material/plasma = 4000, /datum/material/uranium = 4000, /datum/material/gold = 1000)
+	build_path = /obj/item/gun/energy/kalix/pgf
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hbg7
+	name = "Etherbor HBG-7 Laser Rifle"
+	id = "hbg7"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 160000, /datum/material/silver = 10000, /datum/material/plasma = 8000, /datum/material/uranium = 6000, /datum/material/gold = 2000, /datum/material/diamond = 500)
+	build_path = /obj/item/gun/energy/kalix/pgf/heavy
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hbg7l
+	name = "Etherbor HBG-7L Laser Rifle"
+	id = "hbg7l"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 70000, /datum/material/glass = 200000, /datum/material/silver = 10000, /datum/material/plasma = 8000, /datum/material/uranium = 6000, /datum/material/gold = 2000, /datum/material/diamond = 2000)
+	build_path = /obj/item/gun/energy/kalix/pgf/heavy/sniper
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/gun_celletherbor
+	name = "Etherbor EWC-5 Cell"
+	id = "gun_celletherbor"
+	build_type = PROTOLATHE | AUTOLATHE
+	materials = list(/datum/material/iron = 800, /datum/material/glass = 100)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/gun/kalix
+	category = list("Misc","Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/gun_cellpgf
+	name = "Etherbor EWC-6m Cell"
+	id = "gun_cellpgf"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 700, /datum/material/gold = 150, /datum/material/silver = 150, /datum/material/glass = 80)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/gun/pgf
+	category = list("Misc","Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestballistic
+	name = "MK1.5 Bulletproof Vest"
+	id = "armorvestballistic"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 10000)
+	build_path = /obj/item/clothing/suit/armor/vest/bulletproof
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacehelmetpgf
+	name = "PGF Softsuit Helmet"
+	id = "spacehelmetpgf"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000, /datum/material/glass = 4000)
+	build_path = /obj/item/clothing/head/helmet/space/gezena
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacesuitpgf
+	name = "PGF Softsuit Body"
+	id = "spacesuitpgf"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12000, /datum/material/glass = 12000)
+	build_path = /obj/item/clothing/suit/space/gezena
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestpgf
+	name = "PGF MK1.5-MR Armor Vest"
+	id = "armorvestpgf"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/gezena/marine
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestpgfalt
+	name = "PGF MK1.5-MRC Armor Vest"
+	id = "armorvestpgfalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 14000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/gezena/marinecoat
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetpgf
+	name = "PGF MK1.5-MR Helmet"
+	id = "helmetpgf"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet/gezena
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
