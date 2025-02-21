@@ -162,7 +162,7 @@
 
 /obj/item/storage/box/syndicate_trooper
 	name = "Syndicate Trooper Equipment Box"
-	desc = "Contains your equipment."
+	desc = "Contains a set of basic equipment for a Syndicate operative."
 
 /obj/item/storage/box/syndicate_trooper/hardliners
 	name = "Gorlex Hardliners Trooper Equipment Box"
