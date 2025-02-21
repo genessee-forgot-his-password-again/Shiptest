@@ -90,6 +90,20 @@
 	faction = /datum/faction/syndicate/cybersun
 	contains = list(/obj/item/faction_tech/cybersun)
 
+/datum/supply_pack/science/faction_tech/pgf
+	name = "Pan-Gezenan Federation Equipment Design Drive"
+	desc = "Contains one PGF Equipment Design Drive."
+	cost = 4000
+	faction = /datum/faction/pgf
+	contains = list(/obj/item/faction_tech/pgf)
+
+/datum/supply_pack/science/faction_tech/etherbor
+	name = "Etherbor Industries Equipment Design Drive"
+	desc = "Contains one PGF Equipment Design Drive."
+	cost = 6000
+	faction = /datum/faction/pgf
+	contains = list(/obj/item/faction_tech/etherbor)
+
 /datum/supply_pack/science/faction_tech/inteq
 	name = "Inteq Risk Management Group Equipment Design Drive"
 	desc = "Contains one Inteq Risk Management Group Equipment Design Drive."
