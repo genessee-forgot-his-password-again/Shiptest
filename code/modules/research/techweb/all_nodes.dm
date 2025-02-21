@@ -948,7 +948,7 @@
 	display_name = "Pan-Geneza Federation Protective Equipment"
 	description = "Combat armor produced by the Pan-Geneza Federation."
 	prereq_ids = list("adv_armor", "pgf_tech")
-	design_ids = list("armorvestpgf", "armorvestntpgfalt", "helmetpgf", "spacesuitpgf", "spacehelmetpgf")
+	design_ids = list("armorvestpgf", "armorvestpgfalt", "helmetpgf", "spacesuitpgf", "spacehelmetpgf")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
