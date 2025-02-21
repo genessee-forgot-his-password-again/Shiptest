@@ -2189,7 +2189,7 @@
 	id = "e40"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 100000, /datum/material/silver = 30000, /datum/material/titanium = 25000, /datum/material/gold = 4000, /datum/material/uranium = 8000, /datum/material/plasma = 20000)
-	build_path = /obj/item/gun/ballistic/automatic/assault/skm/cm24
+	build_path = /obj/item/gun/ballistic/automatic/assault/e40
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -2767,5 +2767,302 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 22000)
 	build_path = /obj/item/storage/box/ammo/ferroslug/hc
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferropellet
+	name = "Ammo Box (Ferromagnetic Pellet)"
+	id = "ferropellet"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 18000) 
+	build_path = /obj/item/storage/box/ammo/ferropellet
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferropellethc
+	name = "Ammo Box (Ferromagnetic Pellet HC)"
+	id = "ferropellethc"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 26000) 
+	build_path = /obj/item/storage/box/ammo/ferropellet/hc
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferrolance
+	name = "Ammo Box (Ferromagnetic Lance)"
+	id = "ferrolance"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 18000) 
+	build_path = /obj/item/storage/box/ammo/ferrolance
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ferrolancehc
+	name = "Ammo Box (Ferromagnetic Lance HC)"
+	id = "ferrolancehc"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 26000) 
+	build_path = /obj/item/storage/box/ammo/ferrolance/hc
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/claris
+	name = "Claris Rifle"
+	id = "claris"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 85000, /datum/material/glass = 18000, /datum/material/silver = 10000, /datum/material/titanium = 6000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/claris
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/clarissuns
+	name = "Claris-SUNS Rifle"
+	id = "clarissuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 85000, /datum/material/glass = 18000, /datum/material/silver = 10000, /datum/material/titanium = 6000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/claris/suns
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/clarismag
+	name = "Ferromagnetic Pellet Claris Speedloader"
+	id = "clarismag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/amagpellet_claris
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/gar
+	name = "Solar 'GAR' SMG"
+	id = "gar"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 30000, /datum/material/titanium = 22000, /datum/material/gold = 8000, /datum/material/plasma = 6000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/gar
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/garsuns
+	name = "Solar 'GAR-SUNS' SMG"
+	id = "garsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 30000, /datum/material/titanium = 22000, /datum/material/gold = 8000, /datum/material/plasma = 6000)
+	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/gar/suns
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/garmag
+	name = "Ferromagnetic Lance GAR Magazine"
+	id = "garmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/gar
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pistolec
+	name = "Pistole C Pistol"
+	id = "pistolec"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 4000, /datum/material/silver = 4000, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/solgov
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pistolecmag
+	name = "5.56mm HITP Pistole C Magazine"
+	id = "pistolecmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/pistol556mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ssg669c
+	name = "SSG-669c Sniper Rifle"
+	id = "ssg669c"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 20000, /datum/material/silver = 6000, /datum/material/diamond = 500, /datum/material/titanium = 6000)
+	build_path = /obj/item/gun/ballistic/rifle/solgov
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/ssg669cmag
+	name = "8x58mm SSG-669c Stripper Clip"
+	id = "ssg669cmag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/a858
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a858
+	name = "Ammo Box (8x58mm)"
+	id = "a858"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/storage/box/ammo/a858
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestsuns
+	name = "SUNS MK1-PC Armor Vest"
+	id = "armorvestsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/armorvestsunsalt
+	name = "SUNS MK1-PCG Armor Vest"
+	id = "armorvestsunsalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/suns/hos
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetsuns
+	name = "SUNS MK1-PC Helmet"
+	id = "helmetsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/welding/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetsunsalt
+	name = "SUNS MK1-PCG Helmet"
+	id = "helmetsunsalt"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/welding/suns/hos
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacehelmetsyndisuns
+	name = "SUNS Softsuit Helmet"
+	id = "spacehelmetsyndisuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 5000, /datum/material/silver = 2000)
+	build_path = /obj/item/clothing/head/helmet/space/syndicate/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/spacesuitsyndisuns
+	name = "SUNS Softsuit Body"
+	id = "spacesuitsyndisuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 14000, /datum/material/silver = 4000)
+	build_path = /obj/item/clothing/suit/space/syndicate/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitminingsuns
+	name = "SUNS Industrial Hardsuit"
+	id = "hardsuitminingsuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 2000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/mining/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitsecuritysuns
+	name = "SUNS Peacekeeper Hardsuit"
+	id = "hardsuitsecuritysuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 4000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/security/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitelitesuns
+	name = "SUNS Elite Hardsuit"
+	id = "hardsuitelitesuns"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/solgov/suns
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/m20
+	name = "Model 20 'Auto Elite' Pistol"
+	id = "m20"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 6000, /datum/material/silver = 3000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/m20_auto_elite
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pinscher
+	name = "PO-20 'Pinscher' Pistol"
+	id = "pinscher"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 6000, /datum/material/silver = 3000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/m20_auto_elite/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/m20mag
+	name = ".44 Model 20 Magazine"
+	id = "m20mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m20_auto_elite
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pinschermag
+	name = ".44 Pinscher Magazine"
+	id = "pinschermag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/m20_auto_elite/inteq
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/m23
+	name = "Model 23 Sniper Rifle"
+	id = "m23"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 90000, /datum/material/glass = 6000, /datum/material/silver = 4000, /datum/material/titanium = 2000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/woodsman
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/m23mag
+	name = "8x50mm Model 23 Magazine"
+	id = "m23mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/ammo_box/magazine/m23
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a556_42
+	name = "Ammo Box (5.56mmx42 CLIP)"
+	id = "a556_42"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000)
+	build_path = /obj/item/storage/box/ammo/a556_42
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a556_42ap
+	name = "Ammo Box (5.56mmx42 CLIP AP)"
+	id = "a556_42ap"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/uranium = 1000)
+	build_path = /obj/item/storage/box/ammo/a556_42/ap
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a556_42hp
+	name = "Ammo Box (5.56mmx42 CLIP HP)"
+	id = "a556_42hp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/silver = 1000)
+	build_path = /obj/item/storage/box/ammo/a556_42/hp
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
