@@ -3039,3 +3039,30 @@
 	build_path = /obj/item/ammo_box/magazine/m23
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/a556_42
+	name = "Ammo Box (5.56mmx42 CLIP)"
+	id = "a556_42"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000)
+	build_path = /obj/item/storage/box/ammo/a556_42
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a556_42ap
+	name = "Ammo Box (5.56mmx42 CLIP AP)"
+	id = "a556_42ap"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/uranium = 1000)
+	build_path = /obj/item/storage/box/ammo/a556_42/ap
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/a556_42hp
+	name = "Ammo Box (5.56mmx42 CLIP HP)"
+	id = "a556_42hp"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/silver = 1000)
+	build_path = /obj/item/storage/box/ammo/a556_42/hp
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
