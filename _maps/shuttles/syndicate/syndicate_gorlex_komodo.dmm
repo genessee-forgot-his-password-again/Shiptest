@@ -71,10 +71,9 @@
 	dir = 1
 	},
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/mask/breath,
-/obj/item/clothing/suit/space/syndicate/black/med,
-/obj/item/clothing/head/helmet/space/syndicate/black/med,
 /obj/machinery/firealarm/directional/south,
+/obj/item/clothing/suit/space/hardsuit/syndi/cybersun/paramed,
+/obj/item/tank/internals/oxygen/red,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/medical)
 "aL" = (
@@ -1716,7 +1715,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/directional/north,
 /obj/machinery/firealarm/directional/east,
-/obj/machinery/rnd/production/techfab/department/ballistics{
+/obj/item/circuitboard/machine/rdserver{
+	pixel_y = 13;
+	pixel_x = 3
+	},
+/obj/machinery/rnd/production/techfab/department/security{
 	pixel_y = 7
 	},
 /turf/open/floor/pod/dark,
@@ -1803,7 +1806,6 @@
 /turf/open/floor/carpet/red_gold,
 /area/ship/crew/dorm)
 "rg" = (
-/obj/item/cautery,
 /obj/structure/table/reinforced,
 /obj/item/healthanalyzer,
 /obj/structure/window/reinforced{
@@ -2072,7 +2074,6 @@
 	},
 /obj/item/trash/energybar,
 /obj/item/trash/popcorn,
-/obj/item/circuitboard/machine/rdserver,
 /obj/item/trash/can/food/beans{
 	pixel_x = 4;
 	pixel_y = -5
@@ -2370,6 +2371,10 @@
 /obj/structure/railing{
 	dir = 10
 	},
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/clothing/suit/space/hardsuit/syndi/hl,
+/obj/item/tank/internals/oxygen/red,
+/obj/item/clothing/mask/gas/syndicate,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "vL" = (
@@ -3847,18 +3852,17 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/hallway/central)
 "Lj" = (
-/obj/item/scalpel{
-	pixel_x = 10;
-	pixel_y = 6
-	},
 /obj/structure/table/reinforced,
-/obj/item/hemostat,
 /obj/machinery/light/directional/west,
 /obj/effect/spawner/random/medical/prosthetic{
 	pixel_x = 6
 	},
 /obj/effect/spawner/random/medical/prosthetic{
 	pixel_x = -6
+	},
+/obj/item/storage/case/surgery{
+	pixel_x = 0;
+	pixel_y = 3
 	},
 /turf/open/floor/pod/dark,
 /area/ship/medical)
@@ -4506,6 +4510,18 @@
 /obj/structure/railing{
 	dir = 9
 	},
+/obj/machinery/suit_storage_unit/inherit{
+	layer = 3.09
+	},
+/obj/item/clothing/suit/space/hardsuit/syndi/ngr{
+	layer = 3.1
+	},
+/obj/item/tank/internals/oxygen/red{
+	layer = 3.1
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	layer = 3.1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Ro" = (
@@ -4888,26 +4904,26 @@
 /obj/item/storage/box/bodybags{
 	pixel_y = 6
 	},
-/obj/item/stack/medical/gauze,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/item/storage/firstaid/brute{
-	pixel_x = -7;
-	pixel_y = 4
-	},
-/obj/item/storage/firstaid/fire{
-	pixel_x = -7;
-	pixel_y = -3
-	},
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/item/stack/medical/suture{
 	pixel_x = 6
 	},
+/obj/item/storage/firstaid/brute{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/stack/medical/gauze,
 /obj/item/stack/medical/mesh,
+/obj/item/storage/firstaid/fire{
+	pixel_x = -7;
+	pixel_y = -3
+	},
 /turf/open/floor/pod/dark,
 /area/ship/medical)
 "VK" = (
@@ -5478,9 +5494,16 @@
 	},
 /obj/item/clothing/under/syndicate/medic/skirt,
 /obj/item/clothing/neck/stethoscope,
-/obj/item/storage/belt/medical,
 /obj/item/clothing/head/helmet/medical,
 /obj/item/clothing/suit/armor/vest/trauma,
+/obj/item/storage/belt/medical/webbing{
+	pixel_x = 4;
+	pixel_y = -5
+	},
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/storage/box/hypospray{
+	pixel_y = 7
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/medical)
 "Zy" = (
