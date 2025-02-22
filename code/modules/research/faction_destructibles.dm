@@ -10,7 +10,7 @@
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 
 /obj/item/faction_tech/nanotrasen
-	name = "NanoTrasen Design Drive"
+	name = "Nanotrasen Design Drive"
 
 /obj/item/faction_tech/pgf
 	name = "Pan-Gezena Federation Design Drive"
