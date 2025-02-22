@@ -144,6 +144,54 @@
 			augment_list[initial(A.name)] = A
 	return augment_list
 
+/obj/item/choice_beacon/syndicate_trooper
+	name = "Syndicate Trooper Equipment Box"
+	desc = "Contains your equipment."
+
+/obj/item/choice_beacon/syndicate_trooper/generate_display_names()
+	var/static/list/equipment_list
+	if(!equipment_list)
+		equipment_list = list()
+		var/list/templist = list(
+		/obj/item/storage/box/syndicate_trooper/hardliners,
+		/obj/item/storage/box/syndicate_trooper/republic)
+		for(var/V in templist)
+			var/atom/A = V
+			equipment_list[initial(A.name)] = A
+	return equipment_list
+
+/obj/item/storage/box/syndicate_trooper
+	name = "Syndicate Trooper Equipment Box"
+	desc = "Contains a set of basic equipment for a Syndicate operative."
+
+/obj/item/storage/box/syndicate_trooper/hardliners
+	name = "Gorlex Hardliners Trooper Equipment Box"
+
+/obj/item/storage/box/syndicate_trooper/hardliners/PopulateContents()
+	new /obj/item/clothing/under/syndicate/hardliners(src)
+	new /obj/item/clothing/suit/armor/hardliners(src)
+	new /obj/item/clothing/head/helmet/hardliners(src)
+	new /obj/item/radio/headset/syndicate/alt(src)
+	new /obj/item/storage/belt/security/webbing/hardliners(src)
+	new /obj/item/clothing/glasses/hud/security/sunglasses/hardliners(src)
+	new /obj/item/clothing/mask/balaclava/combat(src)
+	new /obj/item/storage/box/survival/security(src)
+	new /obj/item/clothing/suit/space/hardsuit/syndi/hl(src)
+
+/obj/item/storage/box/syndicate_trooper/republic
+	name = "New Gorlex Republic Trooper Equipment Box"
+
+/obj/item/storage/box/syndicate_trooper/republic/PopulateContents()
+	new /obj/item/clothing/under/syndicate/ngr(src)
+	new /obj/item/clothing/suit/armor/ngr(src)
+	new /obj/item/clothing/head/helmet/ngr(src)
+	new /obj/item/radio/headset/syndicate/alt(src)
+	new /obj/item/storage/belt/security/webbing/ngr(src)
+	new /obj/item/clothing/glasses/hud/security/sunglasses/ngr(src)
+	new /obj/item/clothing/mask/balaclava/ngr(src)
+	new /obj/item/storage/box/survival/security(src)
+	new /obj/item/clothing/suit/space/hardsuit/syndi/ngr(src)
+
 /obj/item/skub
 	desc = "It's skub."
 	name = "skub"
