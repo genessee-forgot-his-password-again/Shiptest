@@ -1988,6 +1988,7 @@
 #include "code\modules\cargo\blackmarket\blackmarket_items\tech.dm"
 #include "code\modules\cargo\blackmarket\blackmarket_items\tools.dm"
 #include "code\modules\cargo\blackmarket\blackmarket_items\weapons.dm"
+#include "code\modules\cargo\exports\fish.dm"
 #include "code\modules\cargo\exports\materials.dm"
 #include "code\modules\cargo\exports\mining.dm"
 #include "code\modules\cargo\exports\misc.dm"
