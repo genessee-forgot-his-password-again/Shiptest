@@ -28,7 +28,7 @@
 		/obj/item/fish/bass)
 
 /datum/export/fish/rare
-	cost = 6101
+	cost = 4068
 	unit_name = "Rare Fish"
 	export_types = list(
 		/obj/item/fish/donkfish,
@@ -36,6 +36,6 @@
 		/obj/item/fish/firefish)
 
 /datum/export/fish/abomination
-	cost = 10168
+	cost = 7626
 	unit_name = "That Fish"
 	export_types = list(/obj/item/fish/emulsijack)
