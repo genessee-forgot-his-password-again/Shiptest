@@ -1,7 +1,7 @@
 /datum/export/fish
 
 /datum/export/fish/common
-	cost = 509
+	cost = 500
 	unit_name = "Common Fish"
 	export_types = list(
 		/obj/item/fish/clownfish,
@@ -17,7 +17,7 @@
 		/obj/item/fish/plasmatetra)
 
 /datum/export/fish/uncommon
-	cost = 1271
+	cost = 1250
 	unit_name = "Uncommon Fish"
 	export_types = list(
 		/obj/item/fish/trout,
@@ -28,7 +28,7 @@
 		/obj/item/fish/bass)
 
 /datum/export/fish/rare
-	cost = 4068
+	cost = 4000
 	unit_name = "Rare Fish"
 	export_types = list(
 		/obj/item/fish/donkfish,
@@ -36,6 +36,6 @@
 		/obj/item/fish/firefish)
 
 /datum/export/fish/abomination
-	cost = 7626
+	cost = 7500
 	unit_name = "That Fish"
 	export_types = list(/obj/item/fish/emulsijack)
