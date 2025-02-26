@@ -1235,6 +1235,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/outpost/security/armory)
+"ja" = (
+/obj/machinery/selling_pad,
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 10
+	},
+/turf/open/floor/plasteel/patterned,
+/area/outpost/cargo/smeltery)
 "jh" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -2514,10 +2522,6 @@
 /obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plasteel/tech,
 /area/outpost/maintenance/port)
-"qC" = (
-/obj/structure/sign/poster/official/work_for_a_future,
-/turf/closed/indestructible/reinforced,
-/area/outpost/external)
 "qD" = (
 /obj/effect/turf_decal/industrial/warning/fulltile,
 /obj/machinery/door/firedoor/border_only{
@@ -3130,15 +3134,6 @@
 	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/outpost/maintenance/starboard)
-"un" = (
-/obj/machinery/computer/selling_pad_control/outpost{
-	dir = 8
-	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 6
-	},
-/turf/open/floor/plasteel/patterned,
-/area/outpost/cargo/smeltery)
 "uq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3630,14 +3625,6 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/fore)
-"wF" = (
-/obj/machinery/selling_pad,
-/obj/effect/turf_decal/industrial/hatch/yellow,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 10
-	},
-/turf/open/floor/plasteel/patterned,
-/area/outpost/cargo/smeltery)
 "wH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3686,6 +3673,15 @@
 	light_range = 2
 	},
 /area/outpost/exterior)
+"xe" = (
+/obj/machinery/computer/selling_pad_control/outpost{
+	dir = 8
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 6
+	},
+/turf/open/floor/plasteel/patterned,
+/area/outpost/cargo/smeltery)
 "xf" = (
 /obj/effect/turf_decal/borderfloor{
 	dir = 4
@@ -3879,6 +3875,10 @@
 	light_range = 2
 	},
 /area/outpost/exterior)
+"yo" = (
+/obj/structure/sign/poster/official/work_for_a_future,
+/turf/closed/indestructible/reinforced,
+/area/outpost/cargo/smeltery)
 "yp" = (
 /obj/structure/bed{
 	icon_state = "dirty_mattress"
@@ -14307,8 +14307,8 @@ vA
 gX
 Ak
 Ak
-wF
-un
+ja
+xe
 Ak
 Ak
 Nh
@@ -14390,10 +14390,10 @@ Cc
 SG
 Cc
 Cc
-Hf
-qC
-Hf
-Hf
+Ak
+yo
+Ak
+Ak
 Nh
 Uk
 Cq
