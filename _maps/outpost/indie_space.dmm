@@ -8941,6 +8941,14 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/outpost/maintenance/starboard)
+"Tx" = (
+/obj/structure/railing/thin{
+	dir = 1
+	},
+/obj/machinery/selling_pad,
+/obj/effect/turf_decal/industrial/hatch/yellow,
+/turf/open/floor/plasteel/patterned,
+/area/outpost/cargo)
 "Tz" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -10060,6 +10068,10 @@
 "Zb" = (
 /obj/structure/railing/thin{
 	dir = 1
+	},
+/obj/machinery/computer/selling_pad_control/outpost{
+	dir = 2;
+	layer = 3.09
 	},
 /turf/open/floor/plasteel/patterned,
 /area/outpost/cargo)
@@ -18549,7 +18561,7 @@ vw
 Uw
 jo
 TB
-Zb
+Tx
 xh
 PX
 PX
