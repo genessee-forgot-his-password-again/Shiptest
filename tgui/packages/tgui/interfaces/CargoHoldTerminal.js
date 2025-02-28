@@ -40,6 +40,16 @@ export const CargoHoldTerminal = (props, context) => {
                 disabled={!pad}
                 onClick={() => act(sending ? 'stop' : 'send')}
               />
+              <Button.Input
+                content="Withdraw Cash"
+                currentValue={100}
+                defaultValue={100}
+                onCommit={(e, value) =>
+                  act('withdrawCash', {
+                    value: value,
+                  })
+                }
+              />
             </>
           }
         >

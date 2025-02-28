@@ -85,3 +85,6 @@
 /datum/bank_account/ship/New(newname, budget)
 	account_holder = newname
 	adjust_money(budget, CREDIT_LOG_STARTING_MONEY)
+
+/datum/bank_account/outpost
+	add_to_accounts = FALSE
