@@ -13,6 +13,9 @@
 	I.buffer = src
 	return TRUE
 
+/obj/machinery/selling_pad/outpost
+	name = "export pad"
+
 /obj/machinery/computer/selling_pad_control
 	name = "cargo hold control terminal"
 	circuit = /obj/item/circuitboard/computer/selling_pad_control
@@ -200,13 +203,14 @@
 	deltimer(sending_timer)
 
 /obj/machinery/computer/selling_pad_control/outpost
-	name = "cargo hold control terminal"
+	name = "export pad control terminal"
 	circuit = null
 	var/datum/bank_account/outpost/outpost_account
 
 /obj/machinery/computer/selling_pad_control/outpost/Initialize()
 	..()
 	outpost_account=new()
+	return INITIALIZE_HINT_LATELOAD
 
 /obj/machinery/computer/selling_pad_control/outpost/connect_to_shuttle()
 	sell_account = outpost_account
