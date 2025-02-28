@@ -2207,7 +2207,7 @@
 	id = "hardsuitgm"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000, /datum/material/plasma = 10000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2216,7 +2216,7 @@
 	id = "hardsuitgmrusted"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 15000, /datum/material/titanium = 4000, /datum/material/gold = 2000, /datum/material/plasma = 6000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/hl
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/ramzi
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2225,7 +2225,7 @@
 	id = "hardsuitgmadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/hl
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
