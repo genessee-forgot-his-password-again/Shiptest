@@ -631,10 +631,10 @@
 /turf/open/floor/plasteel/grimy,
 /area/outpost/maintenance/starboard)
 "dE" = (
-/obj/structure/chair/bench/beige/directional/south,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
 "dI" = (
@@ -2706,10 +2706,9 @@
 /turf/open/floor/plasteel/dark,
 /area/outpost/cargo/office)
 "nf" = (
-/obj/machinery/selling_pad,
-/obj/effect/turf_decal/industrial/hatch/yellow,
-/turf/open/floor/plasteel/patterned,
-/area/outpost/cargo)
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel/grimy,
+/area/outpost/hallway/central)
 "ng" = (
 /obj/structure/chair,
 /obj/effect/landmark/ert_outpost_spawn,
@@ -3104,9 +3103,11 @@
 	},
 /area/outpost/hallway/central)
 "oR" = (
-/obj/structure/chair/bench/beige/directional/north,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
+	},
+/obj/structure/chair/bench/beige/directional/south{
+	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
@@ -5580,10 +5581,10 @@
 /turf/open/floor/plasteel,
 /area/outpost/hallway/central)
 "BF" = (
-/obj/structure/chair/bench/beige/directional/south,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
 "BG" = (
@@ -5814,8 +5815,8 @@
 /turf/open/floor/plasteel/tech/techmaint,
 /area/outpost/maintenance/starboard)
 "CN" = (
-/obj/structure/chair/bench/beige/directional/south,
 /obj/machinery/light/dim/directional/north,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
 "CR" = (
@@ -6522,8 +6523,11 @@
 /turf/open/floor/plating,
 /area/outpost/maintenance/starboard)
 "GJ" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/grimy,
+/obj/effect/turf_decal/industrial/warning/cee{
+	dir = 2
+	},
+/obj/machinery/selling_pad/outpost,
+/turf/open/floor/plasteel/dark,
 /area/outpost/hallway/central)
 "GL" = (
 /obj/effect/landmark/outpost/elevator{
@@ -6845,8 +6849,10 @@
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/outpost/storage)
 "Ie" = (
-/obj/structure/chair/bench/beige/directional/north,
 /obj/machinery/light/dim/directional/south,
+/obj/structure/chair/bench/beige/directional/south{
+	dir = 1
+	},
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
 "If" = (
@@ -7665,9 +7671,11 @@
 /turf/open/floor/wood,
 /area/outpost/crew/library)
 "MH" = (
-/obj/structure/chair/bench/beige/directional/north,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
+	},
+/obj/structure/chair/bench/beige/directional/south{
+	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
@@ -8597,6 +8605,11 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/rust,
 /area/outpost/maintenance/central)
+"Ro" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/industrial/caution,
+/turf/open/floor/plasteel/grimy,
+/area/outpost/hallway/central)
 "Rs" = (
 /obj/structure/cable/yellow{
 	icon_state = "6-8"
@@ -8934,8 +8947,11 @@
 /turf/closed/indestructible/reinforced,
 /area/outpost/cargo/office)
 "Tm" = (
-/obj/item/kirbyplants/random,
 /obj/machinery/newscaster/directional/north,
+/obj/machinery/computer/selling_pad_control/outpost{
+	dir = 2;
+	layer = 3.09
+	},
 /turf/open/floor/plasteel/grimy,
 /area/outpost/hallway/central)
 "To" = (
@@ -9376,6 +9392,11 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/outpost/maintenance/starboard)
+"Vp" = (
+/obj/structure/window/reinforced/fulltile/indestructable,
+/obj/structure/grille/indestructable,
+/turf/open/floor/plating,
+/area/outpost/hallway/central)
 "Vq" = (
 /obj/structure/bed/double/maint{
 	dir = 4
@@ -10078,10 +10099,6 @@
 "Zb" = (
 /obj/structure/railing/thin{
 	dir = 1
-	},
-/obj/machinery/computer/selling_pad_control/outpost{
-	dir = 2;
-	layer = 3.09
 	},
 /turf/open/floor/plasteel/patterned,
 /area/outpost/cargo)
@@ -16249,14 +16266,14 @@ Yo
 Jc
 XG
 TJ
-GJ
+nf
 Yd
 ks
 ks
 ks
 ks
 ks
-Yd
+Vp
 Tm
 RK
 oX
@@ -16379,7 +16396,7 @@ ks
 ks
 ks
 ks
-Yd
+Vp
 CN
 RK
 cy
@@ -16495,16 +16512,16 @@ oK
 xp
 yO
 TJ
-GJ
+nf
 Yd
 ks
 ks
 ks
 ks
 ks
-Yd
+Vp
 GJ
-RK
+Ro
 oX
 nJ
 bH
@@ -18571,7 +18588,7 @@ vw
 Uw
 jo
 re
-nf
+Lr
 xh
 PX
 PX
