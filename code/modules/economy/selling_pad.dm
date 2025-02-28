@@ -13,6 +13,9 @@
 	I.buffer = src
 	return TRUE
 
+/obj/machinery/selling_pad/outpost
+	name = "export pad"
+
 /obj/machinery/computer/selling_pad_control
 	name = "cargo hold control terminal"
 	circuit = /obj/item/circuitboard/computer/selling_pad_control
@@ -75,7 +78,7 @@
 	data["status_report"] = status_report
 	return data
 
-/obj/machinery/computer/selling_pad_control/ui_act(action, params)
+/obj/machinery/computer/selling_pad_control/ui_act(action, params, datum/tgui/ui)
 	. = ..()
 	if(.)
 		return
@@ -83,8 +86,11 @@
 		return
 
 	switch(action)
+		if("withdrawCash")
+			withdraw(params)
+			. = TRUE
 		if("recalc")
-			recalc()
+			recalc(params)
 			. = TRUE
 		if("send")
 			start_sending()
@@ -93,6 +99,19 @@
 			stop_sending()
 			. = TRUE
 
+/obj/machinery/computer/selling_pad_control/proc/withdraw(params)
+	var/val = text2num(params["value"])
+	// no giving yourself money
+	if(!sell_account || !val || val <= 0)
+		return
+	if(sell_account.adjust_money(-val, CREDIT_LOG_WITHDRAW))
+		var/obj/item/holochip/cash_chip = new /obj/item/holochip(drop_location(), val)
+		if(ishuman(usr))
+			var/mob/living/carbon/human/user = usr
+			user.put_in_hands(cash_chip)
+		playsound(src, 'sound/machines/twobeep_high.ogg', 50, TRUE)
+		src.visible_message("<span class='notice'>[src] dispenses a holochip.</span>")
+	return TRUE
 /obj/machinery/computer/selling_pad_control/proc/recalc()
 	if(sending)
 		return
@@ -182,3 +201,23 @@
 	status_report = "Ready for delivery."
 	sell_pad.icon_state = "lpad-idle-o"
 	deltimer(sending_timer)
+
+/obj/machinery/computer/selling_pad_control/outpost
+	name = "export pad control terminal"
+	circuit = null
+	var/datum/bank_account/outpost/outpost_account
+
+/obj/machinery/computer/selling_pad_control/outpost/Initialize()
+	..()
+	outpost_account=new()
+	return INITIALIZE_HINT_LATELOAD
+
+/obj/machinery/computer/selling_pad_control/outpost/connect_to_shuttle()
+	sell_account = outpost_account
+
+/obj/machinery/computer/selling_pad_control/outpost/try_connect()
+	if(!pad)
+		var/obj/machinery/selling_pad/sell_pad = locate() in range(4,src)
+		pad = WEAKREF(sell_pad)
+	if(!sell_account)
+		sell_account = outpost_account
