@@ -60,6 +60,9 @@ then the player gets the profit from selling his own wasted time.
 			if(ismob(thing))
 				thing.investigate_log("deleted through cargo export",INVESTIGATE_CARGO)
 	if(!dry_run)
+		for(var/i in reverseRange(contents))
+			var/atom/movable/thing = i
+			qdel(thing)
 		qdel(AM)
 
 	return report
