@@ -112,6 +112,7 @@
 		playsound(src, 'sound/machines/twobeep_high.ogg', 50, TRUE)
 		src.visible_message("<span class='notice'>[src] dispenses a holochip.</span>")
 	return TRUE
+
 /obj/machinery/computer/selling_pad_control/proc/recalc()
 	if(sending)
 		return
