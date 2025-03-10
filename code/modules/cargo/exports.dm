@@ -93,7 +93,7 @@ then the player gets the profit from selling his own wasted time.
 	STOP_PROCESSING(SSprocessing, src)
 	return ..()
 
-/datum/export/process()
+/datum/export/process(seconds_per_tick)
 	. = ..()
 	if(!k_elasticity)
 		return PROCESS_KILL
