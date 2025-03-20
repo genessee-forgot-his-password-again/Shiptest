@@ -119,7 +119,7 @@
 /datum/supply_pack/science/faction_tech/pirate
 	name = "Unlicensed Firearms Design Drive"
 	desc = "Contains one Unlicensed Firearms Design Drive."
-	faction = /datum/faction/frontier
+	faction = /datum/faction/frontiersmen
 	contains = list(/obj/item/faction_tech/pirate)
 
 /datum/supply_pack/science/faction_tech/pirate/independent
