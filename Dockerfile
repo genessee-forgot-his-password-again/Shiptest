@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1 wagagagaga
+# syntax=docker/dockerfile:1 wagagagagag
 FROM beestation/byond:515.1633 as base
 
 # Install the tools needed to compile our rust dependencies
