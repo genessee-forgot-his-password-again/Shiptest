@@ -2547,9 +2547,7 @@
 	pixel_x = -4
 	},
 /obj/effect/mob_spawn/human/corpse/inteq/vanguard/tradepost,
-/obj/effect/landmark/mission_poi/main{
-	already_spawned = 1
-	},
+/obj/effect/landmark/mission_poi/main,
 /turf/open/floor/wood/walnut,
 /area/ruin/wasteplanet/tradepost/center)
 "Cq" = (

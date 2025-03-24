@@ -380,7 +380,7 @@
 	desc = "A screen displaying various entertainment channels. I hope they have that new Gezenan sitcom on this."
 	icon = 'icons/obj/status_display.dmi'
 	icon_state = "entertainment_blank"
-	network = list("IntraNet")
+	network = list("thunder")
 	density = FALSE
 	circuit = null
 	interaction_flags_atom = NONE  // interact() is called by BigClick()
@@ -397,9 +397,13 @@
 
 	INVOKE_ASYNC(src, TYPE_PROC_REF(/atom, interact), usr)
 
-/obj/machinery/computer/security/telescreen/entertainment/proc/notify(on, string="IntraNet is proud to present the latest in unique content!")
+/obj/machinery/computer/security/telescreen/entertainment/proc/notify(on)
 	if(on && icon_state == icon_state_off)
-		say(string)
+		say(pick(
+			"Feats of bravery live now at the thunderdome!",
+			"Two enter, one leaves! Tune in now!",
+			"Violence like you've never seen it before!",
+			"Spears! Camera! Action! LIVE NOW!"))
 		icon_state = icon_state_on
 	else
 		icon_state = icon_state_off
