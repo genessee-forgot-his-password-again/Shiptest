@@ -250,9 +250,9 @@
 			)
 			if(prob(20))
 				l_pocket = /obj/item/reagent_containers/food/snacks/meat/steak/goliath
-			else if(prob(60))
+			else if(prob(100))
 				l_pocket = /obj/item/ammo_box/a762_stripper
-			if(prob(20))
+			if(prob(100))
 				new /obj/item/gun/ballistic/rifle/polymer(loc)
 			else
 				visible_message(span_warning("The hermit's weapon shatters as they impact the ground!"))
@@ -278,9 +278,9 @@
 			)
 			if(prob(30))
 				shoes = /obj/item/clothing/shoes/combat //sometimes there are nicer shoes
-			if(prob(50))
+			if(prob(100))
 				l_pocket = /obj/item/ammo_box/magazine/skm_46_30/recycled
-			if(prob(20))
+			if(prob(100))
 				new /obj/item/gun/ballistic/automatic/smg/skm_carbine(loc)
 			else
 				visible_message(span_warning("The hermit's weapon shatters as they impact the ground!"))
@@ -300,7 +300,7 @@
 				)
 			)
 			shoes = /obj/item/clothing/shoes/workboots
-			if(prob(50)) // Hilarious, ain't it?
+			if(prob(100)) // Hilarious, ain't it?
 				new /obj/item/gun/energy/e_gun/e11 (loc)
 			else
 				visible_message(span_warning("The trooper's weapon shatters as they impact the ground!"))
