@@ -58,14 +58,13 @@
 		/obj/effect/mob_spawn/human/corpse/damaged/whitesands/gunslinger,
 	)
 
-/mob/living/simple_animal/hostile/human/hermit/ranged/e11 // Intended for the e11_manufactory ruin.
+/mob/living/simple_animal/hostile/human/hermit/ranged/e11
 	name = "Hermit Trooper"
-	desc = "Quality weapons are hard to get by in the sandworlds, which forces many survivors to improvise with that they have. This one is hoping that an E-11 of all things will save his life."
+	desc = "Quality weapons are hard to get by in the sandworlds, which forces many survivors to improvise with that they have. This one is hoping that an E-11 of all things will save their life."
 	icon_state = "survivor_e11"
 	icon_living = "survivor_e11"
 	projectilesound = 'sound/weapons/gun/laser/e-fire.ogg'
 	speed = 10
-	faction = list("eoehoma")
 	rapid_fire_delay = 1
 	casingtype = null
 	projectiletype = /obj/projectile/beam/laser/eoehoma/hermit
