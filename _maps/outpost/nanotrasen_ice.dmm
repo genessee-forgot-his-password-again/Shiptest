@@ -908,7 +908,7 @@
 	},
 /area/outpost/exterior)
 "gs" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "ice_sec1_window"
 	},
@@ -1461,7 +1461,7 @@
 	},
 /area/outpost/maintenance/starboard)
 "lb" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /obj/machinery/atmospherics/pipe/layer_manifold/visible{
 	dir = 4
 	},
@@ -2576,7 +2576,7 @@
 /turf/open/floor/plasteel/tech,
 /area/outpost/crew/cryo)
 "qE" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "ice_sec2_window"
 	},
@@ -3738,7 +3738,7 @@
 /area/outpost/exterior)
 "xh" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/telecomms/allinone/indestructable,
+/obj/machinery/telecomms/allinone/indestructible,
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/plasteel/telecomms_floor,
 /area/outpost/security/checkpoint)
@@ -4707,7 +4707,7 @@
 /turf/open/floor/plasteel/tech,
 /area/outpost/security/checkpoint)
 "Eh" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /obj/machinery/door/poddoor/shutters/indestructible{
 	id = "ice_exterior_airlock"
 	},
@@ -6062,7 +6062,7 @@
 /turf/open/floor/plating,
 /area/outpost/maintenance/fore)
 "NA" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
 /area/outpost/maintenance/fore)
 "NG" = (
@@ -6879,7 +6879,7 @@
 	},
 /area/outpost/exterior)
 "SD" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /turf/open/floor/plating,
 /area/outpost/cargo/smeltery)
 "SG" = (
@@ -7298,7 +7298,7 @@
 /turf/open/floor/plating,
 /area/outpost/vacant_rooms/shop)
 "VI" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "ice_bar_window"
 	},
@@ -7959,7 +7959,7 @@
 	},
 /area/outpost/vacant_rooms/shop)
 "YO" = (
-/obj/effect/spawner/structure/window/reinforced/indestructable,
+/obj/effect/spawner/structure/window/reinforced/indestructible,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "ice_lounge_window"
 	},
