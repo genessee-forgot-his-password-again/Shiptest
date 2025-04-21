@@ -2005,7 +2005,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/cmf90mag
-	name = "6.5x57mm CM-F90 Magazine"
+	name = "7.5x64mm CM-F90 Magazine"
 	id = "cmf90mag"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 14000)
@@ -2013,12 +2013,12 @@
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
-/datum/design/a65clip
-	name = "Ammo Box (6.5x57mm CLIP)"
-	id = "a65clip"
+/datum/design/a75clip
+	name = "Ammo Box (7.5x64mm CLIP)"
+	id = "a75clip"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000)
-	build_path = /obj/item/storage/box/ammo/a65clip
+	build_path = /obj/item/storage/box/ammo/a75clip
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2419,7 +2419,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/boomslangmag
-	name = "6.5x57mm Boomslang Magazine"
+	name = "7.5x64mm Boomslang Magazine"
 	id = "boomslangmag"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000)
@@ -2428,7 +2428,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/boomslangmagextended
-	name = "6.5x57mm Boomslang Extended Magazine"
+	name = "7.5x64mm Boomslang Extended Magazine"
 	id = "boomslangmagextended"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000)
