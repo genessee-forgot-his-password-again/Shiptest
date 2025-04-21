@@ -51,11 +51,11 @@
 	name = "Engineering Technology Fabricator Circuit Board"
 	desc = "Contains one Engineering Technology Fabricator circuit board."
 	contains = list(/obj/item/circuitboard/machine/techfab/department/engineering)
+
 /datum/supply_pack/science/faction_tech
 	faction_discount = 0
 	faction_locked = TRUE
 	cost = 8000
-	small_item = TRUE
 
 /datum/supply_pack/science/faction_tech/nanotrasen
 	name = "Nanotrasen Equipment Design Drive"
