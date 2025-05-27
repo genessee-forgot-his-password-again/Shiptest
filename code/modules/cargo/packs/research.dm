@@ -1,5 +1,5 @@
 /datum/supply_pack/science
-	group = "Science"
+	category = "Science"
 	crate_type = /obj/structure/closet/crate/science
 
 /datum/supply_pack/science/rdconsole

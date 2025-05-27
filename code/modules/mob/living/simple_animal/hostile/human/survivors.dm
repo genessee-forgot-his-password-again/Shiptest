@@ -248,7 +248,7 @@
 				)
 			)
 			if(prob(20))
-				l_pocket = /obj/item/reagent_containers/food/snacks/meat/steak/goliath
+				l_pocket = /obj/item/food/meat/slab/goliath
 			else if(prob(100))
 				l_pocket = /obj/item/ammo_box/a762_stripper
 			if(prob(100))
