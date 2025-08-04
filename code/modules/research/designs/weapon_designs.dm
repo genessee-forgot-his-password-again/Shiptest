@@ -1559,7 +1559,7 @@
 	id = "spacehelmetsyndi"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 8000, /datum/material/glass = 5000, /datum/material/silver = 2000)
-	build_path = /obj/item/clothing/head/helmet/space/syndicate/black/red
+	build_path = /obj/item/clothing/head/helmet/space/syndicate
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1568,7 +1568,7 @@
 	id = "spacesuitsyndi"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000, /datum/material/glass = 14000, /datum/material/silver = 4000)
-	build_path = /obj/item/clothing/suit/space/syndicate/black/red
+	build_path = /obj/item/clothing/suit/space/syndicate
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2774,7 +2774,7 @@
 	name = "Ammo Box (Ferromagnetic Pellet)"
 	id = "ferropellet"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 18000) 
+	materials = list(/datum/material/iron = 18000)
 	build_path = /obj/item/storage/box/ammo/ferropellet
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
@@ -2783,7 +2783,7 @@
 	name = "Ammo Box (Ferromagnetic Pellet HC)"
 	id = "ferropellethc"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 26000) 
+	materials = list(/datum/material/iron = 26000)
 	build_path = /obj/item/storage/box/ammo/ferropellet/hc
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
@@ -2792,7 +2792,7 @@
 	name = "Ammo Box (Ferromagnetic Lance)"
 	id = "ferrolance"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 18000) 
+	materials = list(/datum/material/iron = 18000)
 	build_path = /obj/item/storage/box/ammo/ferrolance
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
@@ -2801,7 +2801,7 @@
 	name = "Ammo Box (Ferromagnetic Lance HC)"
 	id = "ferrolancehc"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 26000) 
+	materials = list(/datum/material/iron = 26000)
 	build_path = /obj/item/storage/box/ammo/ferrolance/hc
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
