@@ -211,8 +211,7 @@
 //WT550 Mags
 
 /datum/design/mag_oldsmg
-	name = "WT-550 Auto Gun Magazine (4.6x30mm)"
-	desc = "A 20 round magazine for the out of date security WT-550 Auto Rifle"
+	name = "Resolution magazine (4.6x30mm)"
 	id = "mag_oldsmg"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 4000)
@@ -221,16 +220,15 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/mag_oldsmg/ap_mag
-	name = "WT-550 Auto Gun Armour Piercing Magazine (4.6x30mm AP)"
-	desc = "A 20 round armour piercing magazine for the out of date security WT-550 Auto Rifle"
+	name = "Resolution AP magazine (4.6x30mm AP)"
 	id = "mag_oldsmg_ap"
 	materials = list(/datum/material/iron = 6000, /datum/material/silver = 600)
 	build_path = /obj/item/ammo_box/magazine/wt550m9/ap
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/commanderammo
-	name = "Commander magazine (9x18mm)"
-	desc = "A single stack magazine chambered in 9x18mm for Commander sidearms."
+	name = "Challenger magazine (9x18mm)"
+	desc = "A single stack magazine chambered in 9x18mm for Challenger sidearms."
 	id = "commanderammo"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 15000)
@@ -1139,29 +1137,29 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/commander
-	name = "Commander Pistol"
+	name = "PS9 Challenger Pistol"
 	id = "commander"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 6000, /datum/material/silver = 2000, /datum/material/titanium = 1000)
-	build_path = /obj/item/gun/ballistic/automatic/pistol/commander
+	build_path = /obj/item/gun/ballistic/automatic/pistol/challenger
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/wt550
-	name = "WT-550 SMG"
+	name = "Advantage PD46 Resolution SMG"
 	id = "wt550"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 60000, /datum/material/glass = 10000, /datum/material/silver = 10000, /datum/material/titanium = 2000)
-	build_path = /obj/item/gun/ballistic/automatic/smg/wt550
+	build_path = /obj/item/gun/ballistic/automatic/smg/resolution
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/vector
-	name = "Vector SMG"
+	name = "Advantage SGL9 SMG"
 	id = "vector"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 20000, /datum/material/silver = 14000, /datum/material/titanium = 4000, /datum/material/gold = 500)
-	build_path = /obj/item/gun/ballistic/automatic/smg/vector
+	build_path = /obj/item/gun/ballistic/automatic/smg/expedition
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -1179,7 +1177,7 @@
 	id = "smgm9mm"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 8000)
-	build_path = /obj/item/ammo_box/magazine/smgm9mm
+	build_path = /obj/item/ammo_box/magazine/m9mm_expedition
 	category = list("Ammo")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -1193,7 +1191,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/laserrifle
-	name = "L-204 Laser Rifle"
+	name = "E-20 Mining Emitter"
 	id = "laserrifle"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 20000, /datum/material/silver = 2000)
@@ -1202,49 +1200,49 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/energyrifle
-	name = "Energy Rifle"
+	name = "X12 Variable Energy Carbine"
 	id = "energyrifle"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000, /datum/material/glass = 40000, /datum/material/silver = 3000, /datum/material/plasma = 2000)
-	build_path = /obj/item/gun/energy/e_gun
+	build_path = /obj/item/gun/energy/sharplite/x12
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/energypistol
-	name = "Energy Pistol"
+	name = "X26 Variable Energy Pistol"
 	id = "energypistol"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 15000, /datum/material/silver = 1500, /datum/material/plasma = 1000)
-	build_path = /obj/item/gun/energy/e_gun/mini
+	build_path = /obj/item/gun/energy/sharplite/x26
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/energysmg
-	name = "E-TAR Energy SMG"
-	id = "energysmg"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 30000, /datum/material/glass = 50000, /datum/material/silver = 6000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
-	build_path = /obj/item/gun/energy/e_gun/smg
-	category = list("Weapons")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+///datum/design/energysmg
+//	name = "E-TAR Energy SMG"
+//	id = "energysmg"
+//	build_type = PROTOLATHE
+//	materials = list(/datum/material/iron = 30000, /datum/material/glass = 50000, /datum/material/silver = 6000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
+//	build_path = /obj/item/gun/energy/e_gun/smg
+//	category = list("Weapons")
+//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/lasershotgun
-	name = "E-SG 255 Laser Shotgun"
-	id = "lasershotgun"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 40000, /datum/material/glass = 50000, /datum/material/silver = 4000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
-	build_path = /obj/item/gun/energy/laser/iot/lethal
-	category = list("Weapons")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+///datum/design/lasershotgun
+//	name = "E-SG 255 Laser Shotgun"
+//	id = "lasershotgun"
+//	build_type = PROTOLATHE
+//	materials = list(/datum/material/iron = 40000, /datum/material/glass = 50000, /datum/material/silver = 4000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
+//	build_path = /obj/item/gun/energy/laser/iot/lethal
+//	category = list("Weapons")
+//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/energyshotgun
-	name = "E-SG 500 Energy Shotgun"
-	id = "energyshotgun"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 40000, /datum/material/glass = 55000, /datum/material/silver = 6000, /datum/material/plasma = 12000, /datum/material/gold = 5000)
-	build_path = /obj/item/gun/energy/e_gun/iot
-	category = list("Weapons")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+///datum/design/energyshotgun
+//	name = "E-SG 500 Energy Shotgun"
+//	id = "energyshotgun"
+//	build_type = PROTOLATHE
+//	materials = list(/datum/material/iron = 40000, /datum/material/glass = 55000, /datum/material/silver = 6000, /datum/material/plasma = 12000, /datum/material/gold = 5000)
+//	build_path = /obj/item/gun/energy/e_gun/iot
+//	category = list("Weapons")
+//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/disabler
 	name = "Disabler Pistol"
@@ -1625,15 +1623,6 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/hardsuitntscience
-	name = "Nanotrasen Research Hardsuit"
-	id = "hardsuitntscience"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 8000, /datum/material/uranium = 8000)
-	build_path = /obj/item/clothing/suit/space/hardsuit/rd
-	category = list("Equipment")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
 /datum/design/armordusternt
 	name = "Vigilitas MK1-VID Armored Duster"
 	id = "armordusternt"
@@ -1801,7 +1790,7 @@
 	id = "commissioner"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 6000, /datum/material/silver = 2000, /datum/material/titanium = 1000)
-	build_path = /obj/item/gun/ballistic/automatic/pistol/commander/inteq
+	build_path = /obj/item/gun/ballistic/automatic/pistol/challenger/inteq
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -2085,11 +2074,11 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/marinehelmetlightclip
-	name = "CLIP MK2-L-CM Helmet"
+	name = "CLIP MK1-L-CM Helmet"
 	id = "marinehelmetlightclip"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 12000, /datum/material/glass = 2000, /datum/material/titanium = 500)
-	build_path = /obj/item/clothing/head/helmet/bulletproof/m10/clip_vc
+	build_path = /obj/item/clothing/head/helmet/m10/clip_vc
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2116,7 +2105,7 @@
 	id = "marinehelmetlight"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 12000, /datum/material/glass = 2000, /datum/material/titanium = 500)
-	build_path = /obj/item/clothing/head/helmet/bulletproof/m10
+	build_path = /obj/item/clothing/head/helmet/m10
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2548,7 +2537,7 @@
 	id = "helmetinteq"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
-	build_path = /obj/item/clothing/head/helmet/inteq
+	build_path = /obj/item/clothing/head/helmet/m10/inteq
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -3172,7 +3161,7 @@
 	id = "armorvestpgfalt"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 14000, /datum/material/glass = 2000)
-	build_path = /obj/item/clothing/suit/armor/gezena/marinecoat
+	build_path = /obj/item/clothing/suit/armor/gezena
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
