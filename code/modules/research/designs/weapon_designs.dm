@@ -1253,14 +1253,14 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/hades
-	name = "AL-655 'Hades' Energy Rifle"
-	id = "hades"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 50000, /datum/material/glass = 75000, /datum/material/silver = 10000, /datum/material/plasma = 20000, /datum/material/gold = 8000, /datum/material/titanium = 4000)
-	build_path = /obj/item/gun/energy/e_gun/hades
-	category = list("Weapons")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+///datum/design/hades
+//	name = "AL-655 'Hades' Energy Rifle"
+//	id = "hades"
+///	build_type = PROTOLATHE
+//	materials = list(/datum/material/iron = 50000, /datum/material/glass = 75000, /datum/material/silver = 10000, /datum/material/plasma = 20000, /datum/material/gold = 8000, /datum/material/titanium = 4000)
+//	build_path = /obj/item/gun/energy/e_gun/hades
+//	category = list("Weapons")
+//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/gun_cell_mini
 	name = "Miniature Weapon Power Cell"
