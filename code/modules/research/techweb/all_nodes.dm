@@ -1333,7 +1333,7 @@
 	display_name = "Saint-Roumain Advanced Ballistics"
 	description = "Specialty ballistics normally manufactured by Hunter's Pride."
 	prereq_ids = list("srm_ballistics")
-	design_ids = list("absolution", "candor", "illestren", "brimstone", "firestorm", "firestormmag", "firestormmagextended")
+	design_ids = list("absolution", "candor", "illestren", "brimstone", "firestorm", "firestormmag", "firestormmagextended", "pyre", "beacon", "vickland", "vicklandmag")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
@@ -1342,7 +1342,7 @@
 	display_name = "Saint-Roumain Specialty Shotguns"
 	description = "Advanced shotguns normally manufactured by Hunter's Pride."
 	prereq_ids = list("srm_special")
-	design_ids = list("conflagration", "hellfire")
+	design_ids = list("conflagration", "hellfire", "twobore", "twoboreround")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 

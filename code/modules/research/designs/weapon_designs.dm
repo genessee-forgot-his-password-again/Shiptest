@@ -626,6 +626,46 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
+/datum/design/vickland
+	name = "Vickland Marksman Rifle"
+	desc = "An unusual Vickland marksman rifle. Chambered in 8x50mmR."
+	id = "vickland"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 8000, /datum/material/gold = 1000)
+	build_path = /obj/item/gun/ballistic/automatic/marksman/vickland
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/vicklandmag
+	name = "Vickland Stripper Clip (8x50mmR)"
+	desc = "A stripperclip of 8x50mmR."
+	id = "vickland"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 1000)
+	build_path = /obj/item/ammo_box/vickland_a8_50r
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/pyre
+	name = "Pyre Lever-action Rifle"
+	desc = "An exceptionally powerful Pyre rifle meant for extreme self-defense. Chambered in .45-70."
+	id = "pyre"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 15000, /datum/material/glass = 4000, /datum/material/silver = 6000, /datum/material/gold = 1000)
+	build_path = /obj/item/gun/ballistic/shotgun/flamingarrow/pyre
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/beacon
+	name = "Beacon Break-action Rifle"
+	desc = "A civilian-grade Beacon rifle. Chambered in .45-70."
+	id = "beacon"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 3000, /datum/material/silver = 3000)
+	build_path = /obj/item/gun/ballistic/shotgun/doublebarrel/beacon
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
 /datum/design/pepperbox
 	name = "Pepperbox Handgun"
 	desc = "A very old and outdated type of gun."
@@ -635,6 +675,25 @@
 	build_path = /obj/item/gun/ballistic/revolver/firebrand
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/twobore
+	name = "Huntsman Rifle"
+	desc = "A massive 'rifle' chambered in custom two-bore shells."
+	id = "twobore"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 2500, /datum/material/silver = 8000, /datum/material/gold = 1000)
+	build_path = /obj/item/gun/ballistic/shotgun/doublebarrel/twobore
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
+
+/datum/design/twoboreround
+	name = "Huntsman Round (Two-Bore)"
+	id = "twobore_round"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 1000)
+	build_path = /obj/item/ammo_casing/shotgun/buckshot/twobore
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY | DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/montagne
 	name = "Montagne Revolver"
@@ -647,7 +706,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
 /datum/design/stripper762
-	name = "8x50mmR Stripperclip"
+	name = "Illestren Stripper Clip (8x50mmR)"
 	desc = "A stripperclip of 8x50mmR."
 	id = "stripper762"
 	build_type = PROTOLATHE
