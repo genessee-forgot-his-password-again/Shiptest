@@ -1687,7 +1687,7 @@
 	id = "armordusternt"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 15000, /datum/material/glass = 2000)
-	build_path = /obj/item/clothing/suit/armor/nanotrasen/sec_director
+//	build_path = /obj/item/clothing/suit/armor/nanotrasen/sec_director
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1696,7 +1696,7 @@
 	id = "armorvestnt"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
-	build_path = /obj/item/clothing/suit/armor/nanotrasen
+//	build_path = /obj/item/clothing/suit/armor/nanotrasen
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1705,7 +1705,7 @@
 	id = "armorvestntalt"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
-	build_path = /obj/item/clothing/suit/armor/nanotrasen/slim
+//	build_path = /obj/item/clothing/suit/armor/nanotrasen/slim
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2650,7 +2650,7 @@
 	id = "helmetcybersun"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
-	build_path = /obj/item/clothing/head/helmet/medical
+//	build_path = /obj/item/clothing/head/helmet/medical
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2659,7 +2659,7 @@
 	id = "armorvestcybersun"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
-	build_path = /obj/item/clothing/suit/armor/vest/trauma
+//	build_path = /obj/item/clothing/suit/armor/vest/trauma
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2668,7 +2668,7 @@
 	id = "marinearmorcoatmediumcybersun"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 16000, /datum/material/titanium = 8000)
-	build_path = /obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+//	build_path = /obj/item/clothing/suit/armor/vest/capcarapace/cybersun
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2776,7 +2776,7 @@
 	id = "modelhsuns"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 24000, /datum/material/glass = 10000, /datum/material/silver = 8000, /datum/material/titanium = 2000)
-	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/modelh/suns
+//	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/modelh/suns
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -2858,7 +2858,7 @@
 	id = "clarissuns"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 85000, /datum/material/glass = 18000, /datum/material/silver = 10000, /datum/material/titanium = 6000, /datum/material/gold = 2000)
-	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/claris/suns
+//	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/claris/suns
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 
@@ -2885,7 +2885,7 @@
 	id = "garsuns"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 30000, /datum/material/titanium = 22000, /datum/material/gold = 8000, /datum/material/plasma = 6000)
-	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/gar/suns
+//	build_path = /obj/item/gun/ballistic/automatic/powered/gauss/gar/suns
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_BALLISTICS
 

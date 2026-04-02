@@ -60,7 +60,7 @@
 /datum/supply_pack/science/faction_tech/nanotrasen
 	name = "Nanotrasen Equipment Design Drive"
 	desc = "Contains one Nanotrasen Equipment Design Drive."
-	faction = /datum/faction/nt
+	faction = null //fix this later
 	contains = list(/obj/item/faction_tech/nanotrasen)
 
 /datum/supply_pack/science/faction_tech/scarborough
@@ -145,7 +145,7 @@
 	name = "Student-Union Association of the Natural Sciences Equipment Design Drive"
 	desc = "Contains one Student-Union Association of the Natural Sciences Equipment Design Drive."
 	cost = 6000
-	faction = /datum/faction/syndicate/suns
+	faction = null //fix this later
 	contains = list(/obj/item/faction_tech/suns)
 
 /datum/supply_pack/science/faction_tech/serene
