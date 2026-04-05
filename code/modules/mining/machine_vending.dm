@@ -45,6 +45,24 @@
 		"Mining Conscription Kit" = /obj/item/storage/backpack/duffelbag/mining_conscript,
 		)
 
+/obj/machinery/vending/mining_equipment/consumables
+	name = "frontier ration vendor"
+	desc = "A vending machine which stocks assorted medical supplies and food in exchange for mining points. Sold by EXOCOM."
+	default_price = 20
+	extra_price = 100
+	products = list(
+		/obj/item/spacecash/bundle/c100 = 10000,
+		/obj/item/food/ration/bar/quik_energy_bar_chocolate = 75,
+		/obj/item/stack/medical/suture = 50,
+		/obj/item/stack/medical/mesh = 50,
+		/obj/item/stack/medical/gauze = 50,
+		/obj/item/stack/medical/splint = 50
+	)
+	premium = list(
+		/obj/item/spacecash/bundle/c500 = 10000,
+		/obj/item/storage/ration/beef_strips = 50
+	)
+
 /obj/machinery/vending/mining_equipment/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/mining_voucher))
 		RedeemVoucher(I, user)
