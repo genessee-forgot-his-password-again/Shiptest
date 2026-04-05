@@ -778,8 +778,8 @@
 ////////////////////////Faction technology////////////////////////
 /datum/techweb_node/nanotrasen
 	id = "nt_tech"
-	display_name = "Nanotrasen Equipment"
-	description = "Equipment produced by Nanotrasen and their subsidiaries."
+	display_name = "Makosso-Warra Equipment"
+	description = "Equipment produced by Makosso-Warra and their subsidiaries."
 	boost_item_paths = list(/obj/item/faction_tech/nanotrasen)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 0)
 	hidden = TRUE
@@ -901,14 +901,14 @@
 	display_name = "Nanotrasen Protective Equipment"
 	description = "Combat armor produced by Nanotrasen and their subsidiaries."
 	prereq_ids = list("adv_armor", "nt_tech")
-	design_ids = list("armorvestnt", "armorvestntalt", "armordusternt")
+	design_ids = list("armorvestnt", "armorvestntalt")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/nt_armor_advanced
 	id = "nt_armor_advanced"
-	display_name = "Nanotrasen Advanced Protective Equipment"
-	description = "Complex and pressure-proof combat armor produced by Nanotrasen and their subsidiaries."
+	display_name = "Makosso-Warra Advanced Protective Equipment"
+	description = "Complex and pressure-proof combat armor produced by Makosso-Warra and their subsidiaries."
 	prereq_ids = list("adv_eva", "nt_armor")
 	design_ids = list("hardsuitntengi", "hardsuitntmining", "hardsuitntatmos", "hardsuitntsecurity", "hardsuitntscience", "hardsuitntmedical")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
@@ -916,8 +916,8 @@
 
 /datum/techweb_node/nt_armor_lp
 	id = "nt_armor_lp"
-	display_name = "Nanotrasen Loss Prevention Equipment"
-	description = "Combat-grade armor used primarily by Nanotrasen Loss Prevention squads."
+	display_name = "Makosso-Warra Loss Prevention Equipment"
+	description = "Combat-grade armor used primarily by Makosso-Warra Loss Prevention squads."
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntlpengineering", "hardsuitntlpmedical", "hardsuitntlpcommand", "hardsuitntlpsecurity")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
@@ -925,8 +925,8 @@
 
 /datum/techweb_node/nt_armor_experimental
 	id = "nt_armor_experimental"
-	display_name = "Nanotrasen Experimental Protective Equipment"
-	description = "Armor which was only produced by Nanotrasen and their subsidiaries either in limited quantities or in a purely prototypical setting."
+	display_name = "Makosso-Warra Experimental Protective Equipment"
+	description = "Armor which was only produced by Makosso-Warra and their subsidiaries either in limited quantities or in a purely prototypical setting."
 	prereq_ids = list("nt_armor_advanced")
 	design_ids = list("hardsuitntengiadv", "hardsuitntsecurityadv", "hardsuitntmedicaladv", "hardsuitntminingadv")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
@@ -1045,17 +1045,26 @@
 	display_name = "Cybersun Protective Equipment"
 	description = "Combat armor produced by Cybersun Solutions."
 	prereq_ids = list("adv_armor", "cybersun_tech")
-	design_ids = list("helmetcybersun", "armorvestcybersun")
+	design_ids = list("helmetcybersun", "armorvestcybersun", "helmetcybersuntrauma", "armorvestcybersuntrauma")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 	export_price = 5000
 
 /datum/techweb_node/cybersun_armor_advanced
 	id = "cybersun_armor_advanced"
-	display_name = "Gorlex Hardliners Advanced Protective Equipment"
+	display_name = "Cybersun Advanced Protective Equipment"
 	description = "Complicated combat armor produced by Cybersun Solutions."
 	prereq_ids = list("cybersun_armor")
-	design_ids = list("hardsuitcybersun", "hardsuitcybersunparamedic", "marinearmorcoatmediumcybersun")
+	design_ids = list("hardsuitcybersun", "hardsuitcybersunparamedic")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
+	export_price = 5000
+
+/datum/techweb_node/cybersun_armor_experimental
+	id = "cybersun_armor_experimental"
+	display_name = "Cybersun Advanced Protective Equipment"
+	description = "Profoundly complex armor designs produced by Cybersun Solutions."
+	prereq_ids = list("cybersun_armor_advanced")
+	design_ids = list("hardsuitcybersunstealth")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12500)
 	export_price = 5000
 
 /datum/techweb_node/inteq_armor
@@ -1074,6 +1083,15 @@
 	prereq_ids = list("inteq_armor", "integrated_HUDs")
 	design_ids = list("hardsuitinteq", "hardsuitinteqadv", "marinearmordustermediuminteq", "sechudinteq")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 22500)
+	export_price = 5000
+
+/datum/techweb_node/inteq_armor_experimental
+	id = "inteq_armor_experimental"
+	display_name = "Inteq Experimental Protective Equipment"
+	description = "Profoundly complicated and expensive combat armor produced by Inteq Risk Management."
+	prereq_ids = list("inteq_armor_advanced")
+	design_ids = list("hardsuitinteqelite", "hardsuitinteqstealth")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 20000)
 	export_price = 5000
 
 /datum/techweb_node/clip_armor
@@ -1231,26 +1249,26 @@
 
 /datum/techweb_node/inteq_ballistics
 	id = "inteq_ballistics"
-	display_name = "Inteq Ballistics"
-	description = "Ballistics normally manufactured by Inteq Risk Management."
+	display_name = "Inteq Munitions"
+	description = "Assorted weapons normally manufactured by Inteq Risk Management."
 	prereq_ids = list("adv_ballistics", "inteq_tech")
-	design_ids = list("commissioner", "pinscher", "pinschermag")
+	design_ids = list("commissioner", "pinscher", "pinschermag", "energyrifleinteq")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/inteq_ballistics_advanced
 	id = "inteq_ballistics_advanced"
-	display_name = "Inteq Advanced Ballistics"
-	description = "Complex ballistics normally manufactured by Inteq Risk Management."
+	display_name = "Inteq Advanced Munitions"
+	description = "Complex weapons normally manufactured by Inteq Risk Management."
 	prereq_ids = list("inteq_ballistics")
-	design_ids = list("mongrel", "skm44", "mastiff", "ssg04", "kingsnake")
+	design_ids = list("mongrel", "skm44", "mastiff", "ssg04", "kingsnake", "hadesinteq")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
 	export_price = 5000
 
 /datum/techweb_node/nt_ballistics
 	id = "nt_ballistics"
-	display_name = "Nanotrasen Ballistics"
-	description = "Ballistics normally manufactured by Nanotrasen or their subsidiaries."
+	display_name = "Makosso-Warra Ballistics"
+	description = "Ballistics normally manufactured by Makosso-Warra or their subsidiaries."
 	prereq_ids = list("adv_ballistics", "nt_tech")
 	design_ids = list("commander")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
@@ -1258,8 +1276,8 @@
 
 /datum/techweb_node/nt_ballistics_advanced
 	id = "nt_ballistics_advanced"
-	display_name = "Nanotrasen Advanced Ballistics"
-	description = "Complex ballistics normally manufactured by Nanotrasen or their subsidiaries."
+	display_name = "Makosso-Warra Advanced Ballistics"
+	description = "Complex ballistics normally manufactured by Makosso-Warra or their subsidiaries."
 	prereq_ids = list("nt_ballistics")
 	design_ids = list("wt550", "mag_oldsmg", "mag_oldsmg_ap", "vector", "saber")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12000)
@@ -1267,20 +1285,29 @@
 
 /datum/techweb_node/nt_lasers
 	id = "nt_lasers"
-	display_name = "Nanotrasen Optics"
-	description = "Energy and laser weapons primarily manufactured by Nanotrasen or their subsidiaries."
+	display_name = "Makosso-Warra Optics"
+	description = "Energy and laser weapons primarily manufactured by Makosso-Warra or their subsidiaries."
 	prereq_ids = list("adv_beam_weapons", "nt_tech")
-	design_ids = list("laserrifle", "energypistol", "energyrifle")
+	design_ids = list("l204", "energypistol", "energyrifle", "gun_cell_minisharplite", "gun_cellsharplite")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 	export_price = 5000
 
 /datum/techweb_node/nt_lasers_advanced
 	id = "nt_lasers_advanced"
-	display_name = "Nanotrasen Advanced Optics"
-	description = "Complicated or prototype energy and laser weapons primarily manufactured by Nanotrasen or their subsidiaries."
+	display_name = "Makosso-Warra Advanced Optics"
+	description = "Complicated or prototype energy and laser weapons primarily manufactured by Makosso-Warra or their subsidiaries."
 	prereq_ids = list("nt_lasers")
-	design_ids = list("energysmg", "energyshotgun", "lasershotgun", "hades")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 17500)
+	design_ids = list("x11", "energyshotgun", "l305", "gun_cell_upgradedsharplite")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 12500)
+	export_price = 5000
+
+/datum/techweb_node/nt_lasers_special
+	id = "nt_lasers_special"
+	display_name = "Makosso-Warra Specialized Optics"
+	description = "Unique, specialized energy and laser weapons primarily manufactured by Makosso-Warra or their subsidiaries."
+	prereq_ids = list("nt_lasers_advanced")
+	design_ids = list("x01", "l201", "hades", "al607")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 15000)
 	export_price = 5000
 
 /datum/techweb_node/nt_lasers_eoehoma
@@ -1288,7 +1315,7 @@
 	display_name = "Eoehoma Archived Designs"
 	description = "Designs formerly produced by the now-defunct Eoehoma company."
 	prereq_ids = list("nt_lasers_advanced", "nt_ballistics")
-	design_ids = list("e10", "e11", "e50", "e40", "e40mag")
+	design_ids = list("e10", "e11", "e50", "e40", "e40mag", "laserrifle")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
 	export_price = 5000
 

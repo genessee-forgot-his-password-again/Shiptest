@@ -1258,12 +1258,30 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/l204
+	name = "L204 Plasma Rifle"
+	id = "laserrifle"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12500, /datum/material/glass = 20000, /datum/material/silver = 2000, /datum/material/plasma = 1000)
+	build_path = /obj/item/gun/energy/sharplite/l201/l204
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/energyrifle
 	name = "X12 Variable Energy Carbine"
 	id = "energyrifle"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 20000, /datum/material/glass = 40000, /datum/material/silver = 3000, /datum/material/plasma = 2000)
 	build_path = /obj/item/gun/energy/sharplite/x12
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/energyrifleinteq
+	name = "Cadejo Energy Carbine"
+	id = "energyrifleinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000, /datum/material/glass = 40000, /datum/material/silver = 3000, /datum/material/plasma = 2000)
+	build_path = /obj/item/gun/energy/sharplite/x12/inteq
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1276,6 +1294,51 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/x11
+	name = "X11 Advanced Stopping Pistol"
+	id = "x11"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 20000, /datum/material/silver = 2000, /datum/material/plasma = 1500)
+	build_path = /obj/item/gun/energy/sharplite/x11
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/x01
+	name = "X01 Heavy Variable Pistol"
+	id = "energypistol"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 12500, /datum/material/glass = 20000, /datum/material/silver = 4000, /datum/material/plasma = 4000, /datum/material/titanium = 4000, /datum/material/gold = 2000)
+	build_path = /obj/item/gun/energy/sharplite/x11
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/l305
+	name = "L305 Tactical Plasma Gun"
+	id = "l305"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 50000, /datum/material/silver = 8000, /datum/material/plasma = 7500, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/energy/sharplite/l305
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/l201
+	name = "L201 Marksman Plasma Rifle"
+	id = "l201"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 80000, /datum/material/silver = 12500, /datum/material/plasma = 10000, /datum/material/titanium = 6000, /datum/material/gold = 6000, /datum/material/diamond = 2000)
+	build_path = /obj/item/gun/energy/sharplite/l201
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/al607
+	name = "AL607 Plasma Accelerator"
+	id = "al607"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 60000, /datum/material/glass = 90000, /datum/material/silver = 20000, /datum/material/plasma = 15000, /datum/material/titanium = 8000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/bluespace = 2000)
+	build_path = /obj/item/gun/energy/sharplite/al607
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 ///datum/design/energysmg
 //	name = "E-TAR Energy SMG"
 //	id = "energysmg"
@@ -1285,23 +1348,14 @@
 //	category = list("Weapons")
 //	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-///datum/design/lasershotgun
-//	name = "E-SG 255 Laser Shotgun"
-//	id = "lasershotgun"
-//	build_type = PROTOLATHE
-//	materials = list(/datum/material/iron = 40000, /datum/material/glass = 50000, /datum/material/silver = 4000, /datum/material/plasma = 10000, /datum/material/gold = 4000)
-//	build_path = /obj/item/gun/energy/laser/iot/lethal
-//	category = list("Weapons")
-//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
-///datum/design/energyshotgun
-//	name = "E-SG 500 Energy Shotgun"
-//	id = "energyshotgun"
-//	build_type = PROTOLATHE
-//	materials = list(/datum/material/iron = 40000, /datum/material/glass = 55000, /datum/material/silver = 6000, /datum/material/plasma = 12000, /datum/material/gold = 5000)
-//	build_path = /obj/item/gun/energy/e_gun/iot
-//	category = list("Weapons")
-//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+/datum/design/energyshotgun
+	name = "X46 Variable Energy Blaster"
+	id = "energyshotgun"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 40000, /datum/material/glass = 55000, /datum/material/silver = 6000, /datum/material/plasma = 12000, /datum/material/gold = 5000)
+	build_path = /obj/item/gun/energy/sharplite/x46
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/disabler
 	name = "Disabler Pistol"
@@ -1312,14 +1366,23 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-///datum/design/hades
-//	name = "AL-655 'Hades' Energy Rifle"
-//	id = "hades"
-///	build_type = PROTOLATHE
-//	materials = list(/datum/material/iron = 50000, /datum/material/glass = 75000, /datum/material/silver = 10000, /datum/material/plasma = 20000, /datum/material/gold = 8000, /datum/material/titanium = 4000)
-//	build_path = /obj/item/gun/energy/e_gun/hades
-//	category = list("Weapons")
-//	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+/datum/design/hades
+	name = "AL-655 Assault Plasma Rifle"
+	id = "hades"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 75000, /datum/material/silver = 10000, /datum/material/plasma = 20000, /datum/material/gold = 8000, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/energy/sharplite/al655
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hadesinteq
+	name = "Barghest Assault Plasma Rifle"
+	id = "hadesinteq"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 50000, /datum/material/glass = 75000, /datum/material/silver = 10000, /datum/material/plasma = 20000, /datum/material/gold = 8000, /datum/material/titanium = 4000)
+	build_path = /obj/item/gun/energy/sharplite/al655/inteq
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/gun_cell_mini
 	name = "Miniature Weapon Power Cell"
@@ -1328,6 +1391,38 @@
 	materials = list(/datum/material/iron = 300, /datum/material/glass = 50)
 	construction_time=100
 	build_path = /obj/item/stock_parts/cell/gun/mini/empty
+	category = list("Misc","Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/gun_cell_minisharplite
+	name = "Sharplite Miniature Weapon Power Cell"
+	id = "gun_cell_minisharplite"
+	build_type = PROTOLATHE | AUTOLATHE
+	materials = list(/datum/material/iron = 300, /datum/material/glass = 100)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/gun/sharplite/mini/empty
+	category = list("Misc","Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/gun_cellsharplite
+	name = "Sharplite Weapon Power Cell"
+	desc = "A power cell for weapons holds 10 MJ of energy."
+	id = "gun_cellsharplite"
+	build_type = PROTOLATHE | AUTOLATHE
+	materials = list(/datum/material/iron = 200, /datum/material/glass = 70)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/gun/sharplite/empty
+	category = list("Misc","Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/gun_cell_upgradedsharplite
+	name = "Advanced Sharplite Weapon Power Cell"
+	desc = "A upgraded power cell for weapons holds 20 MJ of energy."
+	id = "gun_cell_upgradedsharplite"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200, /datum/material/gold = 150, /datum/material/silver = 150, /datum/material/glass = 80)
+	construction_time=100
+	build_path = /obj/item/stock_parts/cell/gun/sharplite/plus/empty
 	category = list("Misc","Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_SECURITY
 
@@ -1638,7 +1733,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntengi
-	name = "Nanotrasen Engineering Hardsuit"
+	name = "Makosso-Warra Engineering Hardsuit"
 	id = "hardsuitntengi"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 25000, /datum/material/silver = 6000, /datum/material/titanium = 2000)
@@ -1647,7 +1742,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntatmos
-	name = "Nanotrasen Atmospherics Hardsuit"
+	name = "Makosso-Warra Atmospherics Hardsuit"
 	id = "hardsuitntatmos"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 40000, /datum/material/glass = 25000, /datum/material/silver = 6000, /datum/material/titanium = 2000, /datum/material/plasma = 6000)
@@ -1656,7 +1751,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntsecurity
-	name = "Nanotrasen Security Hardsuit"
+	name = "Makosso-Warra Security Hardsuit"
 	id = "hardsuitntsecurity"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 50000, /datum/material/glass = 30000, /datum/material/silver = 10000, /datum/material/titanium = 4000)
@@ -1665,7 +1760,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntmining
-	name = "Nanotrasen Mining Hardsuit"
+	name = "Makosso-Warra Mining Hardsuit"
 	id = "hardsuitntmining"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 5000, /datum/material/titanium = 2000)
@@ -1674,20 +1769,11 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntmedical
-	name = "Nanotrasen Medical Hardsuit"
+	name = "Makosso-Warra Medical Hardsuit"
 	id = "hardsuitntmedical"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 30000, /datum/material/glass = 20000, /datum/material/silver = 8000, /datum/material/titanium = 15000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/medical
-	category = list("Equipment")
-	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
-
-/datum/design/armordusternt
-	name = "Vigilitas MK1-VID Armored Duster"
-	id = "armordusternt"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 15000, /datum/material/glass = 2000)
-//	build_path = /obj/item/clothing/suit/armor/nanotrasen/sec_director
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1696,7 +1782,7 @@
 	id = "armorvestnt"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
-//	build_path = /obj/item/clothing/suit/armor/nanotrasen
+	build_path = /obj/item/clothing/suit/armor/warra
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -1705,12 +1791,12 @@
 	id = "armorvestntalt"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
-//	build_path = /obj/item/clothing/suit/armor/nanotrasen/slim
+	build_path = /obj/item/clothing/suit/armor/warra/slim
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntengiadv
-	name = "Nanotrasen Elite Engineering Hardsuit"
+	name = "Makosso-Warra Elite Engineering Hardsuit"
 	id = "hardsuitntengiadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 50000, /datum/material/silver = 12000, /datum/material/titanium = 4000, /datum/material/diamond = 2000, /datum/material/uranium = 10000)
@@ -1719,7 +1805,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntsecurityadv
-	name = "Nanotrasen Heavy Security Hardsuit"
+	name = "Makosso-Warra Heavy Security Hardsuit"
 	id = "hardsuitntsecurityadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/gold = 4000)
@@ -1728,7 +1814,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntmedicaladv
-	name = "Nanotrasen Advanced Medical Hardsuit"
+	name = "Makosso-Warra Advanced Medical Hardsuit"
 	id = "hardsuitntmedicaladv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 60000, /datum/material/glass = 40000, /datum/material/silver = 16000, /datum/material/titanium = 30000)
@@ -1737,7 +1823,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntminingadv
-	name = "Nanotrasen Heavy Mining Hardsuit"
+	name = "Makosso-Warra Heavy Mining Hardsuit"
 	id = "hardsuitntminingadv"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 75000, /datum/material/glass = 40000, /datum/material/silver = 10000, /datum/material/titanium = 4000, /datum/material/diamond = 4000)
@@ -1746,7 +1832,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpcommand
-	name = "Nanotrasen LP-COM Hardsuit"
+	name = "Makosso-Warra LP-COM Hardsuit"
 	id = "hardsuitntlpcommand"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -1755,7 +1841,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpengineering
-	name = "Nanotrasen LP-ENGI Hardsuit"
+	name = "Makosso-Warra LP-ENGI Hardsuit"
 	id = "hardsuitntlpengineering"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -1764,7 +1850,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpsecurity
-	name = "Nanotrasen LP-SEC Hardsuit"
+	name = "Makosso-Warra LP-SEC Hardsuit"
 	id = "hardsuitntlpsecurity"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -1773,7 +1859,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitntlpmedical
-	name = "Nanotrasen LP-MED Hardsuit"
+	name = "Makosso-Warra LP-MED Hardsuit"
 	id = "hardsuitntlpmedical"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 100000, /datum/material/glass = 60000, /datum/material/silver = 20000, /datum/material/titanium = 8000, /datum/material/plasma = 10000)
@@ -2645,12 +2731,39 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/hardsuitinteqelite
+	name = "Inteq Rampart Hardsuit"
+	id = "hardsuitinteqelite"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 150000, /datum/material/glass = 100000, /datum/material/silver = 30000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/plasma = 10000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitinteqadvstealth
+	name = "Inteq Ranger Hardsuit"
+	id = "hardsuitinteqstealth"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/inteq
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/helmetcybersun
 	name = "Cybersun MK1-CS Helmet"
 	id = "helmetcybersun"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
-//	build_path = /obj/item/clothing/head/helmet/medical
+	build_path = /obj/item/clothing/head/helmet/m10/cybersun
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/helmetcybersuntrauma
+	name = "Cybersun MK1-CS-T Helmet"
+	id = "helmetcybersuntrauma"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000, /datum/material/glass = 1000)
+	build_path = /obj/item/clothing/head/helmet/m10/cybersun/trauma
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2659,16 +2772,16 @@
 	id = "armorvestcybersun"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
-//	build_path = /obj/item/clothing/suit/armor/vest/trauma
+	build_path = /obj/item/clothing/suit/armor/vest/cybersun
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
-/datum/design/marinearmorcoatmediumcybersun
-	name = "Cybersun MK2-M-CSH Armored Haori"
-	id = "marinearmorcoatmediumcybersun"
+/datum/design/armorvestcybersuntrauma
+	name = "Cybersun MK1-CS-T Armor Vest"
+	id = "armorvestcybersuntrauma"
 	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 40000, /datum/material/glass = 16000, /datum/material/titanium = 8000)
-//	build_path = /obj/item/clothing/suit/armor/vest/capcarapace/cybersun
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	build_path = /obj/item/clothing/suit/armor/vest/cybersun/trauma
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2687,6 +2800,15 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 16000, /datum/material/titanium = 6000, /datum/material/gold = 2000, /datum/material/plasma = 8000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/cybersun/paramed
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitcybersunadvstealth
+	name = "Cybersun Mangnetar Hardsuit"
+	id = "hardsuitcybersunstealth"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/stealth/cybersun
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 

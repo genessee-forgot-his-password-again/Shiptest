@@ -58,9 +58,9 @@
 	cost = 8000
 
 /datum/supply_pack/science/faction_tech/nanotrasen
-	name = "Nanotrasen Equipment Design Drive"
-	desc = "Contains one Nanotrasen Equipment Design Drive."
-	faction = null //fix this later
+	name = "Makosso-Warra Equipment Design Drive"
+	desc = "Contains one Makosso-Warra Equipment Design Drive."
+	faction = /datum/faction/warra
 	contains = list(/obj/item/faction_tech/nanotrasen)
 
 /datum/supply_pack/science/faction_tech/scarborough
