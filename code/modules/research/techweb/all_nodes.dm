@@ -964,7 +964,7 @@
 	display_name = "Gorlex Hardliners Experimental Protective Equipment"
 	description = "Profoundly complicated and expensive combat armor produced for the Gorlex Hardliners."
 	prereq_ids = list("hl_armor_advanced")
-	design_ids = list("hardsuithladv")
+	design_ids = list("hardsuithladv", "hardsuithlstealth")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
@@ -1009,7 +1009,7 @@
 	display_name = "Gorlex Marauders Experimental Protective Equipment"
 	description = "Extremely complicated old-school designs used during the Inter-Corporate War by the Gorlex Marauders before their dissolution."
 	prereq_ids = list("gm_armor_advanced")
-	design_ids = list("hardsuitgmadv")
+	design_ids = list("hardsuitgmadv", "hardsuitgmadvrusted", "hardsuitgmstealth", "hardsuitgmstealthrusted")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 30000)
 	export_price = 5000
 
@@ -1096,7 +1096,7 @@
 
 /datum/techweb_node/clip_armor
 	id = "clip_armor"
-	display_name = "CLIP Hardliners Protective Equipment"
+	display_name = "CLIP Protective Equipment"
 	description = "Combat armor produced for CLIP."
 	prereq_ids = list("adv_armor", "clip_tech")
 	design_ids = list("marinehelmetclip", "marinehelmetlightclip")

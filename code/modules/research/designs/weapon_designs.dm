@@ -1930,6 +1930,15 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/hardsuithlstealth
+	name = "Gorlex Hardliner Asura Hardsuit"
+	id = "hardsuithlstealth"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/stealth/hardliners
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/commissioner
 	name = "PS-03 'Commissioner' Pistol"
 	id = "commissioner"
@@ -2336,11 +2345,29 @@
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
 /datum/design/hardsuitgmrusted
-	name = "Budget Gorlex Marauder Hardsuit"
+	name = "Surplus Gorlex Marauder Hardsuit"
 	id = "hardsuitgmrusted"
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 80000, /datum/material/glass = 40000, /datum/material/silver = 15000, /datum/material/titanium = 4000, /datum/material/gold = 2000, /datum/material/plasma = 6000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/ramzi
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitgmstealth
+	name = "INF-95 Tactical Hardsuit"
+	id = "hardsuitgmstealth"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/stealth
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitgmstealthrusted
+	name = "INF-RC Tactical Hardsuit"
+	id = "hardsuitgmstealthrusted"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 150000, /datum/material/glass = 100000, /datum/material/silver = 30000, /datum/material/titanium = 14000, /datum/material/gold = 6000, /datum/material/diamond = 2000, /datum/material/plasma = 15000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite/inteq
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
@@ -2350,6 +2377,15 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron = 200000, /datum/material/glass = 120000, /datum/material/silver = 40000, /datum/material/titanium = 16000, /datum/material/gold = 8000, /datum/material/diamond = 4000, /datum/material/plasma = 20000)
 	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/elite
+	category = list("Equipment")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/hardsuitgmadvrusted
+	name = "Surplus Gorlex Marauder Elite Hardsuit"
+	id = "hardsuitgmadvrusted"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 150000, /datum/material/glass = 100000, /datum/material/silver = 30000, /datum/material/titanium = 14000, /datum/material/gold = 6000, /datum/material/diamond = 2000, /datum/material/plasma = 15000)
+	build_path = /obj/item/clothing/suit/space/hardsuit/syndi/ramzi/elite
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
